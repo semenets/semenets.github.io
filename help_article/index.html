@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Help article</title>
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="font_awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container-fluid">
+
+	<!--Header-->
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="logo_page">
+				<a href="#"><img src="img/logo.png" class="img_logo"></a>
+				<a href="#" class="title">help center</a>
+				<a href="#" class="contact_us">Contact Us</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="main_picture">
+			<span>How can we help?</span>
+			<div class="input_field">
+				<input type="" name="" placeholder="Search by topic or keyword"><button><i class="fa fa-search" aria-hidden="true"></i></button>
+			</div>
+			<div class="blue_line"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-7 col-sm-offset-2">
+			<div class="bread_crumbs">
+				<a href="#" class="bread_crumb_name">Products</a>
+				<span class="bread_crumb_name"> > </span> 
+				<a href="#" class="bread_crumb_section">Creating a product</a>
+			</div>
+		</div>
+		<div class="col-sm-12 no-padding">
+			<div class="border"></div>
+		</div>
+	</div>
+
+	<!--Main part-->
+	<div class="row">
+		<div class="col-sm-2">
+			<div class="col-sm-10 col-sm-offset-2">
+				<span class="categories">Categories</span>
+				<ul class="category_list">
+					<li><a href="#">Veeqo 101</a></li>
+					<li><a href="#">Integrations</a></li>
+					<li><a href="#" class="active">Products</a></li>
+					<li><a href="#">Listings</a></li>
+					<li><a href="#">Orders</a></li>
+					<li><a href="#">Shipping</a></li>
+					<li><a href="#">Point of Sale</a></li>
+					<li><a href="#">Purchase Orders</a></li>
+					<li><a href="#">Smartphone App</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-sm-8 col-xs-12">
+			<div class="col-sm-12 left_right_border">
+				<div class="col-sm-9 col-sm-offset-1">
+					<span class="title_page">Creating a product</span>
+					<span class="date">Last updated: Feb 09, 2017</span>
+					<span>From the <span class="text_bold">Products</span> screen, you can create new individual products in Veeqo directly. These will not be visible on any of your sales channels to start with.</span>
+					<span class="types_products">There are two types of products that can be created:</span>
+					<ul class="types_of_products_list">
+						<li><a href="#title_products" onclick="slowScroll('#title_products')">Add a simple product.</a></li>
+						<li><a href="#variations" onclick="slowScroll('#variations')">Add variations to a product, such as sizes and colours.</a></li>
+					</ul>
+					<span class="title_products" id="title_products">Creating a simple product</span>
+					<span class="product_variantions">A simple product is a product without any variations.</span>
+					<span>1. From the <span class="text_bold">Products</span> page, select the <span class="text_bold">New Product</span> button.</span>
+					<span class="product_details">2. Add your product <span class="text_bold">details:</span></span>
+					<ul class="product_details_list">
+						<li>Product name * - Pick a name that best describes the product.</li>
+						<li>SKU * - Add a unique character string to identify the product</li>
+						<li>Retail price excluding tax * - The price the product is sold for without the tax.</li>
+						<li>Stock quantity for each stock location - This is the total amount of stock you have for this product in that particular warehouse.</li>
+						<li>Brand name - The make of the product you’re creating.</li>
+						<li>Barcode (EAN, UPC) - The unique code associated with each individual product.</li>
+						<li>Origin country - The country in which the product has been manufactured.</li>
+						<li>Description - A summary about the product’s benefits and features.</li>
+					</ul>
+					<div class="note"><span class="note_color">Note: </span>Only fields with a ‘*’ are the required fields you need to create your product, if you want to create the product quickly. Additional fields will be useful, if you choose to list your products on an eBay or Amazon store later.</div>
+					<img src="img/details_img.png" class="products_img">
+					<span>3. Adding dimensions and weight to the product are recommended so your product will be ready to ship. Select either ‘cm’ or ‘inches’ and then add the width, height and depth of the product. </span>
+					<span class="text_description">When adding the weight, it will be set to the default unit for your company (Grams or ounces). </span>
+					<img src="img/dimensions_and_weight_img.png" class="products_img">
+					<span class="product_details">4. The <span class="text_bold">pricing and stock</span> options are recommended:</span>
+					<ul class="product_details_list">
+						<li>Cost price - The average cost price paid for the product (without sales tax).</li>
+						<li>Tax rate % - The percentage of sales tax to be added on top of the retail price when the product is sold.</li>
+						<li>Retail price including tax - The price of the product is sold for with the tax added on.</li>
+						<li>Minimum stock level - When the product reaches this level, stock will be reordered.</li>
+						<li>Reorder quantity - The quantity to be reordered once the product has reached it’s minimum stock level. </li>
+						<li>Sublocation - per stock location - The exact stock location for the product in each of your stock locations.</li>
+					</ul>
+					<span>5. This is a simple product, so don’t worry about the <span class="text_bold">add options</span> section. Head straight to adding <span class="text_bold">images.</span></span>
+					<span class="description_list">Select the <span class="text_bold">add image</span> button to add up to 9 images from your computer to the product. Once your images have uploaded, you can drag and drop them into the order you’d like them to be shown on your product. The image in position 1 will be the default image used for the product.</span>
+					<span>Use the <span class="text_bold">magnifying glass</span> icon to view a larger preview of an image and the <span class="text_bolds">trash can</span> icon to delete an image. </span>
+					<img src="img/new_product_img.png" class="products_img">
+					<span >6. Once you’re ready to save your product, select the create product button in the bottom right and you’ll see the product appear in the main products list.</span>
+					<span class="title_products" id="variations">Creating a product with variations</span>
+					<span>A product that has variations, comes in other options such as sizes and colours.</span>
+					<span class="creating_product">1. Complete the <span class="text_bold">details, dimensions and weight</span>, and <span class="text_bold">pricing and stock</span> sections from creating a simple product above.</span>
+					<span class="creating_product">2. Use the <span class="text_bold">add options</span> section to create your variants. Select the <span class="text_bold">add more variants</span> button to create a variant and add it’s individual details.</span>
+					<span class="more_variants">Use the <span class="text_bold">add more variants</span> button to add another variant. If you’ve made a mistake and want to remove a variant, use the <span class="text_bold">trash can</span> icon.</span>
+					<img src="img/add_options_img.png" class="products_img">
+					<span class="variant_product">3. In the <span class="text_bold">images</span> section of a variant product, images can be assigned to individual variants once uploaded. Select an image and use the <span class="text_bold">assign to all</span> button to add the image to all variants. To add an image to certain variants, select the image and then the particular variants and use the <span class="text_bold">assign to selected</span> button.</span>
+					<span class="create_product">4. Once you’re ready to save your product, select the <span class="text_bold">create product</span> button in the bottom right and you’ll see the product with it’s variants appear in the main products list.</span>
+				</div>
+				<div class="col-sm-12">
+						<div class="blue_line blue_line_indent hidden-xs"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-2 col-xs-12">
+			<span class="categories">Related Articles</span>
+			<ul class="category_list">
+				<li><a href="#">Creating a kit / bundle</a></li>
+				<li><a href="#">How to add inventory</a></li>
+				<li><a href="#">Adding a Product CSV</a></li>
+				<li><a href="#">Delete a product in Veeqo</a></li>
+				<li><a href="#">Product serial numbers</a></li>
+			</ul>
+		</div>
+
+		<div class="col-sm-12 no-padding">
+				<div class="indent_background">
+					<div class="background_contact_us hidden-xs">
+						<a href="#" class="contact_us_bottom box-shadow">
+							<div class="background_icon">
+								<img src="img/contact_us_icon.png">
+							</div>
+							<span>Contact us</span>
+						</a>
+					</div>
+				</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="blue_line blue_line_indent blue_line_xs hidden-lg hidden-md hidden-sm"></div>
+		<a href="#" class="contact_us_bottom box-shadow hidden-lg hidden-md hidden-sm">
+			<div class="background_icon">
+				<img src="img/contact_us_icon.png">
+			</div>
+			<span>Contact us</span>
+		</a>
+	</div>
+		
+	<!--Footer-->
+	<div class="row">
+		<div class="col-sm-2 col-sm-offset-1">
+			<ul class="footer_links_list">
+				<li class="footer_title">FEATURES</li>
+				<li class="footer_links"><a href="#">Orders</a></li>
+				<li class="footer_links"><a href="#">Inventory</a></li>
+				<li class="footer_links"><a href="#">Shipping</a></li>
+				<li class="footer_links"><a href="#">Reports</a></li>
+				<li class="footer_links"><a href="#">iOS and Android Apps</a></li>
+			</ul>
+
+			<ul class="footer_links_list">
+				<li class="footer_title">CONTACT</li>
+				<li class="footer_links"><a href="#">Email</a></li>
+				<li class="footer_links"><a href="#">Help Center</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul class="footer_links_list">
+				<li class="footer_title">INTEGRATIONS</li>
+				<li class="footer_links"><a href="#">Amazon</a></li>
+				<li class="footer_links"><a href="#">eBay</a></li>
+				<li class="footer_links"><a href="#">BigCommerce</a></li>
+				<li class="footer_links"><a href="#">Magento</a></li>
+				<li class="footer_links"><a href="#">Shopify</a></li>
+				<li class="footer_links"><a href="#">QuickBooks</a></li>
+				<li class="footer_links"><a href="#">Xero</a></li>
+				<li class="footer_links"><a href="#">All Integrations</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul class="footer_links_list">
+				<li class="footer_title">SHIPPING</li>
+				<li class="footer_links"><a href="#">Royal Mail</a></li>
+				<li class="footer_links"><a href="#">FedEx</a></li>
+				<li class="footer_links"><a href="#">UK Mail</a></li>
+				<li class="footer_links"><a href="#">UPS</a></li>
+				<li class="footer_links"><a href="#">USPS</a></li>
+				<li class="footer_links"><a href="#">DPD</a></li>
+				<li class="footer_links"><a href="#">DHL</a></li>
+				<li class="footer_links"><a href="#">DX</a></li>
+				<li class="footer_links"><a href="#">Interlink Express</a></li>
+				<li class="footer_links"><a href="#">MyHermes</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul class="footer_links_list">
+				<li class="footer_title">COMPANY</li>
+				<li class="footer_links"><a href="#">Blog</a></li>
+				<li class="footer_links"><a href="#">About Us</a></li>
+				<li class="footer_links"><a href="#">Careers</a></li>
+				<li class="footer_links"><a href="#">Customer Stories</a></li>
+				<li class="footer_links"><a href="#">Partners</a></li>
+				<li class="footer_links"><a href="#">Pricing</a></li>
+				<li class="footer_links"><a href="#">API</a></li>
+				<li class="footer_links"><a href="#">Terms & Conditions</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-2">
+			<ul class="footer_links_list">
+				<li class="footer_title">FROM THE BLOG</li>
+				<li class="footer_links indent_footer_links"><a href="#">Happy new yesr from all of us at Veeqo</a></li>
+				<li class="footer_links indent_footer_links"><a href="#">How Veeqo helps ecommerce retailers increase their sales and grow their business</a></li>
+				<li class="footer_links"><a href="#">Online retailers receive three times as many orders on Black Friday</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-xs-12 indent_phone">
+			<i class="fa fa-phone" aria-hidden="true"></i>
+			<span>0203-808-9165-UK 9 am - 5 pm GMT</span>
+		</div>
+		<div class="col-md-4 col-xs-12 indent_phone">
+			<i class="fa fa-phone" aria-hidden="true"></i>
+			<span>1-917-979-6435 - US 8 am - 6 pm ET</span>
+		</div>
+		<div class="col-md-4 col-xs-12 indent_phone">
+			<i class="fa fa-phone" aria-hidden="true"></i>
+			<span class="phone_footer">+49 (0) 32 221096692 - 10 am - 6 pm DE</span>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
