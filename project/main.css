@@ -26,6 +26,8 @@
 	background: url(images/header.png) no-repeat;
 	background-position: center;
 	height: 552px;
+	position: relative;
+	z-index: 1;
 }
 
 .no-padding {
@@ -178,8 +180,13 @@
 
 @media only screen and (max-width: 767px) {
 	.header .header-menu {
+		display: none;
+		position: absolute;
+		padding-top: 100px;
+		right: 0px;
 		width: 300px;
-		background-color: rgb(12,113,83, 0.9) !important;
+		background-color: #13785a !important;
+		height: 552px;
 		z-index: 99;
 	}
 }
@@ -235,8 +242,6 @@
 	color: #fff;
 	text-align: center;
 	font-size: 21px;
-	margin-top: 8px;
-	margin-bottom: 8px;
 	font-family: MyriadProRegular;
 }
 
