@@ -30,8 +30,6 @@ body {
 	background: url(images/header.png) no-repeat;
 	background-position: center;
 	height: 552px;
-	position: relative;
-	z-index: 1;
 }
 
 .no-padding {
@@ -124,6 +122,7 @@ body {
 	background-color: #fff;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	transition: all 0.5s;
 }
 
 .section-column-hover-one, .monitor-icon {
@@ -169,10 +168,6 @@ body {
 	right: 30px;
 	top: 35px;
 	z-index: 999;
-	/*-webkit-transition-duration: 2s;
-	-o-transition-duration: 2s;
-	-moz-transition-duration: 2s;
-	transition-duration: 2s;*/
 }
 
 .header .header-menu {
@@ -231,10 +226,6 @@ body {
 
 .button-animation {
 	transform: translateX(-355px);
-	/*-webkit-transition-duration: 2s;
-	-o-transition-duration: 2s;
-	-moz-transition-duration: 2s;
-	transition-duration: 2s;*/
 }
 
 .header-menu ul {
@@ -243,6 +234,7 @@ body {
 
 .header-menu ul li {
 	list-style: none;
+	transition: all 0.4s;
 }
 
 .header-menu ul li a {
@@ -260,7 +252,6 @@ body {
 
 .header-menu .items-menu li:hover {
 	background-color: #09ac7b;
-	transition: all 0.4s;
 }
 
 .social_links {
@@ -407,7 +398,6 @@ ul.months li a:hover {
 	font-family: MyriadProBold;
 }
 
-
 .article-date + .article-title {
 	font-size: 25px;
 	line-height: 25px;
@@ -430,13 +420,14 @@ ul.months li a:hover {
 	font-size: 15px;
 	margin-top: 35px;
 	margin-left: 50%;
+	transition: all 0.4s;
 }
 
 .button-of-article:hover {
 	background-color: #389177;
 	color: #fff;
 	border: 1px solid #389177;
-	transition: all 1s;
+	transition: all 0.4s;
 }
 
 .footer-input {
@@ -488,8 +479,8 @@ input[type="submit"] {
 
 @media only screen and (max-width: 991px) {
 	input[type="submit"] {
-			padding: 8px 40px 8px 40px;
-			margin-bottom: 30px;
+		padding: 8px 40px 8px 40px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -512,7 +503,6 @@ input[type="submit"] {
 		margin-top: 70px;
 		line-height: 25px;
 	}
-
 	.contacts {
 		margin-top: 30px;
 	}
@@ -750,7 +740,6 @@ input[type="submit"] {
 	text-align: center;
 }
 
-
 @media only screen and (max-width: 1200px) {
 	.main-title-on-the-project-page {
 		font-size: 38px !important;
@@ -892,7 +881,6 @@ input[type="submit"] {
 	position: relative;
 	background: url(images/top-news.png);
 	background-position: center;
-	background-attachment: container;
 	height: 252px;
 }
 
