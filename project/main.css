@@ -179,7 +179,8 @@
 @media only screen and (max-width: 767px) {
 	.header .header-menu {
 		width: 300px;
-		background-color: rgb(12,113,83, 0.9);
+		background-color: rgb(12,113,83, 0.9) !important;
+		z-index: 99;
 	}
 }
 
@@ -234,6 +235,8 @@
 	color: #fff;
 	text-align: center;
 	font-size: 21px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 	font-family: MyriadProRegular;
 }
 
