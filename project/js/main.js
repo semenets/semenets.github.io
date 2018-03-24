@@ -11,6 +11,14 @@ if($(window).width() < 767) {
 	})
 }
 
+var currentImg = 0;
+var pic = new Array ('images/menu-shut.png', 'images/menu.png');
+
+$('.menu-button').click(function () {
+	currentImg = currentImg === 0 ? 1 : 0;
+	$('.menu-icon').attr('src', pic[currentImg]);
+});
+
 //sections of header
 if( $(window).width() > 767 && $(window).width() < 991) {
 	$(".section-column-one").hover(function() {
@@ -104,10 +112,10 @@ $(document).ready(function() {
 
 //projects page and home page (effect when hover on images)
 $(".overlay").hover(function() {
-	$(this).css("-ms-transform", "scale(0.8)")
-	$(this).css("-webkit-transform", "scale(0.8)")
-	$(this).css("-o-transform", "scale(0.8)")
-	$(this).css("-moz-transform", "scale(0.8)")
+	$(this).css("-ms-transform", "scale(0.9)")
+	$(this).css("-webkit-transform", "scale(0.9)")
+	$(this).css("-o-transform", "scale(0.9)")
+	$(this).css("-moz-transform", "scale(0.9)")
 
 	$(this).css("-webkit-transition-duration", "1s")
 	$(this).css("-o-transition-duration", "1s")
@@ -128,4 +136,11 @@ $(".overlay").hover(function() {
 	$(this).css("transition-duration", "1s")
 	}
 )
+
+//cleave plugin
+var cleave = new Cleave('.number-phone', {
+	prefix: '+0',
+	blocks: [4, 4, 3, 3],
+	uppercase: true
+});
 
