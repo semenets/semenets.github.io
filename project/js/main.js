@@ -1,23 +1,25 @@
 //main menu
-if($(window).width() < 767) {
+if($(window).width() < 1400) {
+	var currentImg = 0;
+	var pic = new Array ('images/menu-shut.png', 'images/menu.png');
+	
 	$(".menu-button").click(function() {
 		$(".header-menu").toggleClass("menu-animation")
+		currentImg = currentImg === 0 ? 1 : 0;
+		$('.menu-icon-shut').attr('src', pic[currentImg]);
 	})
 
 } else {
+	var currentImg = 0;
+	var pic = new Array ('images/menu.png', 'images/menu-shut.png');
+
 	$(".menu-button").click(function() {
-	$(".header-menu-search-buttons").toggleClass("button-animation")
-	$(".header-menu").toggleClass("menu-animation")
+		$(".header-menu-search-buttons").toggleClass("button-animation")
+		$(".header-menu").toggleClass("display-none")
+		currentImg = currentImg === 0 ? 1 : 0;
+		$('.menu-icon').attr('src', pic[currentImg]);
 	})
 }
-
-var currentImg = 0;
-var pic = new Array ('images/menu-shut.png', 'images/menu.png');
-
-$('.menu-button').click(function () {
-	currentImg = currentImg === 0 ? 1 : 0;
-	$('.menu-icon').attr('src', pic[currentImg]);
-});
 
 //sections of header
 if( $(window).width() > 767 && $(window).width() < 991) {
