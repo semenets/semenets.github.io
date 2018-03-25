@@ -240,7 +240,7 @@ body {
 	position: relative;
 }
 
-@media only screen and (min-width: 1380px) {
+@media only screen and (min-width: 1381px) {
 	.header-menu-search-buttons {
 		transform: translateX(-310px);
 	}

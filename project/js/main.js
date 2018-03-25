@@ -1,5 +1,5 @@
 //main menu
-if($(window).width() < 1380) {
+if($(window).width() <= 1380) {
 	var currentImg = 0;
 	var pic = new Array ('images/menu-shut.png', 'images/menu.png');
 
