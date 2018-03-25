@@ -1,8 +1,8 @@
 //main menu
-if($(window).width() < 1400) {
+if($(window).width() < 1380) {
 	var currentImg = 0;
 	var pic = new Array ('images/menu-shut.png', 'images/menu.png');
-	
+
 	$(".menu-button").click(function() {
 		$(".header-menu").toggleClass("menu-animation")
 		currentImg = currentImg === 0 ? 1 : 0;

@@ -192,7 +192,7 @@ body {
 	display: none;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1380px) {
 	.header-menu-search-buttons .menu-icon {
 		display: none;
 	}
@@ -240,13 +240,13 @@ body {
 	position: relative;
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1380px) {
 	.header-menu-search-buttons {
 		transform: translateX(-310px);
 	}
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1380px) {
 	.header-menu-search-buttons {
 		right: 15px;
 	}
