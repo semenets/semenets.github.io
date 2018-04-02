@@ -30,6 +30,9 @@ body {
 	background: url(images/header.png) no-repeat;
 	background-position: center;
 	height: 415px;
+
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .no-padding {
@@ -63,7 +66,7 @@ body {
 	}
 }
 
-@media only screen and (min-width: 767px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	.section-column {
 		height: 220px;
 		padding: 20px;
@@ -736,6 +739,12 @@ input[type="submit"] {
 	font-family: MyriadProBold;
 }
 
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	.aboutcompany-main-page .main-title-on-the-page, .projects-main-page .main-title-on-the-page {
+		font-size: 49px;
+	}
+}
+
 .aboutcompany-main-page .white-border-under-title, .projects-main-page .white-border-under-title {
 	height: 4px;
 	width: 194px;
@@ -821,6 +830,9 @@ input[type="submit"] {
 @media only screen and (max-width: 991px) {
 	.some-photo {
 		height: 210px;
+
+		-webkit-background-size: cover;
+		background-size: cover;
 	}
 }
 
@@ -859,6 +871,18 @@ input[type="submit"] {
 @media only screen and (max-width: 991px) {
 	.some-photo .overlay .description {
 		width: 98%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.some-photo .overlay .description {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.some-photo .overlay .description {
+		width: 95%;
 	}
 }
 
