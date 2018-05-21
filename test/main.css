@@ -335,7 +335,7 @@
 	padding: 14px 12px 14px 12px;
 	z-index: 0;
 	-webkit-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 	border-radius: 10px;
 	font-family: NeoSansProRegular;
 }
@@ -477,7 +477,7 @@ label span {
 	user-select: none;
 }
 
-[type=checkbox]:checked + span:before {
+input[type=checkbox]:checked + span:before {
 	content: '\2714';
 	height: 15px;
 	width: 15px;
