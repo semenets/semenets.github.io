@@ -484,7 +484,6 @@ input[type=checkbox]:checked + span:before {
 	position: absolute;
 	left: -1px;
 	top: -1px;
-	font-size:18px;
 	color: #fff;
 	font-size: 14px;
 	background-color: red;
