@@ -478,7 +478,7 @@ label span {
 }
 
 input[type=checkbox]:checked + span:before {
-	content: '\2714';
+	content: '\2714\fe0e';
 	height: 15px;
 	width: 15px;
 	position: absolute;
