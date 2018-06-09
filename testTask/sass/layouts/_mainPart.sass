@@ -146,26 +146,53 @@
 		position: absolute
 		right: 20px
 		top: 18px
+		cursor: pointer
 
 /*Section with slider*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slider
+	.arrow-right
+		position: absolute
+		right: 0
+		top: 0
+	.title-slide
+		font-size: 32px
+		text-align: center
+		margin-top: 45px
+		margin-bottom: 50px
+	.description-slide
+		font-size: 20px
+		text-align: center
+		width: 50%
+		margin: 0 auto
+		color: $color-text-description
+	.name
+		font-size: 12px
+		text-align: center
+		margin-top: 70px
+		margin-bottom: 90px
+	.stars
+		margin: 0 auto
+		margin-top: 30px
+.section-photos
+	margin-top: 125px
+	.users-photos
+		display: block
+		margin: 0 auto
+		border-radius: 50%
+		margin-bottom: 20px
+		transform: scale(0.6)
+		@media only screen and (max-width: 767px)
+			width: 100%
+	[id^="user"]
+		img
+			opacity: 0.3
+			transition: all 0.3s
+		.selected
+			opacity: 1
+			transform: scale(0.9)
+			transition: all 0.3s
+.slick-prev:after
+	background-image: url(../img/left-arrow.png)
+	height: 20px
+	color: red
+	font-size: 30px
