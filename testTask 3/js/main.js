@@ -34,7 +34,7 @@ $(window).scroll(function(){
 
 $(window).scroll(function(){
 	if($(this).scrollTop() > 5) {
-		$(".top-main-menu-fixed").css("paddingTop", "10px")
+		$(".top-main-menu-fixed").css("paddingTop", "20px")
 		$(".top-main-menu-fixed").css("transition", ".5s")
 	}
 	else {
