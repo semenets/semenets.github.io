@@ -53,8 +53,13 @@
       background-position: left bottom; }
     .top-main-menu-fixed .menu-button .fa-apple-icon {
       position: relative;
-      left: -8px;
+      left: -35px;
+      top: 10px;
       font-size: 20px; }
+    .top-main-menu-fixed .menu-button .title-button {
+      position: relative;
+      top: 9px;
+      right: 25px; }
   .top-main-menu-fixed .slider {
     position: absolute;
     display: block;
@@ -242,6 +247,9 @@
     -webkit-border-radius: 25px;
             border-radius: 25px;
     color: #fff; }
+    @media only screen and (max-width: 991px) {
+      #mobile-top-menu .menu-button {
+        width: 105px; } }
 
 .column-indent {
   margin-top: 125px; }
@@ -511,7 +519,8 @@
     margin-bottom: 33px; }
   .footer .fa-twitter-icon, .footer .fa-facebook-f-icon, .footer .fa-linkedin-in {
     color: #bdbec0;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 20px; }
     .footer .fa-twitter-icon:hover, .footer .fa-facebook-f-icon:hover, .footer .fa-linkedin-in:hover {
       color: #aeb1b8; }
   .footer .fa-facebook-f-icon {
