@@ -80,9 +80,9 @@
     transition: all 0.2s ease-out; }
     .top-main-menu-fixed .nombore:hover .slider {
       width: 100%; }
-    .top-main-menu-fixed .nombore .top-indent {
-      position: relative;
-      top: 7px; }
+  .top-main-menu-fixed .top-indent-help, .top-main-menu-fixed .top-indent-contacts {
+    position: relative;
+    top: 7px; }
   .top-main-menu-fixed .top-menu-background {
     background: #f1f3f3; }
   .top-main-menu-fixed .hamburger {
