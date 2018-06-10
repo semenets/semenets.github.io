@@ -38,7 +38,7 @@ $(window).scroll(function(){
 		$(".top-main-menu-fixed").css("transition", ".5s")
 	}
 	else {
-		$(".top-main-menu-fixed").css("paddingTop", "41px")
+		$(".top-main-menu-fixed").css("paddingTop", "30px")
 		$(".top-main-menu-fixed").css("transition", ".5s")
 	}
 })
