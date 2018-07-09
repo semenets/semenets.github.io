@@ -1,0 +1,101 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin-top: 20px;
+}
+
+@font-face {
+	font-family: Exo-2-Bold;
+	src: url(../fonts/exo-2/Exo2-Bold.ttf);
+}
+
+@media screen and (max-width: 1300px) {
+	.lg-pictures {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.md-pictures {
+		display: none;
+	}
+}
+
+.md-pictures {
+	height: 500px;
+	max-width: 980px;
+	background-color: yellow;
+}
+
+
+#our-pl2 {
+	position: relative;
+	margin-top: 100px;
+	width: 350px;
+	float: right;
+	z-index: 5;
+			left: 200px;
+
+}
+
+#other-pl2 {
+	position: absolute;
+	right: 0;
+		margin-top: 100px;
+
+		width: 350px;
+
+}
+
+#high-strength {
+	height: 50px;
+	width: 300px;
+	border-bottom: 1px solid #888;
+}
+
+#unproblematic-operation {
+	position: absolute;
+	top: 60px;
+		height: 50px;
+	width: 240px;
+	border-bottom: 1px solid #888;
+}
+
+#impressive-service {
+	position: absolute;
+	top: 120px;
+		height: 30px;
+	width: 190px;
+	border-bottom: 1px solid #888;
+}
+
+#dense-structure {
+		position: absolute;
+	top: 160px;
+		height: 50px;
+	width: 150px;
+	border-bottom: 1px solid #888;
+}
+
+
+.line {
+	position: relative;
+	z-index: 9;
+}
+
+svg {
+	position: absolute !important;
+	top: 0 !important;
+}
+
+
+.abc {
+	width: 300px;
+}
+
