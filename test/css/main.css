@@ -6,6 +6,7 @@
 	margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
 @font-face {
 	font-family: HelveticaNeueCyr-Bold;
 	src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
