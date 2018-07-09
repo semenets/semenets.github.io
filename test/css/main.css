@@ -6,10 +6,19 @@
 	margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
 @font-face {
 	font-family: HelveticaNeueCyr-Bold;
 	src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
+@font-face {
+	font-family: Lato-Bold;
+	src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+	font-family: Lato-Light;
+	src: url(../fonts/Lato-Light.ttf);
 }
 
 /*Hidden-xs*/
@@ -29,15 +38,13 @@
 	height: 620px;
 	max-width: 760px;
 	font-weight: 300;
-	font-family: 'Lato', sans-serif;
+	font-family: Lato-Light;
 }
 
 .main-title {
 	margin-top: 30px;
 	font-size: 30px;
-	font-weight: 700;
-	font-family: 'Lato', sans-serif;
-
+	font-family: Lato-Bold;
 }
 
 .pl-title {
@@ -180,15 +187,14 @@
 /*Hidden-lg hidden-md hidden-sm*/
 .xs-pl {
 	font-weight: 300;
-	font-family: 'Lato', sans-serif;
+	font-family: Lato-Light;
 }
 
 .xs-main-title {
 	height: 50px;
 	margin-top: 30px;
 	font-size: 20px;
-	font-weight: 700;
-	font-family: 'Lato', sans-serif;
+	font-family: Lato-Bold;
 }
 
 .xs-width-column {
@@ -208,7 +214,7 @@
 	margin-top: 20px;
 	border-bottom: 1px solid #888;
 	font-weight: 300;
-	font-family: 'Lato', sans-serif;
+	font-family: Lato-Light;
 }
 
 .high-strength, .high-hygroscopicity {
@@ -238,6 +244,6 @@
 	margin-top: 20px;
 	border-bottom: 1px solid #888;
 	font-weight: 300;
-	font-family: 'Lato', sans-serif;
+	font-family: Lato-Light;
 }
 
