@@ -6,15 +6,12 @@
 	margin: 0;
 }
 
-body {
-	margin-top: 20px;
-}
-
 @font-face {
-	font-family: Exo-2-Bold;
-	src: url(../fonts/exo-2/Exo2-Bold.ttf);
+	font-family: HelveticaNeueCyr-Bold;
+	src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
 }
 
+/*Hidden-xs*/
 @media screen and (max-width: 1300px) {
 	.lg-pictures {
 		display: none;
@@ -28,29 +25,42 @@ body {
 }
 
 .md-pictures {
-	height: 500px;
-	max-width: 980px;
-	background-color: yellow;
+	height: 620px;
+	max-width: 760px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
 }
 
+.main-title {
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.pl-title {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4d4d4d;
+	font-family: HelveticaNeueCyr-Bold;
+}
 
 #our-pl2 {
 	position: relative;
 	margin-top: 100px;
 	width: 350px;
 	float: right;
-	z-index: 5;
-			left: 200px;
-
+	left: 125px;
 }
 
 #other-pl2 {
 	position: absolute;
-	right: 0;
-		margin-top: 100px;
-
-		width: 350px;
-
+	right: 0px;
+	margin-top: 100px;
+	width: 350px;
 }
 
 #high-strength {
@@ -62,7 +72,7 @@ body {
 #unproblematic-operation {
 	position: absolute;
 	top: 60px;
-		height: 50px;
+	height: 50px;
 	width: 240px;
 	border-bottom: 1px solid #888;
 }
@@ -70,32 +80,159 @@ body {
 #impressive-service {
 	position: absolute;
 	top: 120px;
-		height: 30px;
+	height: 30px;
 	width: 190px;
 	border-bottom: 1px solid #888;
 }
 
 #dense-structure {
-		position: absolute;
+	position: absolute;
 	top: 160px;
-		height: 50px;
+	height: 50px;
 	width: 150px;
 	border-bottom: 1px solid #888;
 }
 
-
-.line {
-	position: relative;
-	z-index: 9;
+#rough-surface {
+	position: absolute;
+	top: 230px;
+	height: 150px;
+	width: 150px;
+	border-bottom: 1px solid #888;
 }
 
-svg {
-	position: absolute !important;
-	top: 0 !important;
+#color-scheme {
+	position: absolute;
+	top: 400px;
+	height: 50px;
+	width: 150px;
+	border-bottom: 1px solid #888;
 }
 
+#high-hygroscopicity {
+	position: absolute;
+	right: -140px;
+	top: 0;
+	height: 110px;
+	width: 150px;
+	border-bottom: 1px solid #888;
+}
 
-.abc {
+#impossibility-of-partial-repair {
+	position: absolute;
+	right: -140px;
+	top: 120px;
+	height: 90px;
+	width: 150px;
+	border-bottom: 1px solid #888;
+}
+
+#low-strength {
+	position: absolute;
+	right: -140px;
+	top: 220px;
+	height: 50px;
+	width: 150px;
+	border-bottom: 1px solid #888;
+}
+
+#low-abrasion {
+	position: absolute;
+	right: -140px;
+	top: 280px;
+	height: 50px;
+	width: 150px;
+	border-bottom: 1px solid #888;
+}
+
+#extinction-of-color-shades {
+	position: absolute;
+	right: -140px;
+	top: 340px;
+	height: 90px;
+	width: 150px;
+	border-bottom: 1px solid #888;
+}
+
+#simplicity-of-design {
+	position: absolute;
+	right: 77px;
+	top: 381px;
+	height: 49px;
+	width: 180px;
+	border-bottom: 1px solid #888;
+}
+
+.svg {
+	position: absolute;
+	top: 0;
+}
+
+.width-column {
 	width: 300px;
+}
+
+.our-pl-indent {
+	margin-top: -20px !important;
+}
+
+/*Hidden-lg hidden-md hidden-sm*/
+.xs-pl {
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+
+.xs-main-title {
+	height: 50px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}
+
+.xs-width-column {
+	height: 700px;
+	width: 320px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.xs-our-pl {
+	margin-top: 20px;
+}
+
+.high-strength, .unproblematic-operation, .impressive-service, .dense-structure, .rough-surface, .color-scheme {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 1px solid #888;
+}
+
+.high-strength, .high-hygroscopicity {
+	height: 70px;
+}
+
+.unproblematic-operation, .color-scheme, .impossibility-of-partial-repair, .extinction-of-color-shades, .simplicity-of-design {
+	height: 50px;
+}
+
+.impressive-service, .dense-structure, .low-strength, .low-abrasion {
+	height: 30px;
+}
+
+.rough-surface {
+	height: 100px;
+}
+
+.xs-other-pl {
+	margin-top: 60px;
+}
+
+.high-hygroscopicity,  .impossibility-of-partial-repair,  .low-strength, .low-abrasion, .extinction-of-color-shades, .simplicity-of-design {
+	width: 250px;
+	padding-right: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 1px solid #888;
 }
 
