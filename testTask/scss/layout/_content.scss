@@ -85,11 +85,11 @@ body {
 			.category__lists {
 				display: none;
 				background-color: $base-bg;
-				padding: 5px 8px 0 20px;
+				padding: 0 8px 0 20px;
 				border: 1px solid $border-color;
 				.category__items {
 					max-height: 165px;
-					overflow: scroll;
+					overflow-y: scroll;
 					padding-left: 0;
 					list-style: none;
 					font-size: 13px;

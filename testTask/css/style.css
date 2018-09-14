@@ -95,9 +95,9 @@ body { background: url(../img/body-pattern.png); }
 
 .main-wrapper .wrapper .category .category__filter { display: block; margin: 0 auto; border: none; background-color: transparent; font-size: 13px; color: #39a6be; font-family: 'Arial Regular', cursive; }
 
-.main-wrapper .wrapper .category__lists { display: none; background-color: #FFF; padding: 5px 8px 0 20px; border: 1px solid #ebebeb; }
+.main-wrapper .wrapper .category__lists { display: none; background-color: #FFF; padding: 0 8px 0 20px; border: 1px solid #ebebeb; }
 
-.main-wrapper .wrapper .category__lists .category__items { max-height: 165px; overflow: scroll; padding-left: 0; list-style: none; font-size: 13px; font-family: 'Arial Regular', cursive; }
+.main-wrapper .wrapper .category__lists .category__items { max-height: 165px; overflow-y: scroll; padding-left: 0; list-style: none; font-size: 13px; font-family: 'Arial Regular', cursive; }
 
 .main-wrapper .wrapper .category__lists .category__items__a { color: #000; }
 
