@@ -106,7 +106,7 @@ $(window).bind('resize', handler);
 //left column
 var current = 0;
 var current2 = 0;
-var pic = new Array ('../img/icons/rectangle_shut.png', '../img/icons/rectangle_open.png');
+var pic = new Array ('img/icons/rectangle_shut.png', 'img/icons/rectangle_open.png');
 
 $(".category__text-slide").click(function() {
 	current = current === 0 ? 1 : 0;
