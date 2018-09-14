@@ -130,7 +130,7 @@ body {
 				@include shadow(inset 0 2px 0 rgba(225,225,225,1));
 				position: relative;
 				bottom: 8px;
-				height: 28px;
+				height: 28px !important;
 				width: 158px;
 				padding: 7px 0px 7px 12px;
 				float: right;
