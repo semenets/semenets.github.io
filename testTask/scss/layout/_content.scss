@@ -219,7 +219,6 @@ body {
 	}
 
 	.goods__description {
-		@include radius(10px);
 		padding-top: 20px;
 		padding-bottom: 20px;
 		background-color: $base-bg;
