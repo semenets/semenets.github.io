@@ -141,7 +141,7 @@ body { background: url(../img/body-pattern.png); }
 
 .main-wrapper .goods__section .goods__img .bestseller, .main-wrapper .goods__section .goods__img2 .bestseller, .main-wrapper .goods__section .goods__img3 .bestseller { background-color: #ffae2e; }
 
-.main-wrapper .goods__section .goods__img .goods__button, .main-wrapper .goods__section .goods__img .bestseller, .main-wrapper .goods__section .goods__img2 .goods__button, .main-wrapper .goods__section .goods__img2 .bestseller, .main-wrapper .goods__section .goods__img3 .goods__button, .main-wrapper .goods__section .goods__img3 .bestseller { border-radius: 5px; margin-top: 11px; margin-left: 13px; color: #FFF; padding: 9px 6px 9px 6px; font-size: 11px; font-weight: 700; border: none; font-family: 'Open Sans', sans-serif; }
+.main-wrapper .goods__section .goods__img .goods__button, .main-wrapper .goods__section .goods__img .bestseller, .main-wrapper .goods__section .goods__img2 .goods__button, .main-wrapper .goods__section .goods__img2 .bestseller, .main-wrapper .goods__section .goods__img3 .goods__button, .main-wrapper .goods__section .goods__img3 .bestseller { border-radius: 5px; display: inline-block; margin-top: 11px; margin-left: 13px; color: #FFF; padding: 9px 6px 9px 6px; font-size: 11px; font-weight: 700; border: none; font-family: 'Open Sans', sans-serif; }
 
 .main-wrapper .goods__description { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding-top: 20px; padding-bottom: 20px; background-color: #FFF; }
 
