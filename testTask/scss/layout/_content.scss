@@ -1,6 +1,6 @@
 //main styles
 body {
-	background: url(../img/body-pattern.png);
+	background: url(img/body-pattern.png);
 }
 
 //Left section
@@ -141,7 +141,7 @@ body {
 				float: right;
 				border: 1px solid $select-size-border;
 				background-color: $select-size-bgc;
-				background-image: url(../img/icons/rectangle_shut.png);
+				background-image: url(img/icons/rectangle_shut.png);
 				background-repeat: no-repeat;
 				background-position: right;
 				-webkit-appearance: none;
@@ -185,13 +185,13 @@ body {
 		@include radius(10px);
 		background-color: #fafafa;
 		.goods__img {
-			background: url(../img/goods1.png);
+			background: url(img/goods1.png);
 		}
 		.goods__img2 {
-			background: url(../img/goods2.png);
+			background: url(img/goods2.png);
 		}
 		.goods__img3 {
-			background: url(../img/goods3.png);
+			background: url(img/goods3.png);
 		}
 		.goods__img, .goods__img2, .goods__img3 {
 			display: block;
@@ -332,6 +332,6 @@ h3{
 
 /* loader */
 .loaded .main-wrapper{visibility:hidden;}
-.icon-load{background:url(../img/loader.gif) no-repeat left top;width:40px;height:40px;position:fixed;left:50%;top:50%;margin-left:-20px;margin-left:-20px;display:none;}
+.icon-load{background:url(img/loader.gif) no-repeat left top;width:40px;height:40px;position:fixed;left:50%;top:50%;margin-left:-20px;margin-left:-20px;display:none;}
 .loaded .icon-load{display:block;}
 
