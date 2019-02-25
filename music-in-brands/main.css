@@ -212,10 +212,10 @@
 }
 
 .sections-row {
-	position: absolute;
-	top: 470px;
-	left: 50%;
-	transform: translate(-50%, 0);
+	position: relative;
+	bottom: 175px;
+	margin: 0 auto;
+	width: 1630px;
 }
 
 .channels-sections {
