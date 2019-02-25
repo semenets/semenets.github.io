@@ -202,7 +202,7 @@
 .channels-button span {
 	position: relative;
 	bottom: 10px;
-	left: 5px;
+	margin-left: 5px;
 	letter-spacing: 1px;
 }
 
