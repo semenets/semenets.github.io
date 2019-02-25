@@ -57,10 +57,10 @@
 	}
 }
 
-.main-background .form ::-webkit-input-placeholder {color:#444;}
-.main-background .form ::-moz-placeholder          {color:#444;}
-.main-background .form :-moz-placeholder           {color:#444;}
-.main-background .form :-ms-input-placeholder      {color:#444;}
+.main-background .form ::-webkit-input-placeholder {color:rgb(68, 68, 68);}
+.main-background .form ::-moz-placeholder          {color:rgb(68, 68, 68);}
+.main-background .form :-moz-placeholder           {color:rgb(68, 68, 68);}
+.main-background .form :-ms-input-placeholder      {color:rgb(68, 68, 68);}
 
 .main-background .form .input-username, .main-background .form .input-password {
 	border: none;
@@ -705,11 +705,11 @@
 	.background-playlist .channel-panel-playlist .buttons-channel {
 		top: 14vh;
 	}
-	.background-playlist .channel-panel-playlist .buttons-channel .like-img, .background-playlist .channel-panel-playlist .buttons-channel .dislike-img {
-		width: 4vh;
+	.background-playlist .channel-panel-playlist .buttons-channel .like-button, .background-playlist .channel-panel-playlist .buttons-channel .dislike-button {
+		display: none;
 	}
-	.background-playlist .channel-panel-playlist .buttons-channel .play-img {
-		width: 11vh;
+	.background-playlist .channel-panel-playlist .buttons-channel .play-button {
+		display: none;
 	}
 	.background-playlist .channel-panel-playlist .back-img {
 		height: 3vh;
