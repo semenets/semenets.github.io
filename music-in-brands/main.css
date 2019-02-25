@@ -230,6 +230,14 @@
 	display: inline-block;
 }
 
+.channels-sections:last-child{
+  margin-right: 0;
+}
+
+.channels-sections:last-child .channel-image {
+  margin-right: 0;
+}
+
 .channels-sections .section {
 	margin-right: 30px;
 }
