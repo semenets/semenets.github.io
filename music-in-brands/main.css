@@ -50,6 +50,13 @@
 	padding-bottom: 12vh;
 }
 
+@media only screen and (max-width: 1024px) {
+	.main-background .form .logo-music {
+		width: 30vh;
+		padding-top: 3vh;
+	}
+}
+
 .main-background .form ::-webkit-input-placeholder {color:#444;}
 .main-background .form ::-moz-placeholder          {color:#444;}
 .main-background .form :-moz-placeholder           {color:#444;}
@@ -67,7 +74,7 @@
 }
 
 .main-background .form .input-username {
-	margin-bottom: 40px;
+	margin-bottom: 3vh;
 }
 
 .main-background .form .forgot-password {
@@ -82,7 +89,7 @@
 
 .main-background .login {
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 4vh;
 	color: #fff;
 	font-size: 15px;
 	outline: none;
@@ -100,6 +107,13 @@
 	position: absolute;
 	bottom: 7vh;
 	right: 79px;
+}
+
+@media only screen and (max-width: 576px) {
+	.main-background .form .account-and-register {
+		bottom: 32vh;
+		right: 15px;
+	}
 }
 
 .main-background .form .account-and-register a {
@@ -142,12 +156,20 @@
 @media only screen and (max-width: 570px) {
 	.main-background .form {
 		width: 90%;
+		padding: 30px;
 	}
-	.main-background .form .logo-music {
-		width: 173px;
-	}
+
 	.main-background .form .input-username, .main-background .form .input-password {
 		font-size: 16px;
+	}
+	.main-background .form .account-and-register {
+		right: 30px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.main-background .form {
+		padding: 15px;
 	}
 }
 
@@ -389,6 +411,7 @@
 		width: 100%;
 		margin: 0 auto;
 		overflow-x: scroll;
+		-ms-overflow-style: none;
 	}
 
 	.sections-row {
@@ -562,10 +585,12 @@
 }
 
 .background-playlist .channel-panel-playlist .buttons-channel .like-img, .background-playlist .channel-panel-playlist .buttons-channel .dislike-img {
+	height: 8vh;
 	width: 8vh;
 }
 
 .background-playlist .channel-panel-playlist .buttons-channel .play-img {
+	height: 15vh;
 	width: 15vh;
 }
 
@@ -610,6 +635,7 @@
 }
 
 .bottom-buttons-playlist .channel-img {
+	height: 5vh;
 	width: 5vh;
 }
 
@@ -730,6 +756,7 @@
 .play-list .list-of-channels {
 	overflow-y: scroll;
 	height: 69vh;
+	-ms-overflow-style: none;
 }
 
 .play-list .list-of-channels .channel {
