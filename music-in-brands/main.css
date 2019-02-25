@@ -1,0 +1,821 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/** index page **/
+.main-background {
+	background-image: url(img/main-background.png);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom: 40px solid #FFC811;
+}
+
+.main-background .form {
+	position: relative;
+	height: 100vh;
+	width: 640px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 40px;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 768px) {
+	.main-background .form {
+		width: 570px;
+	}
+}
+
+.main-background .form .logo-music {
+	display: block;
+	width: 260px;
+	margin: 0 auto;
+	padding-top: 8vh;
+	padding-bottom: 12vh;
+}
+
+.main-background .form ::-webkit-input-placeholder {color:#444;}
+.main-background .form ::-moz-placeholder          {color:#444;}
+.main-background .form :-moz-placeholder           {color:#444;}
+.main-background .form :-ms-input-placeholder      {color:#444;}
+
+.main-background .form .input-username, .main-background .form .input-password {
+	border: none;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	font-size: 18px;
+	outline: none;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.main-background .form .input-username {
+	margin-bottom: 40px;
+}
+
+.main-background .form .forgot-password {
+	display: block;
+	text-align: right;
+	letter-spacing: 2px;
+	font-size: 12px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #373737;
+}
+
+.main-background .login {
+	width: 100%;
+	margin-top: 40px;
+	color: #fff;
+	font-size: 15px;
+	outline: none;
+	border: none;
+	background-color: #FFC811;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+.main-background .form .account-and-register {
+	position: absolute;
+	bottom: 7vh;
+	right: 30px;
+}
+
+.main-background .form .account-and-register a {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #444;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.account-and-register .register-now {
+	font-weight: 600;
+	margin-top: 5px;
+}
+
+.contact-and-terms {
+	position: absolute;
+	right: 42px;
+	top: 90vh;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1600px) {
+	.contact-and-terms a {
+		display: block;
+		position: relative;
+		bottom: 30px;
+		left: 30px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-and-terms {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.main-background .form {
+		width: 90%;
+	}
+	.main-background .form .logo-music {
+		width: 173px;
+	}
+	.main-background .form .input-username, .main-background .form .input-password {
+		font-size: 16px;
+	}
+}
+
+.contact-and-terms a {
+	text-decoration: none;
+	color: #fff;
+	padding-right: 30px;
+	letter-spacing: 1px;
+}
+
+/** channels page **/
+.top-border {
+	height: 11px;
+	background-color: #FFC811;
+}
+
+.bottom-background-img {
+	background-image: url(img/bottom-background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 1300px;
+	border-bottom: 40px solid #FFC811;
+}
+
+.top-logo-channels {
+	display: block;
+	width: 1630px;
+	margin-bottom: 20px;
+	margin-right: 150px;
+	margin: 0 auto;
+}
+
+.logo-channels {
+	width: 361px;
+	float: right;
+	margin-top: 123px;
+}
+
+.clear {
+	clear: both;
+}
+
+.button-section {
+	width: 1630px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+
+.channels-button {
+	font-size: 26px;
+	font-weight: bold;
+	color: #444;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	background-color: #fff;
+}
+
+.channels-button span {
+	position: relative;
+	bottom: 10px;
+	left: 5px;
+	letter-spacing: 1px;
+}
+
+.orange-line {
+	background-color: #FFF5DC;
+	height: 90px;
+}
+
+.sections-row {
+	position: absolute;
+	top: 470px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.channels-sections {
+	display: inline-block;
+}
+
+.channels-sections .section {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.channels-sections .section-left {
+	margin-right: 30px;
+	margin-left: 4px;
+}
+
+.channels-sections .section-right {
+	margin-left: 30px;
+	margin-right: 4px;
+}
+
+.layer .channel {
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.channel .channel-image {
+	display: block;
+	background-color: #f9f9f9;
+	height: 358px;
+	width: 358px;
+	padding: 30px;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.channel .name-channel {
+	display: block;
+	color: #444;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+
+.channel .description-channel {
+	font-size: 18px;
+	color: #444;
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+
+.channel .name-and-description {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+.layer {
+	overflow-x: scroll;
+	width: 1630px;
+	white-space: nowrap;
+}
+
+::-webkit-scrollbar { 
+	width: 0;
+	height: 0;
+}
+
+.contact-and-terms-channels {
+	position: absolute;
+	top: 1838px;
+	right: 42px;
+}
+
+.contact-and-terms-channels a {
+	color: #fff;
+	font-size: 18px;
+	padding-right: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1700px) {
+	.layer, .top-logo-channels, .button-section {
+		width: 1200px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.top-logo-channels {
+		width: auto;
+		margin-right: 50px;
+	}
+
+	.button-section {
+		margin-left: 5%;
+		width: auto;
+	}
+	.layer {
+		width: 100%;
+	}
+	.sections-row {
+		margin-left: 5%;
+		width: 95%;
+		left: 0;
+		top: 340px;
+		transform: translate(0, 0); 
+	}
+	.logo-channels {
+		width: 194px;
+		margin-bottom: 30px;
+	}
+	.channels-button {
+		font-size: 16px;
+	}
+	.channels-button span {
+		top: -5px;
+	}
+	.channels-img {
+		width: 24px;
+	}
+	.contact-and-terms-channels {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.top-logo-channels .logo-channels {
+		width: 194px;
+		margin-bottom: 20px;
+	}
+	.bottom-background-img	.sections-row {
+		top: 330px;
+	}
+	.channels-sections .section-left {
+		margin-right: 15px;
+	}
+	.channels-sections .section {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.channels-sections .section-right {
+		margin-left: 15px;
+	}
+	.channel .channel-image {
+		height: 195px;
+		width: 195px;
+		padding: 16px;
+	}
+	.channel-image .channel-img {
+		height: 162px;
+		width: 162px;
+	}
+	.channel .name-channel {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.channel .description-channel{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.bottom-background-img {
+		height: 800px;
+	}
+	.button-section {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.top-logo-channels .logo-channels {
+		width: 110px;
+		margin-bottom: 20px;
+	}
+	.bottom-background-img .sections-row {
+		top: 290px;
+	}
+	.channels-sections .section-left {
+		margin-right: -4px;
+	}
+	.channels-sections .section {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.channels-sections .section-right {
+		margin-left: -4px;
+	}
+	.channel .channel-image {
+		height: 148px;
+		width: 148px;
+		padding: 13px;
+	}
+	.channel-image .channel-img {
+		height: 122px;
+		width: 122px;
+	}
+	.channel .name-channel {
+		font-size: 14px;
+	}
+	.channel .description-channel{
+		font-size: 11px;
+	}
+	.bottom-background-img {
+		height: 600px;
+	}
+	.button-section {
+		margin-bottom: 80px;
+	}
+}
+
+/** playlist page **/
+.fullScreen {
+	height: 100%;
+}
+
+.background-playlist {
+	height: 95vh;
+	padding-top: 8vh;
+	background: rgba(242,240,237,1);
+	background: -moz-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 66%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,240,237,1)), color-stop(65%, rgba(242,240,237,1)), color-stop(66%, rgba(243,233,217,1)), color-stop(100%, rgba(243,233,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 66%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 66%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 66%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+	background: linear-gradient(168deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 66%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f0ed', endColorstr='#f3e9d9', GradientType=1 );
+}
+
+.bottom-line {
+	height: 40px;
+	background-color: #FFC811;
+}
+
+.background-playlist .channel-panel-playlist {
+	position: relative;
+	width: 60vh;
+	height: 75vh;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-top: 5vh;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.background-playlist .channel-panel-playlist .channel-name-img {
+	background: url(img/channel-name.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: block;
+	height: 50vh;
+	width: 50vh;
+	margin: 0 auto;
+}
+
+.background-playlist .channel-panel-playlist .channel-name-description {
+	padding-left: 5vh;
+	padding-top: 2vh;
+	font-size: 30px;
+	color: #444;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.background-playlist .channel-panel-playlist .playing-artist {
+	font-size: 18px;
+	color: #1a3d4f;
+	font-weight: 200;
+	margin-top: 5px;
+}
+
+.background-playlist .channel-panel-playlist .playing-artist span {
+	color: #f8c146;
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel {
+	position: absolute;
+	top: 22vh;
+	white-space: nowrap;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel .like-button, .background-playlist .channel-panel-playlist .buttons-channel .play-button, .background-playlist .channel-panel-playlist .buttons-channel .dislike-button {
+	background: none;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel .like-img, .background-playlist .channel-panel-playlist .buttons-channel .dislike-img {
+	width: 8vh;
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel .play-img {
+	width: 15vh;
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel .like-button, .background-playlist .channel-panel-playlist .buttons-channel .dislike-button {
+	position: relative;
+	bottom: 3vh;
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel .like-button {
+	margin-right: 4vh;
+}
+
+.background-playlist .channel-panel-playlist .buttons-channel .dislike-button {
+	margin-left: 4vh;
+}
+
+.background-playlist .channel-panel-playlist .back-button {
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	top: -1vh;
+	left: -12vh;
+}
+
+.background-playlist .channel-panel-playlist .back-img {
+	height: 5vh;
+}
+
+.bottom-buttons-playlist {
+	text-align: center;
+	margin-top: 3.2vh;
+}
+
+.bottom-buttons-playlist .channel-link {
+	margin: 8px;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.bottom-buttons-playlist .channel-img {
+	width: 5vh;
+}
+
+.channel-img:hover path, .channel-img:hover rect {
+	fill: #FFC811;
+}
+
+.channel-img:visited path, .channel-img:visited rect {
+	fill: #FFC811;
+}
+
+.channel-name-img .img-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.27);
+}
+
+@media only screen and (max-width: 991px) {
+	.background-playlist .channel-panel-playlist {
+		width: 48vh;
+	}
+	.background-playlist .channel-panel-playlist .channel-name-img {
+		width: 40vh;
+		height: 40vh;
+	}
+	.background-playlist {
+		padding-top: 14vh;
+	}
+	.background-playlist .channel-panel-playlist .back-button {
+		left: 0;
+		top: -7vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel {
+		top: 18vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel .like-img, .background-playlist .channel-panel-playlist .buttons-channel .dislike-img {
+		width: 6vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel .play-img {
+		width: 12vh;
+	}
+	.background-playlist .channel-panel-playlist {
+		height: 65vh;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.background-playlist .channel-panel-playlist .channel-name-description {
+		font-size: 20px;
+	}
+	.background-playlist .channel-panel-playlist .playing-artist {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.background-playlist .channel-panel-playlist {
+		width: 38vh;
+	}
+	.background-playlist .channel-panel-playlist .channel-name-img {
+		width: 33vh;
+		height: 33vh;
+	}
+	.background-playlist .channel-panel-playlist {
+		padding-top: 3vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel {
+		top: 14vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel .like-img, .background-playlist .channel-panel-playlist .buttons-channel .dislike-img {
+		width: 4vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel .play-img {
+		width: 11vh;
+	}
+	.background-playlist .channel-panel-playlist .back-img {
+		height: 3vh;
+	}
+	.background-playlist .channel-panel-playlist .back-button {
+		top: -5vh;
+	}
+	.background-playlist .channel-panel-playlist {
+		height: 52vh;
+	}
+}
+
+.play-list {
+	position: absolute;
+	right: 5vw;
+	top: 10vh;
+	width: 17vw;
+}
+
+.play-list .history-return {
+	margin-bottom: 2vh;
+}
+
+.play-list .history-return .history {
+	position: relative;
+	bottom: 12px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.play-list .history-return .return-button {
+	background: none;
+	margin-left: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.play-list .history-return .return-img {
+	height: 35px;
+}
+
+.play-list .list-of-channels {
+	overflow-y: scroll;
+	height: 69vh;
+}
+
+.play-list .list-of-channels .channel {
+	height: 11.65vh;
+	border-bottom: 1px solid #404040;
+}
+
+.bottom-buttons {
+	position: absolute;
+	right: 15vh;
+	bottom: 5vh;
+}
+
+.bottom-buttons .arrow-button, .bottom-buttons .return-button, #return-button {
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.bottom-buttons .arrow-button {
+	position: relative;
+	bottom: 2.2vh;
+	right: 3vh;
+}
+
+.bottom-buttons .arrow-top-img {
+	width: 4vh;
+}
+
+.bottom-buttons .return-img {
+	width: 6vh;
+}
+
+.visibility-hidden {
+	visibility: hidden;
+}
+
+.list-of-channels .channel {
+	display: block;
+	padding-top: 1.3vh;
+}
+
+.list-of-channels a {
+	text-decoration: none;
+	color: #444;
+}
+
+.play-list .list-of-channels .channel-img {
+	float: left;
+	width: 9vh;
+	margin-right: 2vh;
+}
+
+.list-of-channels .channel .channel-name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.list-of-channels .channel .channel-artist {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+@media only screen and (max-width: 991px) {
+	.play-list {
+		position: static;
+		width: 100%;
+		background: rgba(242,240,237,1);
+		background: -moz-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 65%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,240,237,1)), color-stop(65%, rgba(242,240,237,1)), color-stop(66%, rgba(243,233,217,1)), color-stop(100%, rgba(243,233,217,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 65%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+		background: -o-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 65%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+		background: -ms-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 65%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+		background: linear-gradient(168deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 65%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f0ed', endColorstr='#f3e9d9', GradientType=1 );
+	}
+	.list-of-channels .channel {
+		width: 48vh;
+		margin: 0 auto;
+	}
+	.play-list .history-return {
+		width: 48vh;
+		margin: 0 auto;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	.bottom-buttons-playlist {
+		padding-bottom: 10vh;
+	}
+	.bottom-buttons {
+		top: 94vh;
+		left: 50%;
+	}
+	.play-list .list-of-channels {
+		padding-bottom: 10vh;
+	}
+	.bottom-buttons .return-img {
+		display: none;
+	}
+	.bottom-buttons .arrow-top-img {
+		width: 7vh;
+	}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+	.play-list {
+		right: 0vw;
+		width: 24vw;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.list-of-channels .channel {
+		width: 38vh;
+	}
+	.play-list .history-return {
+		width: 38vh;
+	}
+	.background-playlist .channel-panel-playlist .channel-name-description {
+		font-size: 16px;
+	}
+	.background-playlist .channel-panel-playlist .channel-name-description {
+		padding-left: 2.5vh;
+	}
+	.bottom-buttons .arrow-button {
+		bottom: 14vh;
+	}
+}
+
+
+
+
+
+
+
+
+
+
