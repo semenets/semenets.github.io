@@ -169,7 +169,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 1300px;
 	border-bottom: 40px solid #FFC811;
 }
 
@@ -262,6 +261,10 @@
 	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
 }
 
+.channel .channel-image .channel-img {
+	width: 100%;
+}
+
 .channel .name-channel {
 	display: block;
 	color: #444;
@@ -286,7 +289,6 @@
 }
 
 .layer {
-	overflow-x: scroll;
 	width: 1630px;
 	white-space: nowrap;
 }
@@ -297,9 +299,9 @@
 }
 
 .contact-and-terms-channels {
-	position: absolute;
-	top: 1838px;
-	right: 42px;
+	float: right;
+	margin-top: -97px;
+	margin-right: 43px;
 }
 
 .contact-and-terms-channels a {
@@ -320,27 +322,46 @@
 		width: 1200px;
 		margin: 0 auto;
 	}
+
+	.channel .channel-image {
+		height: 250px;
+		width: 250px;
+	}
+
+	.channels-sections .section-left {
+		margin-right: 15px;
+	}
+
+	.channels-sections .section {
+		margin-left: 15px;
+    margin-right: 15px;
+
+	}
 }
 
-@media only screen and (max-width: 1200px) {
+
+
+@media only screen and (max-width: 1300px) {
+	.layer, .top-logo-channels, .button-section {
+		width: 990px;
+	}
+
+	.sections-row {
+		width: 990px;
+		margin: 0 auto;
+	}
+
+	.channel .channel-image {
+		height: 200px;
+		width: 200px;
+	}
 	.top-logo-channels {
 		width: auto;
 		margin-right: 50px;
 	}
 
-	.button-section {
-		margin-left: 5%;
-		width: auto;
-	}
-	.layer {
-		width: 100%;
-	}
-	.sections-row {
-		margin-left: 5%;
-		width: 95%;
-		left: 0;
-		transform: translate(0, 0); 
-	}
+
+
 	.logo-channels {
 		width: 194px;
 		margin-bottom: 30px;
@@ -357,9 +378,39 @@
 	.contact-and-terms-channels {
 		display: none;
 	}
+
+	.channels-sections .section-left {
+		margin-right: 0px;
+	}
+
+	.channels-sections .section {
+		margin-left: 0px;
+    	margin-right: 0px;
+
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.layer {
+		width: 100%;
+		margin: 0 auto;
+		overflow-x: scroll;
+	}
+	.sections-row {
+		margin-left: 5%;
+		width: 95%;
+		left: 0;
+		transform: translate(0, 0); 
+	}
+
+	.button-section {
+		margin-left: 5%;
+		width: auto;
+	}
 }
 
 @media only screen and (max-width: 768px) {
+
 	.top-logo-channels .logo-channels {
 		width: 194px;
 		margin-bottom: 20px;
@@ -406,9 +457,6 @@
 	.top-logo-channels .logo-channels {
 		width: 110px;
 		margin-bottom: 20px;
-	}
-	.bottom-background-img .sections-row {
-		top: 290px;
 	}
 	.channels-sections .section-left {
 		margin-right: -4px;
