@@ -307,6 +307,11 @@
 	.layer, .top-logo-channels, .button-section {
 		width: 1200px;
 	}
+
+	.sections-row {
+		width: 1200px;
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -326,7 +331,6 @@
 		margin-left: 5%;
 		width: 95%;
 		left: 0;
-		top: 340px;
 		transform: translate(0, 0); 
 	}
 	.logo-channels {
@@ -353,7 +357,7 @@
 		margin-bottom: 20px;
 	}
 	.bottom-background-img	.sections-row {
-		top: 330px;
+		bottom: 145px;
 	}
 	.channels-sections .section-left {
 		margin-right: 15px;
