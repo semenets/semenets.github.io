@@ -57,10 +57,10 @@
 	}
 }
 
-.main-background .form ::-webkit-input-placeholder {color: #000000;;}
-.main-background .form ::-moz-placeholder          {-webkit-text-fill-color: #000000;;}
-.main-background .form :-moz-placeholder           {-webkit-text-fill-color: #000000;;}
-.main-background .form :-ms-input-placeholder      {color: #000000;;}
+.main-background .form ::-webkit-input-placeholder {color: #000000;}
+.main-background .form ::-moz-placeholder          {color: #000000; opacity: 1;}
+.main-background .form :-moz-placeholder           {color: #000000; opacity: 1;}
+.main-background .form :-ms-input-placeholder      {color: #000000;}
 
 .main-background .form .input-username, .main-background .form .input-password {
 	border: none;
