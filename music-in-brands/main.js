@@ -23,6 +23,10 @@ $(".play-button").click(function() {
 	}
 });
 
+$(".www").click(function() {
+	$('.play-list').slideToggle('slow');
+})
+
 $(".channel-img").click(function(e) {
 	var id = e.target.id
 	$(".path" + id).css("fill", "#FFC811")
