@@ -326,9 +326,8 @@
 	white-space: nowrap;
 }
 
-::-webkit-scrollbar { 
-	width: 0;
-	height: 0;
+::-webkit-scrollbar {
+	scrollbar-width: none;
 }
 
 .contact-and-terms-channels {
