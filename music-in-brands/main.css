@@ -509,6 +509,8 @@
 	height: 100%;
 }
 
+::-webkit-scrollbar { display: none; }
+
 .background-playlist {
 	height: 95vh;
 	padding-top: 8vh;
