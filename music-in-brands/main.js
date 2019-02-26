@@ -3,7 +3,6 @@ var play = 0;
 var arrows = new Array ('img/arrow-bottom.svg', 'img/arrow-top.svg');
 var mobileArrows = new Array ('img/arrow-top.svg', 'img/arrow-bottom.svg');
 var buttonVisible = new Array ('visibility-hidden', '');
-var buttonMobile = new Array ('playlist-mobile-button', 'www');
 var audio = new Audio('twinkle-twinkle-mozart.mp3');
 
 $('.arrow-button').click(function() {
@@ -29,10 +28,9 @@ $(".playlist-mobile-button").click(function() {
 	playListVisible = playListVisible === 0 ? 1 : 0;
 	$('#mobile-arrow').attr('src', mobileArrows[playListVisible]);
 	$('.play-list').slideToggle('slow');
-})
+});
 
 $(".channel-img").click(function(e) {
 	var id = e.target.id
 	$(".path" + id).css("fill", "#FFC811")
-})
-
+});

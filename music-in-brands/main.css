@@ -162,7 +162,6 @@
 		width: 90%;
 		padding: 30px;
 	}
-
 	.main-background .form .input-username, .main-background .form .input-password {
 		font-size: 16px;
 	}
@@ -196,6 +195,8 @@
 	padding-right: 30px;
 	letter-spacing: 1px;
 }
+
+
 
 /** channels page **/
 .top-border {
@@ -349,70 +350,55 @@
 	.layer, .top-logo-channels, .button-section {
 		width: 1200px;
 	}
-
 	.sections-row {
 		width: 1200px;
 		margin: 0 auto;
 	}
-
 	.channel .channel-image {
 		height: 250px;
 		width: 250px;
 	}
-
 	.channels-sections .section {
 		margin: 0 15px;
 	}
 }
 
-
-
 @media only screen and (max-width: 1300px) {
 	.layer, .top-logo-channels, .button-section {
 		width: 990px;
 	}
-
 	.sections-row {
 		width: 990px;
 		margin: 0 auto;
 	}
-
 	.channel .channel-image {
 		height: 200px;
 		width: 200px;
 	}
-
 	.top-logo-channels {
 		width: 990px;
 		margin: 0 auto;
 	}
-
 	.logo-channels {
 		width: 194px;
 		margin-bottom: 30px;
 	}
-
 	.channels-button {
 		font-size: 16px;
 	}
-
 	.channels-button span {
 		top: -5px;
 	}
-
 	.channels-img {
 		width: 24px;
 	}
-
 	.contact-and-terms-channels {
 		display: none;
 	}
-
 	.channels-sections .section {
 		margin-left: 0px;
     margin-right: 0px;
 	}
-
   .channel .description-channel {
     letter-spacing: 1px;
   }
@@ -423,21 +409,18 @@
     width: 95%;
     margin-right: 5%;
   }
-
 	.layer {
 		width: 100%;
 		margin: 0 auto;
 		overflow-x: scroll;
 		-ms-overflow-style: none;
 	}
-
 	.sections-row {
 		margin-left: 5%;
 		width: 95%;
 		left: 0;
 		transform: translate(0, 0); 
 	}
-
 	.button-section {
 		margin-left: 5%;
 		width: auto;
@@ -445,7 +428,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
 	.top-logo-channels .logo-channels {
 		width: 194px;
 		margin-bottom: 20px;
@@ -453,7 +435,6 @@
 	.bottom-background-img	.sections-row {
 		bottom: 145px;
 	}
-
 	.channels-sections .section {
 		margin-left: 5px;
 		margin-right: 5px;
@@ -520,6 +501,8 @@
 		margin-bottom: 80px;
 	}
 }
+
+
 
 /** playlist page **/
 .fullScreen {
@@ -688,7 +671,6 @@
 	.background-playlist {
 		padding-top: 14vh;
 	}
-
 	.background-playlist .channel-panel-playlist .buttons-channel {
 		top: 18vh;
 	}
@@ -912,8 +894,6 @@
 	.background-playlist {
 		padding-top: 18vh;
 	}
-
-
 }
 
 @media only screen and (max-width: 567px) {
@@ -938,11 +918,9 @@
 	.background-playlist .channel-panel-playlist {
 		height: 65vh;
 	}
-	
 	.background-playlist .channel-panel-playlist .channel-name-description {
 		font-size: 12px;
 	}
-
 	.play-list .list-of-channels .channel {
 		height: 23vh;
 	}
