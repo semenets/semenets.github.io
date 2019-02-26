@@ -57,10 +57,10 @@
 	}
 }
 
-.main-background .form ::-webkit-input-placeholder {color: #000000;}
-.main-background .form ::-moz-placeholder          {color: #000000; opacity: 1;}
-.main-background .form :-moz-placeholder           {color: #000000; opacity: 1;}
-.main-background .form :-ms-input-placeholder      {color: #000000;}
+.main-background .form ::-webkit-input-placeholder {color: #444;}
+.main-background .form ::-moz-placeholder          {color: #444; opacity: 1;}
+.main-background .form :-moz-placeholder           {color: #444; opacity: 1;}
+.main-background .form :-ms-input-placeholder      {color: #444;}
 
 .main-background .form .input-username, .main-background .form .input-password {
 	border: none;
@@ -80,11 +80,13 @@
 .main-background .form .forgot-password {
 	display: block;
 	text-align: right;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 12px;
 	margin-top: 10px;
 	text-decoration: none;
 	color: #373737;
+	opacity: 1;
+	font-weight: bold;
 }
 
 .main-background .login {
@@ -121,8 +123,10 @@
 	text-align: right;
 	text-decoration: none;
 	color: #444;
+	opacity: 1;
 	font-size: 12px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
 
 .account-and-register .register-now {
@@ -170,6 +174,13 @@
 @media only screen and (max-width: 330px) {
 	.main-background .form .account-and-register {
 		top: 75vh;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.main-background .form .account-and-register {
+		top: 85vh;
+		right: 15px;
 	}
 }
 
@@ -659,6 +670,13 @@
 	background: rgba(0,0,0,0.27);
 }
 
+@media only screen and (max-width: 1024px) {
+	.background-playlist .channel-panel-playlist .back-button {
+		left: 0;
+		top: -7vh;
+	}
+}
+
 @media only screen and (max-width: 991px) {
 	.background-playlist .channel-panel-playlist {
 		width: 48vh;
@@ -670,10 +688,7 @@
 	.background-playlist {
 		padding-top: 14vh;
 	}
-	.background-playlist .channel-panel-playlist .back-button {
-		left: 0;
-		top: -7vh;
-	}
+
 	.background-playlist .channel-panel-playlist .buttons-channel {
 		top: 18vh;
 	}
@@ -695,18 +710,21 @@
 	.background-playlist .channel-panel-playlist .playing-artist {
 		font-size: 14px;
 	}
+	.background-playlist {
+		height: 90vh;
+	}
 }
 
 @media only screen and (max-width: 576px) {
 	.background-playlist .channel-panel-playlist {
-		width: 38vh;
+		width: 40vh;
 	}
 	.background-playlist .channel-panel-playlist .channel-name-img {
 		width: 33vh;
 		height: 33vh;
 	}
 	.background-playlist .channel-panel-playlist {
-		padding-top: 3vh;
+		padding-top: 4vh;
 	}
 	.background-playlist .channel-panel-playlist .buttons-channel {
 		top: 14vh;
@@ -724,7 +742,7 @@
 		top: -5vh;
 	}
 	.background-playlist .channel-panel-playlist {
-		height: 52vh;
+		height: 62vh;
 	}
 }
 
@@ -790,10 +808,12 @@
 }
 
 .bottom-buttons .arrow-top-img {
+	height: 2vh;
 	width: 4vh;
 }
 
 .bottom-buttons .return-img {
+	height: 6vh;
 	width: 6vh;
 }
 
@@ -827,7 +847,7 @@
 	font-weight: 400;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
 	.play-list {
 		position: static;
 		width: 100%;
@@ -850,15 +870,12 @@
 		padding-top: 5vh;
 		padding-bottom: 5vh;
 	}
-	.bottom-buttons-playlist {
-		padding-bottom: 10vh;
-	}
 	.bottom-buttons {
 		top: 94vh;
 		left: 50%;
 	}
 	.play-list .list-of-channels {
-		padding-bottom: 10vh;
+		padding-bottom: 4vh;
 	}
 	.bottom-buttons .return-img {
 		display: none;
@@ -871,8 +888,32 @@
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
 	.play-list {
 		right: 0vw;
-		width: 24vw;
+		/* width: 24vw; */
 	}
+	.background-playlist .channel-panel-playlist {
+		height: 60vh;
+		width: 50vh;
+	}
+	.background-playlist .channel-panel-playlist .channel-name-img {
+		height: 40vh;
+		width: 40vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel .like-img, .background-playlist .channel-panel-playlist .buttons-channel .dislike-img {
+		height: 6vh;
+		width: 6vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel .play-img {
+		height: 12vh;
+		width: 12vh;
+	}
+	.background-playlist .channel-panel-playlist .buttons-channel {
+		top: 18vh;
+	}
+	.background-playlist {
+		padding-top: 18vh;
+	}
+
+
 }
 
 @media only screen and (max-width: 567px) {
@@ -890,6 +931,61 @@
 	}
 	.bottom-buttons .arrow-button {
 		bottom: 14vh;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.background-playlist .channel-panel-playlist {
+		height: 65vh;
+	}
+	
+	.background-playlist .channel-panel-playlist .channel-name-description {
+		font-size: 12px;
+	}
+
+	.play-list .list-of-channels .channel {
+		height: 23vh;
+	}
+}
+
+@media only screen and (max-width: 240px) {
+	.play-list .list-of-channels .channel {
+		height: 28vh;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.playlist-mobile-section {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.background-playlist .channel-panel-playlist .channel-name-description {
+		font-size: 18px;
+	}
+	.play-list .list-of-channels .channel {
+		height: 12vh;
+	}
+	.playlist-mobile-button img {
+		height: 3vh;
+		width: 6vh;
+	}
+	.playlist-mobile-button {
+		display: block;
+		margin: 0 auto;
+		border: none;
+		outline: none;
+		background-color: transparent;
+		position: relative;
+	}
+	.playlist-mobile-section {
+		background-color: rgba(243,233,217,1);
+		width: 100%;
+		padding-bottom: 3vh;
+	}
+	.bottom-buttons .arrow-button {
+		display: none;
 	}
 }
 
