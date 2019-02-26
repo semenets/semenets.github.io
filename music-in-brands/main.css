@@ -915,18 +915,6 @@
 	}
 }
 
-@media only screen and (max-width: 320px) {
-	.background-playlist .channel-panel-playlist {
-		height: 65vh;
-	}
-	.background-playlist .channel-panel-playlist .channel-name-description {
-		font-size: 12px;
-	}
-	.play-list .list-of-channels .channel {
-		height: 23vh;
-	}
-}
-
 @media only screen and (max-width: 240px) {
 	.play-list .list-of-channels .channel {
 		height: 28vh;
@@ -965,6 +953,24 @@
 	}
 	.bottom-buttons .arrow-button {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.background-playlist .channel-panel-playlist {
+		height: 65vh;
+	}
+	.background-playlist .channel-panel-playlist .channel-name-description {
+		font-size: 12px;
+	}
+	.play-list .list-of-channels .channel {
+		height: 18vh;
+	}
+}
+
+@media only screen and (max-width: 240px) {
+	.play-list .list-of-channels .channel {
+		height: 28vh;
 	}
 }
 
