@@ -324,6 +324,7 @@
 .layer {
 	width: 1630px;
 	white-space: nowrap;
+	scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
