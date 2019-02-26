@@ -47,7 +47,7 @@
 	width: 260px;
 	margin: 0 auto;
 	padding-top: 8vh;
-	padding-bottom: 12vh;
+	padding-bottom: 14vh;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -113,7 +113,7 @@
 
 @media only screen and (max-width: 576px) {
 	.main-background .form .account-and-register {
-		bottom: 31vh;
+		bottom: 29vh;
 		right: 15px;
 	}
 }
