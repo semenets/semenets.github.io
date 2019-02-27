@@ -412,6 +412,7 @@
 		width: 990px;
 	}
 	.sections-row {
+    overflow-x: scroll;
 		width: 990px;
 		margin: 0 auto;
 	}
