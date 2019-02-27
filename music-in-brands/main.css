@@ -199,8 +199,21 @@
 
 
 /** channels page **/
+
+
+
+
+
+
+
+
+
+
+.channels-page {
+	min-height: 100vh;
+}
 .top-border {
-	height: 11px;
+	height: 2vh;
 	background-color: #FFC811;
 }
 
@@ -209,35 +222,31 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	border-bottom: 40px solid #FFC811;
+	min-height: 53vh;
 }
 
 .top-logo-channels {
 	display: block;
-	width: 1630px;
-	margin-bottom: 20px;
-	margin-right: 150px;
+	width: 1360px;
+	margin-bottom: 2vh;
+	margin-right: 5vh;
 	margin: 0 auto;
+	height: 22vh;
 }
 
 .logo-channels {
-	width: 361px;
+	width: 20vh;
 	float: right;
-	margin-top: 123px;
+	margin-top: 10vh;
 }
 
 @media only screen and (max-width: 1024px) {
-	.bottom-background-img {
-		height: 60vh;
-	}
+
 }
 
 @media only screen and (max-width: 768px) {
 	.logo-channels {
 		margin-top: 4vh;
-	}
-	.bottom-background-img {
-		height: 62vh;
 	}
 }
 
@@ -246,9 +255,10 @@
 }
 
 .button-section {
-	width: 1630px;
+	width: 1360px;
 	margin: 0 auto;
-	margin-bottom: 150px;
+	margin-bottom: 8vh;
+	height: 7vh;
 }
 
 .channels-button {
@@ -270,20 +280,24 @@
 
 .orange-line {
 	background-color: #FFF5DC;
-	height: 90px;
+	height: 5vh;
 }
 
 .sections-row {
 	position: relative;
-	bottom: 175px;
+	bottom: 12vh;
 	margin: 0 auto;
-	width: 1630px;
+	width: 1360px;
 }
 
 .channels-sections {
-  margin-right: 30px;
+  margin-right: 185px;
 	display: inline-block;
 }
+
+
+
+
 
 @media only screen and (max-width: 768px) {
 	.channels-sections {
@@ -301,13 +315,12 @@
   margin-right: 0;
 }
 
-.channels-sections .section {
+/* .channels-sections .section {
 	margin-right: 30px;
-}
+} */
 
 .layer .channel {
 	display: block;
-	margin-bottom: 10px;
 	text-decoration: none;
 	outline: none;
 }
@@ -315,9 +328,9 @@
 .channel .channel-image {
 	display: block;
 	background-color: #f9f9f9;
-	height: 358px;
-	width: 358px;
-	padding: 30px;
+	height: 18vh;
+	width: 18vh;
+	padding: 2vh;
 	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
@@ -330,14 +343,14 @@
 .channel .name-channel {
 	display: block;
 	color: #444;
-	font-size: 22px;
+	font-size: 1.8vh;
 	font-weight: bold;
 	line-height: 30px;
 	letter-spacing: 2px;
 }
 
 .channel .description-channel {
-	font-size: 18px;
+	font-size: 1.2vh;
 	color: #444;
 	line-height: 30px;
 	letter-spacing: 2px;
@@ -345,12 +358,11 @@
 
 .channel .name-and-description {
 	display: block;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 2vh;
 }
 
 .layer {
-	width: 1630px;
+	width: 1360px;
 	white-space: nowrap;
 	scrollbar-width: none;
 }
@@ -361,7 +373,7 @@
 
 .contact-and-terms-channels {
 	float: right;
-	margin-top: -97px;
+	margin-top: -38px;
 	margin-right: 43px;
 }
 
@@ -374,7 +386,11 @@
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 1700px) {
+.channels4 {
+	min-height: 20vh;
+}
+
+/* @media only screen and (max-width: 1700px) {
 	.layer, .top-logo-channels, .button-section {
 		width: 1200px;
 	}
@@ -389,9 +405,9 @@
 	.channels-sections .section {
 		margin: 0 15px;
 	}
-}
+} */
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1360px) {
 	.layer, .top-logo-channels, .button-section {
 		width: 990px;
 	}
@@ -399,10 +415,10 @@
 		width: 990px;
 		margin: 0 auto;
 	}
-	.channel .channel-image {
+	/* .channel .channel-image {
 		height: 200px;
 		width: 200px;
-	}
+	} */
 	.top-logo-channels {
 		width: 990px;
 		margin: 0 auto;
@@ -415,12 +431,14 @@
 		font-size: 16px;
 	}
 	.channels-button span {
-		top: -5px;
+		top: -12px;
 	}
-	.channels-img {
+
+
+	/* .channels-img {
 		width: 24px;
-	}
-	.contact-and-terms-channels {
+	} */
+	/* .contact-and-terms-channels {
 		display: none;
 	}
 	.channels-sections .section {
@@ -429,7 +447,10 @@
 	}
   .channel .description-channel {
     letter-spacing: 1px;
-  }
+	}
+	.channels-sections {
+		margin-right: 35px;
+	} */
 }
 
 @media only screen and (max-width: 991px) {
@@ -447,11 +468,13 @@
 		margin-left: 5%;
 		width: 95%;
 		left: 0;
-		transform: translate(0, 0); 
 	}
 	.button-section {
 		margin-left: 5%;
 		width: auto;
+	}
+	.contact-and-terms-channels {
+		display: none;
 	}
 }
 
@@ -461,7 +484,7 @@
 		margin-bottom: 20px;
 	}
 	.bottom-background-img	.sections-row {
-		bottom: 145px;
+		bottom: 11vh;
 	}
 	.channels-sections .section {
 		margin-left: 5px;
@@ -487,31 +510,27 @@
 		font-size: 12px;
 		line-height: 15px;
 	}
-	.button-section {
-		margin-bottom: 80px;
-	}
 }
 
 @media only screen and (max-width: 576px) {
 	.top-logo-channels .logo-channels {
-		width: 110px;
-		margin-bottom: 20px;
+		width: 20vh;
 	}
 	.channels-sections .section {
-		margin-left: -10px;
-		margin-right: -10px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.channels-sections .section-right {
 		margin-left: -4px;
 	}
 	.channel .channel-image {
-		height: 148px;
-		width: 148px;
+		height: 118px;
+		width: 118px;
 		padding: 13px;
 	}
 	.channel-image .channel-img {
-		height: 122px;
-		width: 122px;
+		height: 92px;
+		width: 92px;
 	}
 	.channel .name-channel {
 		font-size: 14px;
@@ -519,13 +538,42 @@
 	.channel .description-channel{
 		font-size: 11px;
 	}
-	.bottom-background-img {
-		height: 56vh;
-	}
+
 	.button-section {
-		margin-bottom: 80px;
+		margin-bottom: 8vh;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.orange-line-bottom {
+	height: 3vh;
+	width: 100%;
+	background-color: #FFC811;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -548,7 +596,7 @@
 }
 
 .bottom-line {
-	height: 40px;
+	height: 3vh;
 	background-color: #FFC811;
 }
 
