@@ -226,6 +226,21 @@
 	margin-top: 123px;
 }
 
+@media only screen and (max-width: 1024px) {
+	.bottom-background-img {
+		height: 60vh;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.logo-channels {
+		margin-top: 4vh;
+	}
+	.bottom-background-img {
+		height: 62vh;
+	}
+}
+
 .clear {
 	clear: both;
 }
@@ -472,9 +487,6 @@
 		font-size: 12px;
 		line-height: 15px;
 	}
-	.bottom-background-img {
-		height: 800px;
-	}
 	.button-section {
 		margin-bottom: 80px;
 	}
@@ -508,7 +520,7 @@
 		font-size: 11px;
 	}
 	.bottom-background-img {
-		height: 600px;
+		height: 56vh;
 	}
 	.button-section {
 		margin-bottom: 80px;
