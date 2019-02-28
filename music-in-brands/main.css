@@ -199,16 +199,6 @@
 
 
 /** channels page **/
-
-
-
-
-
-
-
-
-
-
 .channels-page {
 	min-height: 100vh;
 }
@@ -222,7 +212,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	/* min-height: 53vh; */
 }
 
 .height {
@@ -244,10 +233,6 @@
 	width: 160px;
 	float: right;
 	margin-top: 10vh;
-}
-
-@media only screen and (max-width: 1024px) {
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -280,7 +265,7 @@
 .channels-button span {
 	position: relative;
 	bottom: 10px;
-	margin-left: 5px;
+	padding-left: 5px;
 	letter-spacing: 1px;
 }
 
@@ -301,10 +286,6 @@
 	display: inline-block;
 }
 
-
-
-
-
 @media only screen and (max-width: 768px) {
 	.channels-sections {
 		margin-right: 25px;
@@ -320,10 +301,6 @@
 .channels-sections:last-child {
   margin-right: 0;
 }
-
-/* .channels-sections .section {
-	margin-right: 30px;
-} */
 
 .layer .channel {
 	display: block;
@@ -397,29 +374,10 @@
 }
 
 .logo-section {
-	display: block;
 	width: 1360px;
-	/* background-color: red; */
 	height: 22vh;
 	margin: 0 auto;
 }
-
-/* @media only screen and (max-width: 1700px) {
-	.layer, .top-logo-channels, .button-section {
-		width: 1200px;
-	}
-	.sections-row {
-		width: 1200px;
-		margin: 0 auto;
-	}
-	.channel .channel-image {
-		height: 250px;
-		width: 250px;
-	}
-	.channels-sections .section {
-		margin: 0 15px;
-	}
-} */
 
 @media only screen and (max-width: 1360px) {
 	.layer, .top-logo-channels, .button-section, .logo-section {
@@ -430,10 +388,6 @@
 		width: 990px;
 		margin: 0 auto;
 	}
-	/* .channel .channel-image {
-		height: 200px;
-		width: 200px;
-	} */
 	.top-logo-channels {
 		width: 990px;
 		margin: 0 auto;
@@ -448,21 +402,12 @@
 	.channels-button span {
 		top: -5px;
 	}
-
-
 	.channels-img {
 		width: 24px;
 	}
 	.contact-and-terms-channels {
 		display: none;
 	}
-	/* .channels-sections .section {
-		margin-left: 0px;
-    margin-right: 0px;
-	}
-  .channel .description-channel {
-    letter-spacing: 1px;
-	} */
 	.channels-sections {
 		margin-right: 50px;
 	}
@@ -491,12 +436,14 @@
 	.contact-and-terms-channels {
 		display: none;
 	}
+	.channels-sections {
+		margin-right: 10px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
 	.top-logo-channels .logo-channels {
 		width: 194px;
-		margin-bottom: 20px;
 	}
 	.bottom-background-img	.sections-row {
 		bottom: 11vh;
@@ -532,7 +479,7 @@
 
 @media only screen and (max-width: 576px) {
 	.top-logo-channels .logo-channels {
-		width: 20vh;
+		width: 110px;
 	}
 	.channels-sections .section {
 		margin-left: 0px;
@@ -554,7 +501,7 @@
 		font-size: 14px;
 	}
 	.channel .description-channel{
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.button-section {
@@ -562,36 +509,11 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .orange-line-bottom {
 	height: 3vh;
 	width: 100%;
 	background-color: #FFC811;
 }
-
-
-
-
-
-
-
-
-
 
 
 
