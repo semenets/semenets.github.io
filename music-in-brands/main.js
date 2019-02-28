@@ -4,6 +4,7 @@ var arrows = new Array ('img/arrow-bottom.svg', 'img/arrow-top.svg');
 var mobileArrows = new Array ('img/arrow-top.svg', 'img/arrow-bottom.svg');
 var buttonVisible = new Array ('visibility-hidden', '');
 var audio = new Audio('twinkle-twinkle-mozart.mp3');
+var length = $('.channels4').length;
 
 $('.arrow-button').click(function() {
 	playListVisible = playListVisible === 0 ? 1 : 0;
@@ -35,13 +36,8 @@ $(".channel-img").click(function(e) {
 	$(".path" + id).css("fill", "#FFC811")
 });
 
-
-var length = $('.channels4').length
-
-console.log(length)
-
 if(length === 1 || length === 2) {
 	$(".bottom-background-img").addClass("height")
 } else {
 	$(".bottom-background-img").addClass("min-height")
-}
+};

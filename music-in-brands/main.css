@@ -313,7 +313,7 @@
 
 @media only screen and (max-width: 420px) {
 	.channels-sections {
-		margin-right: 50px;
+		margin-right: 10px;
 	}
 }
 
@@ -446,7 +446,7 @@
 		font-size: 16px;
 	}
 	.channels-button span {
-		top: -12px;
+		top: -5px;
 	}
 
 
@@ -554,7 +554,7 @@
 		font-size: 14px;
 	}
 	.channel .description-channel{
-		font-size: 11px;
+		font-size: 12px;
 	}
 
 	.button-section {
