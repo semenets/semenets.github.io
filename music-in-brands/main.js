@@ -34,3 +34,14 @@ $(".channel-img").click(function(e) {
 	var id = e.target.id
 	$(".path" + id).css("fill", "#FFC811")
 });
+
+
+var length = $('.channels4').length
+
+console.log(length)
+
+if(length === 1 || length === 2) {
+	$(".bottom-background-img").addClass("height")
+} else {
+	$(".bottom-background-img").addClass("min-height")
+}
