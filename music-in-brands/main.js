@@ -44,7 +44,7 @@ if(rowsChannels === 1 || rowsChannels === 2) {
 	$(".bottom-background-img").addClass("min-height")
 };
 
-if (heightScreen >= 600 && widthScreen === 900) {
+if (heightScreen >= 600 && widthScreen === 800) {
 	$(".bottom-background-img").removeClass("height")
 	$(".bottom-background-img").addClass("min-height")
 };

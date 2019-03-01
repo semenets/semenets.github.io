@@ -206,7 +206,9 @@
 	min-height: 100vh;
 }
 .top-border {
-	height: 2vh;
+	position: absolute;
+	width: 100%;
+	height: 11px;
 	background-color: #FFC811;
 }
 
@@ -219,11 +221,11 @@
 }
 
 .height {
-	height: 56vh;
+	height: 58vh;
 }
 
 .min-height {
-	min-height: 56vh;
+	min-height: 58vh;
 }
 
 .top-logo-channels {
@@ -551,7 +553,7 @@
 }
 
 .background-playlist {
-	height: 95vh;
+	height: 97vh;
 	padding-top: 8vh;
 	background: rgba(242,240,237,1);
 	background: -moz-linear-gradient(-45deg, rgba(242,240,237,1) 0%, rgba(242,240,237,1) 66%, rgba(243,233,217,1) 66%, rgba(243,233,217,1) 100%);
@@ -721,7 +723,7 @@
 		top: -7vh;
 	}
 	.background-playlist {
-		height: 89vh;
+		height: 91vh;
 	}
 }
 
@@ -758,7 +760,7 @@
 		font-size: 14px;
 	}
 	.background-playlist {
-		height: 89vh;
+		height: 91vh;
 	}
 }
 
@@ -789,7 +791,7 @@
 		height: 62vh;
 	}
 	.background-playlist {
-		height: 90vh;
+		height: 92vh;
 	}
 }
 
@@ -933,6 +935,12 @@
 	}
 }
 
+@media only screen and (width: 1024px) {
+	.play-list {
+		width: auto !important;
+	}
+}
+
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
 	.play-list {
 		right: 0vw;
@@ -1025,6 +1033,12 @@
 @media only screen and (max-width: 767px) {
 	.playlist-mobile-section {
 		height: 4vh;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.playlist-mobile-button {
+		bottom: 15px;
 	}
 }
 
