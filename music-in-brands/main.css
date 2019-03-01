@@ -265,6 +265,7 @@
 .channels-button span {
 	position: relative;
 	bottom: 10px;
+	font-size: 16px;
 	padding-left: 5px;
 	letter-spacing: 1px;
 }
@@ -479,6 +480,7 @@
 
 @media only screen and (max-width: 576px) {
 	.top-logo-channels .logo-channels {
+		height: 65px;
 		width: 110px;
 	}
 	.channels-sections .section {
@@ -722,13 +724,18 @@
 		padding-top: 4vh;
 	}
 	.background-playlist .channel-panel-playlist .buttons-channel {
-		top: 14vh;
+		top: 12vh;
 	}
+
+	.background-playlist .channel-panel-playlist .buttons-channel .play-img {
+		width: 9vh;
+	}
+	
 	.background-playlist .channel-panel-playlist .buttons-channel .like-button, .background-playlist .channel-panel-playlist .buttons-channel .dislike-button {
-		display: none;
+		
 	}
 	.background-playlist .channel-panel-playlist .buttons-channel .play-button {
-		display: none;
+		
 	}
 	.background-playlist .channel-panel-playlist .back-img {
 		height: 3vh;
