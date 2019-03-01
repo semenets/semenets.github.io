@@ -48,3 +48,10 @@ if (heightScreen >= 600 && widthScreen === 800) {
 	$(".bottom-background-img").removeClass("height")
 	$(".bottom-background-img").addClass("min-height")
 };
+
+if(getInternetExplorerVersion()!==-1){
+	if (heightScreen >= 600 && widthScreen === 800) {
+		$(".bottom-background-img").removeClass("height")
+		$(".bottom-background-img").addClass("min-height")
+	};
+  }
