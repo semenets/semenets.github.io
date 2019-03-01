@@ -137,7 +137,7 @@
 .contact-and-terms {
 	position: absolute;
 	right: 42px;
-	top: 90vh;
+	top: 92vh;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -151,8 +151,11 @@
 	}
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
 	.contact-and-terms {
+		display: none;
+	}
+	.contact-and-terms-channels {
 		display: none;
 	}
 }
@@ -235,8 +238,6 @@
 	float: right;
 	margin-top: 10vh;
 }
-
-
 
 .clear {
 	clear: both;
@@ -424,9 +425,6 @@
 	.channels-img {
 		width: 24px;
 	}
-	.contact-and-terms-channels {
-		display: none;
-	}
 	.channels-sections {
 		margin-right: 50px;
 	}
@@ -505,10 +503,10 @@
 		height: 65px;
 		width: 110px;
 	}
-	/* .channels-sections .section {
+	.channels-sections .section {
 		margin-left: 0px;
 		margin-right: 0px;
-	} */
+	}
 	.channels-sections .section-right {
 		margin-left: -4px;
 	}
@@ -778,16 +776,8 @@
 	.background-playlist .channel-panel-playlist .buttons-channel {
 		top: 12vh;
 	}
-
 	.background-playlist .channel-panel-playlist .buttons-channel .play-img {
 		width: 9vh;
-	}
-	
-	.background-playlist .channel-panel-playlist .buttons-channel .like-button, .background-playlist .channel-panel-playlist .buttons-channel .dislike-button {
-		
-	}
-	.background-playlist .channel-panel-playlist .buttons-channel .play-button {
-		
 	}
 	.background-playlist .channel-panel-playlist .back-img {
 		height: 3vh;
@@ -946,7 +936,7 @@
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
 	.play-list {
 		right: 0vw;
-		/* width: 24vw; */
+		width: 24vw;
 	}
 	.background-playlist .channel-panel-playlist {
 		height: 60vh;
