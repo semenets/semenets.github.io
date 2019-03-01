@@ -48,3 +48,5 @@ if (heightScreen >= 600 && widthScreen === 800) {
 	$(".bottom-background-img").removeClass("height")
 	$(".bottom-background-img").addClass("min-height")
 };
+
+console.log(heightScreen, widthScreen)
