@@ -208,6 +208,7 @@
 }
 
 .bottom-background-img {
+	position: relative;
 	background-image: url(img/bottom-background.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -215,11 +216,11 @@
 }
 
 .height {
-	height: 53vh;
+	height: 59vh;
 }
 
 .min-height {
-	min-height: 53vh;
+	min-height: 59vh;
 }
 
 .top-logo-channels {
@@ -235,11 +236,7 @@
 	margin-top: 10vh;
 }
 
-@media only screen and (max-width: 768px) {
-	.logo-channels {
-		margin-top: 4vh;
-	}
-}
+
 
 .clear {
 	clear: both;
@@ -248,8 +245,23 @@
 .button-section {
 	width: 1360px;
 	margin: 0 auto;
-	margin-bottom: 8vh;
+	margin-bottom: 5vh;
 	height: 7vh;
+}
+
+@media only screen and (max-width: 768px) {
+	.logo-channels {
+		margin-top: 6vh;
+	}
+	.button-section {
+		height: 7vh;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.button-section {
+		height: 4vh;
+	}
 }
 
 .channels-button {
@@ -318,6 +330,12 @@
 	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 767px) {
+	.channel .channel-image {
+		background-color: #fff;
+	}
 }
 
 .channel .channel-image .channel-img {
@@ -416,8 +434,8 @@
 
 @media only screen and (max-width: 991px) {
   .top-logo-channels, .logo-section {
-    width: 95%;
-    margin-right: 5%;
+    width: 90%;
+    margin-right: 10%;
   }
 	.layer {
 		width: 100%;
@@ -426,12 +444,12 @@
 		-ms-overflow-style: none;
 	}
 	.sections-row {
-		margin-left: 5%;
-		width: 95%;
+		margin-left: 10%;
+		width: 90%;
 		left: 0;
 	}
 	.button-section {
-		margin-left: 5%;
+		margin-left: 10%;
 		width: auto;
 	}
 	.contact-and-terms-channels {
@@ -469,12 +487,16 @@
 		font-size: 15px;
 		line-height: 15px;
 	}
-	.channel .description-channel{
+	.channel .description-channel {
 		font-size: 12px;
 		line-height: 15px;
 	}
 	.logo-section {
-		width: 95%;
+		width: 90%;
+	}
+	.sections-row {
+		margin-left: 8%;
+		width: 92%;
 	}
 }
 
@@ -483,10 +505,10 @@
 		height: 65px;
 		width: 110px;
 	}
-	.channels-sections .section {
+	/* .channels-sections .section {
 		margin-left: 0px;
 		margin-right: 0px;
-	}
+	} */
 	.channels-sections .section-right {
 		margin-left: -4px;
 	}
@@ -509,12 +531,18 @@
 	.button-section {
 		margin-bottom: 8vh;
 	}
+	.sections-row {
+		margin-left: 8%;
+		width: 92%;
+	}
 }
 
 .orange-line-bottom {
-	height: 3vh;
+	height: 40px;
 	width: 100%;
 	background-color: #FFC811;
+	position: absolute;
+	bottom: 0;
 }
 
 
@@ -537,9 +565,30 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f0ed', endColorstr='#f3e9d9', GradientType=1 );
 }
 
-.bottom-line {
-	height: 3vh;
+.bottom-line-web {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
 	background-color: #FFC811;
+}
+
+.bottom-line-mobile {
+	width: 100%;
+	height: 4vh;
+	background-color: #FFC811;
+}
+
+@media only screen and (min-width: 1025px) {
+	.bottom-line-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.bottom-line-web {
+		display: none;
+	}
 }
 
 .background-playlist .channel-panel-playlist {
@@ -673,6 +722,9 @@
 		left: 0;
 		top: -7vh;
 	}
+	.background-playlist {
+		height: 89vh;
+	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -708,7 +760,7 @@
 		font-size: 14px;
 	}
 	.background-playlist {
-		height: 90vh;
+		height: 89vh;
 	}
 }
 
@@ -745,6 +797,9 @@
 	}
 	.background-playlist .channel-panel-playlist {
 		height: 62vh;
+	}
+	.background-playlist {
+		height: 90vh;
 	}
 }
 
@@ -970,9 +1025,16 @@
 		background-color: rgba(243,233,217,1);
 		width: 100%;
 		padding-bottom: 3vh;
+		height: 5vh;
 	}
 	.bottom-buttons .arrow-button {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.playlist-mobile-section {
+		height: 4vh;
 	}
 }
 
