@@ -216,11 +216,11 @@
 }
 
 .height {
-	height: 59vh;
+	height: 56vh;
 }
 
 .min-height {
-	min-height: 59vh;
+	min-height: 56vh;
 }
 
 .top-logo-channels {
@@ -245,7 +245,7 @@
 .button-section {
 	width: 1360px;
 	margin: 0 auto;
-	margin-bottom: 5vh;
+	margin-bottom: 8vh;
 	height: 7vh;
 }
 
@@ -529,7 +529,7 @@
 	}
 
 	.button-section {
-		margin-bottom: 8vh;
+		margin-bottom: 11vh;
 	}
 	.sections-row {
 		margin-left: 8%;

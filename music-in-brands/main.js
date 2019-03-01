@@ -5,6 +5,8 @@ var mobileArrows = new Array ('img/arrow-top.svg', 'img/arrow-bottom.svg');
 var buttonVisible = new Array ('visibility-hidden', '');
 var audio = new Audio('twinkle-twinkle-mozart.mp3');
 var rowsChannels = $('.channels4').length;
+var heightScreen = $(window).height();
+var widthScreen = $(window).width();
 
 $('.arrow-button').click(function() {
 	playListVisible = playListVisible === 0 ? 1 : 0;
@@ -39,5 +41,10 @@ $(".channel-img").click(function(e) {
 if(rowsChannels === 1 || rowsChannels === 2) {
 	$(".bottom-background-img").addClass("height")
 } else {
+	$(".bottom-background-img").addClass("min-height")
+};
+
+if (heightScreen >= 600 && widthScreen === 800) {
+	$(".bottom-background-img").removeClass("height")
 	$(".bottom-background-img").addClass("min-height")
 };
