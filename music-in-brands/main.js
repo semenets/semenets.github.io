@@ -1,16 +1,18 @@
 var playListVisible = 0;
 var play = 0;
-var arrows = new Array ('img/arrow-bottom.svg', 'img/arrow-top.svg');
-var mobileArrows = new Array ('img/arrow-top.svg', 'img/arrow-bottom.svg');
-var buttonVisible = new Array ('visibility-hidden', '');
+var arrows = new Array ('img/arrow-top.svg', 'img/arrow-bottom.svg');
+var mobileArrows = new Array ('img/arrow-top.svg ', 'img/arrow-bottom.svg');
+var buttonVisible = new Array (' ', 'visibility-hidden');
 var audio = new Audio('twinkle-twinkle-mozart.mp3');
 var rowsChannels = $('.channels4').length;
 
-$('.arrow-button').click(function() {
+$('.bottom-buttons').click(function() {
 	playListVisible = playListVisible === 0 ? 1 : 0;
-	$('.play-list').slideToggle('slow');
+	$('.play-list').toggle('slide', {
+		direction: "down"
+	});
 	$('#arrow-img').attr('src', arrows[playListVisible]);
-	$('#return-button').attr('class', buttonVisible[playListVisible]);
+	$('#return-history').attr('class', buttonVisible[playListVisible]);
 });
 
 $(".play-button").click(function() {
@@ -18,10 +20,12 @@ $(".play-button").click(function() {
 
 	if(play === 1) {
 		audio.play();
-		$(".play-img").attr('src', 'img/pause.svg');
+		$("#play-img").addClass('hidden');
+		$("#pause-img").removeClass('hidden');
 	} else {
 		audio.pause();
-		$(".play-img").attr('src', 'img/play.svg');
+		$("#pause-img").addClass('hidden');
+		$("#play-img").removeClass('hidden');
 	}
 });
 
