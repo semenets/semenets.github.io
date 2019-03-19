@@ -10,7 +10,7 @@
 		a.setAttribute("class", "footer-menu-links")
 		a.appendChild(content)
 		xsMenu.appendChild(a)
-})
+});
 
 for(var i = 0; i <= xsMenuLinks.length; i++) {
 	var itemMenu = xsMenuLinks[i];
@@ -28,14 +28,14 @@ for(var i = 0; i <= xsMenuLinks.length; i++) {
 
 //home page "see all" button
 $(".see-all").on("click", function() {
-	$("#hidden-xs").removeClass("hidden-xs")
+	$(".hidden-xs").removeClass("hidden-xs")
 	$(this).remove()
 });
 
 
 //mobile menu
 (function() {
-	var xsMenu = document.getElementById("mobile-menu-ul");
+	var xsMenu = document.getElementById("mobile-menu-ul")
 	var xsMenuLinks = document.getElementsByClassName("mobile-menu-links")
 
 	$(".item-red-menu").each(function() {
@@ -48,10 +48,10 @@ $(".see-all").on("click", function() {
 		a.appendChild(content)
 		a.appendChild(i)
 		xsMenu.appendChild(a)
-})
+});
 
 for(var i = 0; i <= xsMenuLinks.length; i++) {
-	var itemMenu = xsMenuLinks[i];
+	var itemMenu = xsMenuLinks[i]
 	if (i === 0) itemMenu.setAttribute("href", "news.html")
 	if (i === 1) itemMenu.setAttribute("href", "label.html")
 	if (i === 2) itemMenu.setAttribute("href", "user_profile.html")
@@ -67,18 +67,12 @@ for(var i = 0; i <= xsMenuLinks.length; i++) {
 
 
 //mobile menu button
-var button = 0;
-var displayNone = new Array ('display-none ', '');
-var mobileMenuButton = new Array ('mobile-menu-button', 'mobile-menu-button-position');
+var button = 0
+var displayNone = new Array ('display-none ', '')
+var mobileMenuButton = new Array ('mobile-menu-button', 'mobile-menu-button-position')
 
 $("#mobile-menu-button").click(function() {
-	button = button === 0 ? 1 : 0;
-	$('#mobile-menu').attr('class', displayNone[button]);
-
-	$(this).attr('id', mobileMenuButton[button]);
-})
-
-
-
-
-
+	button = button === 0 ? 1 : 0
+	$('#mobile-menu').attr('class', displayNone[button])
+	$(this).attr('id', mobileMenuButton[button])
+});
