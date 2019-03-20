@@ -42,21 +42,29 @@ $("#mobile-menu-button").click(function() {
 
 //right section and menu
 var windowWidth = $(window).width()
-var rightSectionWidth = windowWidth - 292
-var rightSectionHeight = $("#right-section").height();
+var rightSectionWidth = windowWidth - 288
+var rightSectionHeight = $("#right-section").height()
+var mainBackgroundHeight = $(".main-background").height()
 $("#right-section").width(rightSectionWidth)
 
 $(window).resize(function() {
 	var windowWidth = $(window).width();
-	var rightSectionWidth = windowWidth - 292
+	var rightSectionWidth = windowWidth - 288
 	$("#right-section").width(rightSectionWidth)
-})
 
-$(".left-menu").height(rightSectionHeight - 50)
+	if($(window).width() < 767) {
+		$(".img-overlay").width(windowWidth)
+		$(".img-overlay-white").width(windowWidth)
+	}
+});
 
+if($(window).width() < 767) {
+	$("#left-menu").height(mainBackgroundHeight)
+};
 
 //for IE (on mobile)
 if($(window).width() < 767) {
 	$(".img-overlay").width(windowWidth)
+	$(".img-overlay-white").width(windowWidth)
 };
 
