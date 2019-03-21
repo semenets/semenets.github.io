@@ -46,6 +46,7 @@ var rightSectionWidth = windowWidth - 288
 var rightSectionHeight = $("#right-section").height()
 var mainBackgroundHeight = $(".main-background").height()
 $("#right-section").width(rightSectionWidth)
+var sectionLastActivity = $(".section-last-activity").height()
 
 $(window).resize(function() {
 	var windowWidth = $(window).width();
@@ -62,9 +63,28 @@ if($(window).width() < 767) {
 	$("#left-menu").height(mainBackgroundHeight)
 };
 
+$(".img-overlay").height(rightSectionHeight)
+
 //for IE (on mobile)
 if($(window).width() < 767) {
 	$(".img-overlay").width(windowWidth)
 	$(".img-overlay-white").width(windowWidth)
 };
 
+//artist page
+$(".activity-xs").on("click", function() {
+	$(".about-artist-section").addClass("xs-display-none")
+	$(".contract-button").addClass("xs-display-none")
+	$(".section-last-activity").removeClass("xs-display-none")
+	$(".artist-xs").removeClass("xs-border-bottom")
+	$(".activity-xs").addClass("xs-border-bottom")
+})
+
+$(".artist-xs").on("click", function() {
+	$(".about-artist-section").removeClass("xs-display-none")
+	$(".contract-button").removeClass("xs-display-none")
+	$(".section-last-activity").addClass("xs-display-none")
+	$(".artist-xs").addClass("xs-border-bottom")
+	$(".activity-xs").removeClass("xs-border-bottom")
+
+});
