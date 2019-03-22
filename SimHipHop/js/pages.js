@@ -86,5 +86,28 @@ $(".artist-xs").on("click", function() {
 	$(".section-last-activity").addClass("xs-display-none")
 	$(".artist-xs").addClass("xs-border-bottom")
 	$(".activity-xs").removeClass("xs-border-bottom")
-
 });
+
+
+//trades page
+if($(window).width() < 767) {
+	$(".xs-offers").on("click", function() {
+		$(".offers").removeClass("xs-display-none")
+		$(".make-and-offer-block").addClass("xs-display-none")
+		$(".height").css("height", "auto")
+		$(".make").removeClass("border-bottom-trades")
+		$(".xs-offers").addClass("border-bottom-trades")
+		$("#left-menu").height(730)
+	})
+
+	$(".make").on("click", function() {
+		$(".offers").addClass("xs-display-none")
+		$(".make-and-offer-block").removeClass("xs-display-none")
+		$(".height").css("height", "none")
+		$("#left-menu").css("height", "auto")
+		$(".make").addClass("border-bottom-trades")
+		$(".xs-offers").removeClass("border-bottom-trades")
+		$("#left-menu").height(rightSectionHeight)
+	})
+};
+

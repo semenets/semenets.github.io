@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
 }
 
 /* Home page */
@@ -44,7 +45,7 @@
 		width: 990px;
 	}
 	.top-black-menu-background .top-black-menu .top-black-menu-logo {
-		margin-right: 55px;
+		margin-right: 38px;
 	}
 }
 
@@ -62,10 +63,10 @@
 		width: 760px;
 	}
 	.top-black-menu-background .top-black-menu .top-black-menu-logo {
-		margin-right: 15px;
+		margin-right: -3px;
 	}
 	.top-black-menu-background .top-black-menu .top-black-menu-items li {
-		padding: 0 18px;
+		padding: 0 15px;
 	}
 }
 
@@ -185,7 +186,7 @@
 	color: #fff;
 	font-size: 36px;
 	width: 300px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .home-main-photo-section .home-gradient-section .join-button {
@@ -512,7 +513,7 @@
 .breaking-news-section .title {
 	font-weight: bold;
 	font-size: 30px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	padding: 46px 0;
 }
 
@@ -571,7 +572,7 @@
 	font-size: 18px;
 	color: #333;
 	margin-top: 68px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 @media only screen and (max-width: 991px) {
@@ -585,7 +586,7 @@
 	margin-top: 32px;
 	margin-bottom: 36px;
 	width: 80%;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -615,7 +616,7 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	margin-top: 60px;
 }
 
@@ -729,7 +730,7 @@
 }
 
 .footer .footer-section .footer-col1 {
-	width: 415px;
+	width: 412px;
 	display: inline-block;
 	vertical-align: top;
 	padding-top: 7px;
@@ -757,7 +758,7 @@
 	font-size: 14px;
 	text-decoration: none;
 	line-height: 30px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .footer .footer-section .music-industry {
@@ -777,7 +778,7 @@
 .footer .footer-section .footer-col4 {
 	font-size: 14px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .footer .footer-section .footer-col4 div {
@@ -789,7 +790,7 @@
 		width: 990px;
 	}
 	.footer .footer-section .footer-col1 {
-		width: 285px;
+		width: 282px;
 	}
 	.footer .footer-section .footer-col2-and-col3 {
 		width: 220px;
@@ -807,7 +808,22 @@
 		width: 120px;
 	}
 	.footer .footer-section .footer-col4 {
-		width: 280px;
+		width: 275px;
+	}
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.footer .footer-section .music-industry, .footer .footer-section .footer-col4, .footer .footer-section .all-rights {
+		font-size: 24px;
+	}
+	.footer .footer-section .footer-col1 {
+		width: 300px;
+	}
+	.footer .footer-section .footer-col4 {
+		width: 340px;
+	}
+	.footer .footer-section .all-rights {
+		font-weight: 200;
 	}
 }
 
@@ -855,6 +871,29 @@
 	.footer .footer-section .footer-col4 div:nth-child(3):first-letter {
 		text-transform: uppercase;
 	}
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.column .column-indent .description-img, .column .column-indent .title-of-img, .breaking-news-section .coverage-section .link-coverage,
+	.breaking-news-section .coverage-section .coverage {
+		font-size: 28px;
+	}
+	.breaking-news-section .coverage-section .coverage-description {
+		font-size: 32px;
+		width: 100%;
+	}
+	.play-section-home .artist-column:last-child .description {
+		font-size: 32px;
+		width: 320px;
+	
+	}
+	.play-section-home .artist-column .description {
+		font-size: 32px;
+	}
+	.play-section-home .title {
+		font-size: 36px;
+	}
+	
 }
 
 
@@ -953,7 +992,7 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .invite-friends-section .fas-fa-envelope {
@@ -991,7 +1030,7 @@
 	width: 222px;
 	margin-left: 25px;
 	margin-bottom: 50px;
-	letter-spacing: 1px;
+/* letter-spacing: 1px;	 */
 }
 
 .left-menu .m_fisher img {
@@ -1027,7 +1066,7 @@
 	background-color: #2d2d2d;
 	margin-bottom: 8px;
 	padding-left: 15px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .left-menu .left-menu-ul .fas-fa-angle-right {
@@ -1168,18 +1207,19 @@
 	border: none;
 	outline: none;
 	font-size: 16px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
-.form-section .field-section .user-input::-webkit-input-placeholder {font-size: 16px; font-weight: 600; letter-spacing: 1px; opacity: 1;}
-.form-section .field-section .user-input::-moz-placeholder          {font-size: 16px; font-weight: 600; letter-spacing: 1px; opacity: 1;}/* Firefox 19+ */
-.form-section .field-section .user-input:-moz-placeholder           {font-size: 16px; font-weight: 600; letter-spacing: 1px; opacity: 1;}/* Firefox 18- */
-.form-section .field-section .user-input:-ms-input-placeholder      {font-size: 16px; font-weight: 600; letter-spacing: 1px; opacity: 1;}
+.form-section .field-section .user-input::-webkit-input-placeholder {font-size: 16px; color:#000; font-weight: 600; letter-spacing: 1px; opacity: 1;}
+.form-section .field-section .user-input::-moz-placeholder          {font-size: 16px; color:#000; font-weight: 600; letter-spacing: 1px; opacity: 1;}/* Firefox 19+ */
+.form-section .field-section .user-input:-moz-placeholder           {font-size: 16px; color:#000; font-weight: 600; letter-spacing: 1px; opacity: 1;}/* Firefox 18- */
+.form-section .field-section .user-input:-ms-input-placeholder      {font-size: 16px; color:#000; font-weight: 600; letter-spacing: 1px; opacity: 1;}
 
 .form-section .field-section .unique-name {
 	font-size: 16px;
 	margin-top: 3px;
 	color: #9a9999;
+	/* letter-spacing: 1px; */
 	font-family: 'Fira Sans', sans-serif;
 }
 
@@ -1201,7 +1241,7 @@
 	background-color: #993333;
 	border-radius: 10px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -1217,7 +1257,7 @@
 	}
 	.form-section .field-section {
 		width: 90%;
-		margin-left: 1%;
+		margin-left: 0px;
 	}
 	.form-section .field-section .user-input {
 		width: 46%;
@@ -1246,6 +1286,49 @@
 		position: relative;
 		bottom: 50px;
 	}
+	.form-section .field-section .save-button {
+		text-transform: lowercase;
+	}
+	.form-section .field-section .save-button:first-letter {
+		text-transform: uppercase;
+	}
+	.form-section .field-section {
+		width: 99%;
+	}
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.right-section .m_fisher-section .fisher-button-and-logo .m_fisher {
+		font-size: 36px;
+	}
+	.right-section .m_fisher-section .fisher-button-and-logo .budget-and-level {
+		font-size: 32px;
+	}
+	.right-section .m_fisher-section .fisher-button-and-logo .m_fisher {
+		padding-top: 10px;
+	}
+	.right-section .m_fisher-section .fisher-button-and-logo .log-out, .form-section .profile-info,
+	.form-section .field-section .user-name, .form-section .field-section .user-input, .form-section .field-section .save-button {
+		font-size: 32px;
+	}
+	.form-section .field-section .user-input::-webkit-input-placeholder {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}
+.form-section .field-section .user-input::-moz-placeholder            {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}/* Firefox 19+ */
+.form-section .field-section .user-input:-moz-placeholder             {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}/* Firefox 18- */
+.form-section .field-section .user-input:-ms-input-placeholder        {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}
+
+	.form-section .field-section .user-input {
+		height: 56px;
+	}
+	.form-section .user-input-right {
+		top: 97px;
+	}
+	.form-section .field-section .save-button {
+		margin-top: 30px;
+	}
+	.form-section .field-section .unique-name {
+		font-size: 24px;
+	}
+
 }
 
 
@@ -1256,7 +1339,7 @@
 	border-bottom: 2px solid #000;
 	font-size: 21px;
 	font-weight: bold;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	padding-bottom: 15px;
 }
 
@@ -1304,7 +1387,7 @@
 	font-size: 16px;
 	font-weight: bold;
 	color: #4f4f4f;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .container .description {
@@ -1313,7 +1396,7 @@
 	font-size: 18px;
 	font-weight: bold;
 	color: #000;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	overflow: hidden;
 }
 
@@ -1351,6 +1434,28 @@
 	.right-section .img-overlay-white .news-feed {
 		margin-left: 20px;
 	}
+	.right-section .container .col3 {
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.right-section .img-overlay-white .news-feed {
+		font-size: 36px;
+	}
+	.right-section .container .title {
+		font-size: 28px;
+		text-transform: lowercase;
+	}
+	.right-section .container .description {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.right-section .container .title:first-letter {
+		text-transform: uppercase;
+	}
 }
 
 @media only screen and (max-width: 560px) {
@@ -1368,7 +1473,7 @@
 	width: 510px;
 	font-size: 42px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	padding-bottom: 12px;
 	border-bottom: 4px solid #fff;
 }
@@ -1413,14 +1518,14 @@
 .right-section .invite-section .text-and-email span {
 	font-size: 36px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .invite-section .input-email {
 	height: 70px;
 	font-size: 32px;
 	font-weight: bold;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	width: 100%;
 	border-radius: 12px;
 	border: none;
@@ -1463,7 +1568,7 @@
 
 .right-section .invite-section .share {
 	font-size: 36px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	color: #fff;
 	padding: 40px 0;
 	text-align: center;
@@ -1501,7 +1606,7 @@
 
 /* label page */
 .right-section .img-overlay .label-section {
-	width: 900px;
+	width: 902px;
 	margin: 0 auto;
 }
 
@@ -1568,7 +1673,7 @@
 	color: #fff;
 	text-align: center;
 	border-bottom: 2px solid #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	margin-bottom: 22px;
 }
 
@@ -1591,7 +1696,7 @@
 	font-size: 18px;
 	color: #fff;
 	padding-top: 18px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .label-column .records-artists .info-img {
@@ -1611,7 +1716,7 @@
 	border-radius: 8px;
 	padding-left: 20px;
 	margin-bottom: 20px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .label-column .input-search::-webkit-input-placeholder {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
@@ -1647,6 +1752,49 @@
 ::-webkit-scrollbar-corner { background-color: #bdbdbd;}
 ::-webkit-resizer { background-color: #bdbdbd;}
 
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.right-section .img-overlay .label-column .label-text,
+	.right-section .img-overlay .label-column .records {
+		font-size: 42px;
+	}
+	.right-section .img-overlay .label-column .records {
+		padding-top: 30px !important;
+		padding-left: 10px;
+		width: 29%;
+	}
+	.right-section .img-overlay .label-column .records-artists .records-text {
+		font-size: 36px;
+	}
+	.right-section .img-overlay .label-column .records-artists {
+		width: 430px;
+	}
+	.right-section .img-overlay .label-column .records-artists .artist-image {
+		margin-top: 20px;
+	}
+	.right-section .img-overlay .label-column .section .artists-column .about-artist .savage {
+		font-size: 36px !important;
+	}
+	.right-section .img-overlay .label-column .section .artists-column .about-artist .popularity-and-price,
+	.right-section .img-overlay .label-column .section .artists-column .about-artist .sign-button {
+		font-size: 32px !important;
+	}
+	.right-section .img-overlay .label-column .section .artists-column .about-artist {
+		height: auto;
+		margin-bottom: 35px;
+	}
+	.right-section .img-overlay .label-column .section .artists-column .about-artist .sign-button {
+		display: block;
+		margin: 0 auto;
+	}
+	.right-section .img-overlay .label-column .section .artists-column .info-img {
+		top: 45px !important;
+	}
+	.right-section .img-overlay .label-column .input-search {
+		width: 90%;
+	}
+
+}
+
 @media only screen and (max-width: 767px) {
 	.right-section .img-overlay .label-section .section-img-and-sugar-text {
 		width: 350px;
@@ -1654,15 +1802,16 @@
 	}
 	.right-section .img-overlay .label-column .section .sugar-hill {
 		display: inline-block;
-		width: 49%;
 
 	}
 	.right-section .img-overlay .label-column .records {
 		display: inline-block;
-		width: 49%;
 		vertical-align: top;
 		padding-top: 75px;
 		border: none;
+	}
+	.right-section .img-overlay .label-column .section {
+		padding-bottom: 15px;
 	}
 }
 
@@ -1671,7 +1820,7 @@
 		width: 240px;
 	}
 	.right-section .img-overlay .label-column .records {
-		padding-top: 40px;
+		padding-top: 10px;
 	}
 }
 
@@ -1692,7 +1841,7 @@
 	margin-top: 20px;
 	padding: 5px 20px;
 	font-size: 16px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border-radius: 12px;
 	background-color: #993333;
 	border: none;
@@ -1740,6 +1889,14 @@
 	.right-section .img-overlay .label-column .section-right {
 		padding: 5px;
 	}
+	.right-section .img-overlay .label-column .section .artists-column .about-artist {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.right-section .img-overlay .label-column .section .sugar-hill {
+		display: block;
+	}
+
 }
 
 
@@ -1760,7 +1917,7 @@
 	padding-bottom: 15px;
 	color: #fff;
 	text-decoration: none;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .artist-section .fas-fa-chevron-left {
@@ -1798,7 +1955,7 @@
 .right-section .img-overlay .artist-section .artist-info .title {
 	font-size: 30px;
 	color: #000;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	text-align: center;
 	margin-bottom: 25px;
 }
@@ -1806,7 +1963,7 @@
 .right-section .img-overlay .artist-section .artist-info .info {
 	font-size: 18px;
 	color: #000;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .artist-section .artist-info .popularity-line {
@@ -1894,7 +2051,7 @@
 .right-section .img-overlay .artist-section .activity-section .contract-button {
 	font-size: 18px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border: 3px solid #fff;
 	border-radius: 8px;
 	float: right;
@@ -1910,7 +2067,7 @@
 	color: #fff;
 	margin-top: 30px;
 	margin-bottom: 20px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .artist-section .section-last-activity {
@@ -1985,6 +2142,26 @@
 	}
 }
 
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.right-section .img-overlay .artist-section .section-last-activity .activity .date,
+	.right-section .img-overlay .artist-section .section-last-activity .activity .info,
+	.right-section .img-overlay .artist-section .section-last-activity .popularity {
+		font-size: 32px;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .activity .date {
+		width: 15%;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .activity .info {
+		width: 50%;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .popularity {
+		width: 15%;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .img {
+		width: 5%;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	.right-section .img-overlay .artist-section .back,
 	.right-section .img-overlay .artist-section .artist-info .top-number,
@@ -1996,10 +2173,14 @@
 		color: #fff;
 		text-decoration: none;
 		padding-bottom: 5px;
-		letter-spacing: 1px;
+		/* letter-spacing: 1px; */
 		background: none;
 		outline: none;
 
+	}
+
+	.right-section .img-overlay .artist-section .artist-info .title {
+		font-size: 36px;
 	}
 
 	.xs-border-bottom {
@@ -2011,7 +2192,7 @@
 		color: #fff;
 		text-decoration: none;
 		padding-bottom: 5px;
-		letter-spacing: 1px;
+		/* letter-spacing: 1px; */
 		float: right;
 		background: none;
 		outline: none;
@@ -2041,6 +2222,7 @@
 		margin-top: 30px;
 		margin-bottom: 30px;
 		text-transform: lowercase;
+		font-size: 36px;
 	}
 	.right-section .img-overlay .artist-section .activity-section .contract-button::first-letter {
 		text-transform: uppercase;
@@ -2048,6 +2230,26 @@
 	.xs-display-none {
 		display: none !important;
 	}
+	.right-section .img-overlay .artist-section .artist-info .info {
+		font-size: 32px;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .activity .date {
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 200;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .activity .info {
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 200;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .popularity {
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 200;
+	}
+	.right-section .img-overlay .artist-section .section-last-activity .img {
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 200;
+	}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -2073,7 +2275,7 @@
 	}
 	.artist-section .artist-xs, .artist-section .activity-xs {
 		font-size: 22px;
-		letter-spacing: 1px;
+		/* letter-spacing: 1px; */
 	}
 	.right-section .img-overlay .artist-section .artist-info .popularity-line {
 		width: 100%;
@@ -2082,6 +2284,13 @@
 	.right-section .img-overlay .artist-section .artist-info .popularity-line .popularity {
 		width: 61%;
 	}
+	.right-section .img-overlay .artist-section .artist-info .title {
+		font-size: 30px;
+	}
+	.right-section .img-overlay .artist-section .artist-info .info, .right-section .img-overlay .artist-section .activity-section .contract-button {
+		font-size: 22px;
+	}
+
 }
 
 
@@ -2089,33 +2298,47 @@
 .trades-section {
 	width: 900px;
 	margin: 0 auto;
-	background-color: lime;
+	/* background-color: lime; */
 	padding-top: 30px;
 }
 
 .trades-section .make-section {
 	display: inline-block;
 	width: 465px;
-	background-color: yellow;
+	/* background-color: yellow; */
 }
 
 .trades-section .make {
+	display: block;
 	font-size: 21px;
 	width: 250px;
-	border-bottom: 2px solid #fff;
 	padding-bottom: 5px;
+	margin-bottom: 18px;
+	border-bottom: 2px solid #fff;
 }
+
+@media only screen and (max-width: 768px) {
+	.trades-section .make {
+		border: none;
+	}
+}
+
+.border-bottom-trades {
+	border-bottom: 2px solid #fff !important;
+}
+
+
 
 .trades-section .offers {
 	display: inline-block;
 	width: 375px;
-	background-color: yellow;
+	/* background-color: yellow; */
 	float: right;
 }
 
 .trades-section .make-section .make-and-offer-block {
 	width: 100%;
-	background-color: gray;
+	background-color: rgba(0, 0, 0, 0.3);
 	padding: 18px 35px 30px 35px;
 }
 
@@ -2145,7 +2368,7 @@
 	border: 2px solid #fff;
 	color: #fff;
 	font-size: 21px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	outline: none;
 	padding-left: 15px;
 	border-radius: 10px;
@@ -2157,7 +2380,7 @@
 .trades-section .select .popularity {
 	font-size: 18px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	margin: 20px 0;
 }
 
@@ -2195,7 +2418,7 @@
 	border: 2px solid #fff;
 	color: #fff;
 	font-size: 21px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	outline: none;
 	padding-left: 15px;
 	border-radius: 10px;
@@ -2205,7 +2428,7 @@
 
 .trades-section .make-and-offer-block .checkbox-section {
 	width: 220px;
-	background-color: lime;
+	/* background-color: lime; */
 	margin: 22px auto;
 
 	-moz-user-select: none;
@@ -2220,7 +2443,7 @@
 
 .trades-section .make-and-offer-block .checkbox-section span {
 	font-size: 16px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 
 
 }
@@ -2266,7 +2489,7 @@ label .checkbox-trades {
 
 .trades-section .make-and-offer-block .amount span {
 	font-size: 16px;
-	letter-spacing: 1px;
+/* letter-spacing: 1px;	 */
 }
 
 .trades-section .make-and-offer-block .amount input[type="number"] {
@@ -2300,7 +2523,7 @@ label .checkbox-trades {
 	border-radius: 10px;
 	background-color: #993333;
 	border: none;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	outline: none;
 	cursor: pointer;
 
@@ -2309,14 +2532,14 @@ label .checkbox-trades {
 
 .trades-section .offers .offers-section {
 	width: 100%;
-	background-color: gray;
+	background-color: rgba(0, 0, 0, 0.3);
 	padding: 22px 25px;
 	margin-bottom: 35px;
 }
 
 .trades-section .offers .offers-section .title {
 	font-size: 18px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	color: #fff;
 	width: 275px;
 	border-bottom: 2px solid #fff;
@@ -2341,13 +2564,13 @@ label .checkbox-trades {
 
 .trades-section .offers .offers-section .description .savage {
 	font-size: 21px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	margin-bottom: 15px;
 }
 
 .trades-section .offers .offers-section .description {
 	font-size: 16px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .trades-section .offers .offers-section .buttons {
@@ -2363,7 +2586,7 @@ label .checkbox-trades {
 	
 	color: #fff;
 	font-size: 16px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border: none;
 	border-radius: 12px;
 	outline: none;
@@ -2388,7 +2611,7 @@ label .checkbox-trades {
 	padding: 8px 0;
 	font-size: 16px;
 	color: #fff;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border-radius: 12px;
 	background: none;
 	border: 2px solid #fff;
@@ -2410,12 +2633,219 @@ label .checkbox-trades {
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
-	.trades-section .make-and-offer-block .select-choose {
-		display: block;
-	}
+
 	.trades-section .make-and-offer-block .select-choose select {
 		animation-direction: block;
 		margin-left: 0;
-		width: 100%;
+		width: 390px;
+	}
+	.trades-section .make-and-offer-block .select:after {
+		right: 28px;
 	}
 }
+
+@media only screen and (max-width: 991px) {
+	.trades-section .make-and-offer-block select {
+		width: auto;
+	}
+	.trades-section .make-and-offer-block .select-choose select {
+		width: 317px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.trades-section .make-section .xs-offers {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.trades-section .offers .make, .trades-section .select .white-border {
+		display: none;
+	}
+	.trades-section .make {
+		display: inline-block;
+		width: 235px;
+		font-size: 36px;
+		/* letter-spacing: 1px; */
+		margin-left: 20px;
+	}
+	.trades-section .make-section .xs-offers {
+		display: inline-block;
+		float: right;
+		font-size: 21px;
+		width: 110px;
+		text-align: center;
+		padding-bottom: 5px;
+		font-size: 36px;
+		/* letter-spacing: 1px; */
+	}
+	.trades-section .make-and-offer-block .artist-image {
+		width: 30%;
+	}
+	.trades-section .make-and-offer-block .select {
+		width: 60%;
+	}
+	.trades-section .make-and-offer-block select {
+		width: 100%;
+	}
+	.trades-section .make-and-offer-block .select-choose {
+		width: 100%;
+	}
+	.trades-section .make-and-offer-block .select-choose select {
+		width: 100%;
+	}
+	.trades-section .make-section .xs-offers {
+		margin-right: 20px;
+	}
+	.trades-section .offers .offers-section:last-child {
+		margin-bottom: -30px;
+	}
+	
+
+
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.trades-section .select .popularity, .trades-section .make-and-offer-block select,.trades-section .make-and-offer-block .select-choose select,
+	.trades-section .make-and-offer-block .amount span,
+	.trades-section .make-and-offer-block .button-make {
+		font-size: 36px;
+	}
+
+	.trades-section .make-and-offer-block .amount input[type="number"]::-webkit-input-placeholder {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}
+.trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
+.trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
+.trades-section .make-and-offer-block .amount input[type="number"]::-ms-input-placeholder     {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}
+	
+.trades-section .make-and-offer-block select {
+	height: 48px;
+}
+.trades-section .make-and-offer-block .select:after {
+	top: 41px;
+}
+.trades-section .make-and-offer-block .checkbox-section span {
+	font-size: 32px;
+}
+.trades-section .make-and-offer-block .checkbox-section {
+	width: 320px;
+}
+.trades-section .make-and-offer-block .amount {
+	width: 100%;
+}
+.trades-section .make-and-offer-block .amount input[type="number"] {
+	height: 45px;
+}
+.trades-section .make-and-offer-block .select-choose select {
+		height: 50px;
+	}
+	.trades-section .make-and-offer-block .select-choose:after {
+		top: 43px;
+	}
+	.trades-section .offers .offers-section .title {
+		font-size: 36px;
+		width: 100%;
+	}
+	.trades-section .offers .offers-section .description .savage {
+		font-size: 36px;
+	}
+	.trades-section .offers .offers-section .description .popularity-and-price {
+		font-size: 32px;
+	}
+	.trades-section .offers .offers-section .buttons button {
+		font-size: 32px;
+	}
+	.trades-section .offers .offers-section .buttons {
+		width: 90%;
+	}
+	.trades-section .offers .offers-section .artist-profile {
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+		margin-top: 40px;
+
+	}
+	.trades-section .offers .offers-section .buttons .accept-button, .trades-section .offers .offers-section .buttons .decline-button {
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.trades-section .make-and-offer-block .artist-image {
+		display: block;
+		margin: 0 auto;
+		width: 80px;
+		margin-top: 22px;
+	}
+	.trades-section .make-and-offer-block .select {
+		margin-left: 10px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.trades-section .make-and-offer-block select {
+		width: 100%;
+
+	}
+	.trades-section .make-and-offer-block .select-choose select {
+		width: 100%;
+	}
+	.trades-section .make-and-offer-block .select-choose:after {
+		right: 10px;
+	}
+	label .checkbox-trades {
+		margin-right: 2px;
+	}
+	.trades-section .make-and-offer-block .checkbox-section {
+		width: 188px;
+	}
+	.trades-section .make-and-offer-block .amount {
+		width: 100%;
+	}
+	.trades-section .make-and-offer-block .amount input[type="number"] {
+		margin-left: 0;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.trades-section .make-and-offer-block .select-choose {
+		display: block;
+	}
+	.trades-section .offers .offers-section .artist-img-offers {
+		margin-left: 0;
+		width: 60px;
+	}
+	.trades-section .offers .offers-section .description {
+		margin-left: 10px;
+	}
+	.trades-section .offers .offers-section .title {
+		width: 100%;
+	}
+	.trades-section .offers .offers-section .accept-button {
+		padding: 8px 20px;
+	}
+	.trades-section .offers .offers-section .decline-button {
+		padding: 5px 20px;
+	}
+	.trades-section .offers .offers-section .buttons {
+		width: 206px;
+	}
+	.trades-section .make {
+		font-size: 22px;
+		width: 148px;
+		margin-left: 0px;
+	}
+	.trades-section .make-section .xs-offers {
+		font-size: 22px;
+	}
+	.trades-section .make-section .xs-offers {
+		margin-right: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
