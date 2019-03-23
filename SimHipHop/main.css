@@ -186,7 +186,6 @@
 	color: #fff;
 	font-size: 36px;
 	width: 300px;
-	/* letter-spacing: 1px; */
 }
 
 .home-main-photo-section .home-gradient-section .join-button {
@@ -194,6 +193,8 @@
 	font-size: 30px;
 	background: #9f3333;
 	padding: 10px 38px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	color: #fff;
 	border: none;
@@ -398,6 +399,8 @@
 .log-in .log-in-section .login-form .input-email {
 	height: 35px;
 	width: 280px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	border: none;
 	margin-bottom: 20px;
@@ -413,6 +416,8 @@
 	color: #fff;
 	background-color: #9f3333;
 	padding: 10px 40px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	border: none;
 	outline: none;
@@ -453,6 +458,8 @@
 	color: #fff;
 	font-size: 32px;
 	border: 4px solid #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	background: transparent;
 	outline: none;
@@ -499,6 +506,8 @@
 	font-size: 24px;
 	background: transparent;
 	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	letter-spacing: 2px;
 }
@@ -513,7 +522,6 @@
 .breaking-news-section .title {
 	font-weight: bold;
 	font-size: 30px;
-	/* letter-spacing: 1px; */
 	padding: 46px 0;
 }
 
@@ -572,7 +580,6 @@
 	font-size: 18px;
 	color: #333;
 	margin-top: 68px;
-	/* letter-spacing: 1px; */
 }
 
 @media only screen and (max-width: 991px) {
@@ -586,7 +593,6 @@
 	margin-top: 32px;
 	margin-bottom: 36px;
 	width: 80%;
-	/* letter-spacing: 1px; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -616,8 +622,6 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
-	/* letter-spacing: 1px; */
-	margin-top: 60px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -758,7 +762,6 @@
 	font-size: 14px;
 	text-decoration: none;
 	line-height: 30px;
-	/* letter-spacing: 1px; */
 }
 
 .footer .footer-section .music-industry {
@@ -778,7 +781,6 @@
 .footer .footer-section .footer-col4 {
 	font-size: 14px;
 	color: #fff;
-	/* letter-spacing: 1px; */
 }
 
 .footer .footer-section .footer-col4 div {
@@ -851,7 +853,6 @@
 	}
 	.footer .footer-section .music-industry {
 		width: auto;
-
 	}
 
 	.footer .footer-section .music-industry:first-letter {
@@ -865,7 +866,6 @@
 	}
 	.footer .footer-section .footer-col4 {
 		float: right;
-
 	}
 	.footer .footer-section .footer-col4 div:nth-child(1):first-letter,
 	.footer .footer-section .footer-col4 div:nth-child(3):first-letter {
@@ -885,7 +885,6 @@
 	.play-section-home .artist-column:last-child .description {
 		font-size: 32px;
 		width: 320px;
-	
 	}
 	.play-section-home .artist-column .description {
 		font-size: 32px;
@@ -893,7 +892,6 @@
 	.play-section-home .title {
 		font-size: 36px;
 	}
-	
 }
 
 
@@ -930,6 +928,10 @@
 }
 
 .display-none, select::-ms-expand {
+	display: none;
+}
+
+.display-none {
 	display: none;
 }
 
@@ -983,16 +985,17 @@
 	display: inline-block;
 	margin: 0 auto;
 	margin-top: 40px;
-	margin-bottom: 107px;
+	margin-bottom: 105px;
 	padding: 8px 18px;
 	background-color: #9f3333;
 	color: #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	border-radius: 8px;
 	font-size: 18px;
 	text-decoration: none;
 	border: none;
 	outline: none;
-	/* letter-spacing: 1px; */
 }
 
 .invite-friends-section .fas-fa-envelope {
@@ -1030,7 +1033,6 @@
 	width: 222px;
 	margin-left: 25px;
 	margin-bottom: 50px;
-/* letter-spacing: 1px;	 */
 }
 
 .left-menu .m_fisher img {
@@ -1066,7 +1068,6 @@
 	background-color: #2d2d2d;
 	margin-bottom: 8px;
 	padding-left: 15px;
-	/* letter-spacing: 1px; */
 }
 
 .left-menu .left-menu-ul .fas-fa-angle-right {
@@ -1091,7 +1092,6 @@
 .img-overlay {
 	margin: 0 auto;
 	color: #fff;
-	/* background-color: rgba(255, 255, 255, 0.11); */
 	min-height: 770px;
 }
 
@@ -1104,7 +1104,6 @@
 	.right-section {
 		background-color: transparent !important;
 	}
-
 }
 
 .right-section .sections {
@@ -1164,6 +1163,8 @@
 	background-color: #e8e8e8;
 	font-size: 18px;
 	font-weight: 600;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	border: none;
 	outline: none;
@@ -1203,11 +1204,12 @@
 	padding-left: 22px;
 	background-color: #e8e8e8;
 	width: 300px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	border: none;
 	outline: none;
 	font-size: 16px;
-	/* letter-spacing: 1px; */
 }
 
 .form-section .field-section .user-input::-webkit-input-placeholder {font-size: 16px; color:#000; font-weight: 600; letter-spacing: 1px; opacity: 1;}
@@ -1219,7 +1221,6 @@
 	font-size: 16px;
 	margin-top: 3px;
 	color: #9a9999;
-	/* letter-spacing: 1px; */
 	font-family: 'Fira Sans', sans-serif;
 }
 
@@ -1239,9 +1240,10 @@
 	font-size: 20px;
 	font-weight: 600;
 	background-color: #993333;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	color: #fff;
-	/* letter-spacing: 1px; */
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -1312,9 +1314,9 @@
 		font-size: 32px;
 	}
 	.form-section .field-section .user-input::-webkit-input-placeholder {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}
-.form-section .field-section .user-input::-moz-placeholder            {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}/* Firefox 19+ */
-.form-section .field-section .user-input:-moz-placeholder             {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}/* Firefox 18- */
-.form-section .field-section .user-input:-ms-input-placeholder        {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}
+	.form-section .field-section .user-input::-moz-placeholder            {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}/* Firefox 19+ */
+	.form-section .field-section .user-input:-moz-placeholder             {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}/* Firefox 18- */
+	.form-section .field-section .user-input:-ms-input-placeholder        {font-size: 32px; font-weight: 400; letter-spacing: 1px; opacity: 1;}
 
 	.form-section .field-section .user-input {
 		height: 56px;
@@ -1328,7 +1330,6 @@
 	.form-section .field-section .unique-name {
 		font-size: 24px;
 	}
-
 }
 
 
@@ -1339,7 +1340,6 @@
 	border-bottom: 2px solid #000;
 	font-size: 21px;
 	font-weight: bold;
-	/* letter-spacing: 1px; */
 	padding-bottom: 15px;
 }
 
@@ -1387,7 +1387,6 @@
 	font-size: 16px;
 	font-weight: bold;
 	color: #4f4f4f;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .container .description {
@@ -1396,7 +1395,6 @@
 	font-size: 18px;
 	font-weight: bold;
 	color: #000;
-	/* letter-spacing: 1px; */
 	overflow: hidden;
 }
 
@@ -1460,20 +1458,20 @@
 
 @media only screen and (max-width: 560px) {
 	.right-section .container .section-in-game-img {
-		height: 90px;
+		height: 100px;
 		width: 170px;
 	}
 	.right-section .container .col1, .right-section .container .col2, .right-section .container .col3 {
-		min-height: 90px;
+		min-height: 102px;
 	}
 }
+
 
 /* invite-friends page */
 #right-section .img-overlay .sections-invite .invite-friends {
 	width: 510px;
 	font-size: 42px;
 	color: #fff;
-	/* letter-spacing: 1px; */
 	padding-bottom: 12px;
 	border-bottom: 4px solid #fff;
 }
@@ -1518,15 +1516,15 @@
 .right-section .invite-section .text-and-email span {
 	font-size: 36px;
 	color: #fff;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .invite-section .input-email {
 	height: 70px;
 	font-size: 32px;
 	font-weight: bold;
-	/* letter-spacing: 1px; */
 	width: 100%;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	border: none;
 	outline: none;
@@ -1537,8 +1535,8 @@
 
 .right-section .invite-section .input-email::-webkit-input-placeholder {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
 .right-section .invite-section .input-email::-moz-placeholder          {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 19+ */
-.right-section .invite-section .input-email::-moz-placeholder           {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
-.right-section .invite-section .input-email::-ms-input-placeholder     {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
+.right-section .invite-section .input-email:-moz-placeholder           {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
+.right-section .invite-section .input-email:-ms-input-placeholder     {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
 
 .right-section .invite-section .button-send {
 	display: block;
@@ -1549,8 +1547,11 @@
 	color: #fff;
 	border: none;
 	outline: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	margin-top: 32px;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 560px) {
@@ -1568,7 +1569,6 @@
 
 .right-section .invite-section .share {
 	font-size: 36px;
-	/* letter-spacing: 1px; */
 	color: #fff;
 	padding: 40px 0;
 	text-align: center;
@@ -1584,6 +1584,8 @@
 	display: inline-block;
 	height: 95px;
 	width: 95px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
 .right-section .invite-section .icons-section .link-facebook {
@@ -1673,7 +1675,6 @@
 	color: #fff;
 	text-align: center;
 	border-bottom: 2px solid #fff;
-	/* letter-spacing: 1px; */
 	margin-bottom: 22px;
 }
 
@@ -1696,7 +1697,6 @@
 	font-size: 18px;
 	color: #fff;
 	padding-top: 18px;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .label-column .records-artists .info-img {
@@ -1713,16 +1713,17 @@
 	width: 330px;
 	margin-left: 25px;
 	height: 35px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	border-radius: 8px;
 	padding-left: 20px;
 	margin-bottom: 20px;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .label-column .input-search::-webkit-input-placeholder {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
 .right-section .img-overlay .label-column .input-search::-moz-placeholder          {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 19+ */
-.right-section .img-overlay .label-column .input-search::-moz-placeholder          {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
-.right-section .img-overlay .label-column .input-search::-ms-input-placeholder     {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
+.right-section .img-overlay .label-column .input-search:-moz-placeholder          {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
+.right-section .img-overlay .label-column .input-search:-ms-input-placeholder     {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #000; opacity: 1;}
 
 .right-section .img-overlay .label-column .section-right {
 	height: 570px;
@@ -1748,7 +1749,7 @@
 ::-webkit-scrollbar-button {  background-color: #bdbdbd; }
 ::-webkit-scrollbar-track {  background-color: #bdbdbd;}
 ::-webkit-scrollbar-track-piece { background-color: rgba(0, 0, 0, 0.8)}
-::-webkit-scrollbar-thumb {background-color: #bdbdbd; border-radius: 12px;}
+::-webkit-scrollbar-thumb {background-color: #bdbdbd; border-radius: 12px; 	-moz-border-radius: 12px; -webkit-border-radius: 12px;}
 ::-webkit-scrollbar-corner { background-color: #bdbdbd;}
 ::-webkit-resizer { background-color: #bdbdbd;}
 
@@ -1792,7 +1793,6 @@
 	.right-section .img-overlay .label-column .input-search {
 		width: 90%;
 	}
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -1841,7 +1841,8 @@
 	margin-top: 20px;
 	padding: 5px 20px;
 	font-size: 16px;
-	/* letter-spacing: 1px; */
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	background-color: #993333;
 	border: none;
@@ -1896,7 +1897,6 @@
 	.right-section .img-overlay .label-column .section .sugar-hill {
 		display: block;
 	}
-
 }
 
 
@@ -1905,7 +1905,6 @@
 	position: relative;
 	width: 915px;
 	margin: 0 auto;
-	/* background-color: lime; */
 	top: 30px;
 }
 
@@ -1917,7 +1916,6 @@
 	padding-bottom: 15px;
 	color: #fff;
 	text-decoration: none;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .artist-section .fas-fa-chevron-left {
@@ -1935,6 +1933,8 @@
 	margin-top: 15px;
 	padding-top: 25px;
 	padding-bottom: 30px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 }
 
@@ -1949,13 +1949,14 @@
 	margin: 0 auto;
 	background-color: rgba(204, 178, 178, 0.8);
 	padding: 25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 }
 
 .right-section .img-overlay .artist-section .artist-info .title {
 	font-size: 30px;
 	color: #000;
-	/* letter-spacing: 1px; */
 	text-align: center;
 	margin-bottom: 25px;
 }
@@ -1963,13 +1964,14 @@
 .right-section .img-overlay .artist-section .artist-info .info {
 	font-size: 18px;
 	color: #000;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .artist-section .artist-info .popularity-line {
 	width: 250px;
 	height: 15px;
 	background-color: #acacac;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
 	border-radius: 20px;
 	border: 1px solid #000;
 	margin-top: 15px;
@@ -1979,6 +1981,8 @@
 	width: 170px;
 	height: 13px;
 	background-color: #671d54;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
 	border-radius: 20px;
 	border: none;
 }
@@ -1989,7 +1993,6 @@
 	top: 65px;
 	height: 110px;
 	width: 80px;
-	/* background-color: lime; */
 }
 
 .right-section .img-overlay .artist-section .artist-info .top-number div {
@@ -2009,7 +2012,6 @@
 	top: 20px;
 	right: 30px;
 	width: 35px;
-	/* background-color: yellow; */
 }
 
 .right-section .img-overlay .artist-section .facebook-round {
@@ -2017,6 +2019,8 @@
 	width: 35px;
 	height: 35px;
 	background-color: #0d5298;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	margin-bottom: 20px;
 }
@@ -2026,11 +2030,11 @@
 	width: 35px;
 	height: 35px;
 	background-color: #0ea5dd;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	margin-top: 20px;
 }
-
-
 
 .right-section .img-overlay .artist-section .fab-fa-f {
 	display: block;
@@ -2042,7 +2046,6 @@
 
 .right-section .img-overlay .artist-section .activity-section {
 	width: 460px;
-	/* background-color: blue; */
 	display: inline-block;
 	vertical-align: top;
 	float: right;
@@ -2051,8 +2054,9 @@
 .right-section .img-overlay .artist-section .activity-section .contract-button {
 	font-size: 18px;
 	color: #fff;
-	/* letter-spacing: 1px; */
 	border: 3px solid #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	border-radius: 8px;
 	float: right;
 	background: transparent;
@@ -2067,18 +2071,18 @@
 	color: #fff;
 	margin-top: 30px;
 	margin-bottom: 20px;
-	/* letter-spacing: 1px; */
 }
 
 .right-section .img-overlay .artist-section .section-last-activity {
 	background-color: rgba(0, 0, 0, 0.3);
 	padding: 2px 15px 10px 15px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	margin-bottom: 50px;
 }
 
 .right-section .img-overlay .artist-section .section-last-activity .activity {
-	/* background-color: lime; */
 	margin-top: 20px;
 }
 
@@ -2105,7 +2109,6 @@
 	font-size: 18px;
 	color: #fff;
 	vertical-align: top;
-
 }
 
 .right-section .img-overlay .artist-section .section-last-activity .img {
@@ -2116,7 +2119,6 @@
 	.right-section .img-overlay .artist-section {
 		width: 90%;
 	}
-
 	.right-section .img-overlay .artist-section .about-artist-section,
 	.right-section .img-overlay .artist-section .activity-section,
 	.right-section .img-overlay .artist-section .section-last-activity .activity {
@@ -2173,10 +2175,8 @@
 		color: #fff;
 		text-decoration: none;
 		padding-bottom: 5px;
-		/* letter-spacing: 1px; */
 		background: none;
 		outline: none;
-
 	}
 
 	.right-section .img-overlay .artist-section .artist-info .title {
@@ -2192,7 +2192,6 @@
 		color: #fff;
 		text-decoration: none;
 		padding-bottom: 5px;
-		/* letter-spacing: 1px; */
 		float: right;
 		background: none;
 		outline: none;
@@ -2249,7 +2248,6 @@
 		font-family: 'Fira Sans', sans-serif;
 		font-weight: 200;
 	}
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -2275,7 +2273,6 @@
 	}
 	.artist-section .artist-xs, .artist-section .activity-xs {
 		font-size: 22px;
-		/* letter-spacing: 1px; */
 	}
 	.right-section .img-overlay .artist-section .artist-info .popularity-line {
 		width: 100%;
@@ -2290,7 +2287,6 @@
 	.right-section .img-overlay .artist-section .artist-info .info, .right-section .img-overlay .artist-section .activity-section .contract-button {
 		font-size: 22px;
 	}
-
 }
 
 
@@ -2298,14 +2294,12 @@
 .trades-section {
 	width: 900px;
 	margin: 0 auto;
-	/* background-color: lime; */
 	padding-top: 30px;
 }
 
 .trades-section .make-section {
 	display: inline-block;
 	width: 465px;
-	/* background-color: yellow; */
 }
 
 .trades-section .make {
@@ -2327,12 +2321,9 @@
 	border-bottom: 2px solid #fff !important;
 }
 
-
-
 .trades-section .offers {
 	display: inline-block;
 	width: 375px;
-	/* background-color: yellow; */
 	float: right;
 }
 
@@ -2348,6 +2339,7 @@
 	vertical-align: top;
 	margin-left: 28px;
 }
+
 .trades-section .make-and-offer-block .select:after {
 	content: url(img/arrow-select.png);
   font-size: 12px;
@@ -2357,6 +2349,7 @@
   pointer-events: none;
 	box-sizing: border-box;
 }
+
 .trades-section .make-and-offer-block select {
   padding-right: 25px;
   -webkit-appearance: none;
@@ -2368,19 +2361,17 @@
 	border: 2px solid #fff;
 	color: #fff;
 	font-size: 21px;
-	/* letter-spacing: 1px; */
 	outline: none;
 	padding-left: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	margin-top: 25px;
 }
 
-
-
 .trades-section .select .popularity {
 	font-size: 18px;
 	color: #fff;
-	/* letter-spacing: 1px; */
 	margin: 20px 0;
 }
 
@@ -2389,8 +2380,6 @@
 	background-color: #fff;
 }
 
-
-
 .trades-section .make-and-offer-block .select-choose {
   position: relative;
 	display: inline-block;
@@ -2398,6 +2387,7 @@
 	margin-left: 28px;
 	margin: 0 auto;
 }
+
 .trades-section .make-and-offer-block .select-choose:after {
 	content: url(img/arrow-select.png);
   font-size: 12px;
@@ -2407,6 +2397,7 @@
   pointer-events: none;
 	box-sizing: border-box;
 }
+
 .trades-section .make-and-offer-block .select-choose select {
   padding-right: 25px;
   -webkit-appearance: none;
@@ -2418,9 +2409,10 @@
 	border: 2px solid #fff;
 	color: #fff;
 	font-size: 21px;
-	/* letter-spacing: 1px; */
 	outline: none;
 	padding-left: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	margin-top: 25px;
 	margin-left: 55px;
@@ -2428,9 +2420,7 @@
 
 .trades-section .make-and-offer-block .checkbox-section {
 	width: 220px;
-	/* background-color: lime; */
 	margin: 22px auto;
-
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	user-select: none; 
@@ -2443,16 +2433,12 @@
 
 .trades-section .make-and-offer-block .checkbox-section span {
 	font-size: 16px;
-	/* letter-spacing: 1px; */
-
-
 }
-
-
 
 label input {
   display: none;
 }
+
 label .checkbox-trades {
 	position: relative;
 	top: 5px;
@@ -2461,13 +2447,16 @@ label .checkbox-trades {
   border: 1px solid gray;
   display: inline-block;
   position: relative;
-  background-color:#FFF;
-  border-radius:2px;
-	padding:3px;
+	background-color:#FFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+  border-radius: 2px;
+	padding: 3px;
 	background: none;
 	border: 2px solid #fff;
 	margin-right: 12px;
 }
+
 [type=checkbox]:checked + .checkbox-trades:before {
   content: '\2714';
   position: absolute;
@@ -2489,7 +2478,6 @@ label .checkbox-trades {
 
 .trades-section .make-and-offer-block .amount span {
 	font-size: 16px;
-/* letter-spacing: 1px;	 */
 }
 
 .trades-section .make-and-offer-block .amount input[type="number"] {
@@ -2499,20 +2487,18 @@ label .checkbox-trades {
 	background: none;
 	outline: none;
 	border: 2px solid #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 18px;
 	padding-left: 18px;
 }
 
-
-
-
 .trades-section .make-and-offer-block .amount input[type="number"]::-webkit-input-placeholder {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
 .trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
-.trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
-.trades-section .make-and-offer-block .amount input[type="number"]::-ms-input-placeholder     {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
-
+.trades-section .make-and-offer-block .amount input[type="number"]:-moz-placeholder          {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
+.trades-section .make-and-offer-block .amount input[type="number"]:-ms-input-placeholder     {font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
 
 .trades-section .make-and-offer-block .button-make {
 	display: block;
@@ -2520,15 +2506,14 @@ label .checkbox-trades {
 	margin: 0 auto;
 	font-size: 18px;
 	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	background-color: #993333;
 	border: none;
-	/* letter-spacing: 1px; */
 	outline: none;
 	cursor: pointer;
-
 }
-
 
 .trades-section .offers .offers-section {
 	width: 100%;
@@ -2539,7 +2524,6 @@ label .checkbox-trades {
 
 .trades-section .offers .offers-section .title {
 	font-size: 18px;
-	/* letter-spacing: 1px; */
 	color: #fff;
 	width: 275px;
 	border-bottom: 2px solid #fff;
@@ -2564,30 +2548,25 @@ label .checkbox-trades {
 
 .trades-section .offers .offers-section .description .savage {
 	font-size: 21px;
-	/* letter-spacing: 1px; */
 	margin-bottom: 15px;
 }
 
 .trades-section .offers .offers-section .description {
 	font-size: 16px;
-	/* letter-spacing: 1px; */
 }
 
 .trades-section .offers .offers-section .buttons {
 	width: 230px;
-	/* background-color: yellow; */
 	margin: 0 auto;
 	margin-top: 32px;
-
-
 }
 
 .trades-section .offers .offers-section .accept-button, .trades-section .offers .offers-section .decline-button {
-	
 	color: #fff;
 	font-size: 16px;
-	/* letter-spacing: 1px; */
 	border: none;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	outline: none;
 	cursor: pointer;
@@ -2596,8 +2575,8 @@ label .checkbox-trades {
 .trades-section .offers .offers-section .accept-button {
 	padding: 10px 24px;
 	background-color: #993333;
-
 }
+
 .trades-section .offers .offers-section .decline-button {
 	float: right;
 	background: none;
@@ -2611,7 +2590,8 @@ label .checkbox-trades {
 	padding: 8px 0;
 	font-size: 16px;
 	color: #fff;
-	/* letter-spacing: 1px; */
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	background: none;
 	border: 2px solid #fff;
@@ -2667,7 +2647,6 @@ label .checkbox-trades {
 		display: inline-block;
 		width: 235px;
 		font-size: 36px;
-		/* letter-spacing: 1px; */
 		margin-left: 20px;
 	}
 	.trades-section .make-section .xs-offers {
@@ -2678,7 +2657,6 @@ label .checkbox-trades {
 		text-align: center;
 		padding-bottom: 5px;
 		font-size: 36px;
-		/* letter-spacing: 1px; */
 	}
 	.trades-section .make-and-offer-block .artist-image {
 		width: 30%;
@@ -2701,9 +2679,6 @@ label .checkbox-trades {
 	.trades-section .offers .offers-section:last-child {
 		margin-bottom: -30px;
 	}
-	
-
-
 }
 
 @media only screen and (min-width: 560px) and (max-width: 767px) {
@@ -2714,29 +2689,29 @@ label .checkbox-trades {
 	}
 
 	.trades-section .make-and-offer-block .amount input[type="number"]::-webkit-input-placeholder {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}
-.trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
-.trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
-.trades-section .make-and-offer-block .amount input[type="number"]::-ms-input-placeholder     {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}
+	.trades-section .make-and-offer-block .amount input[type="number"]::-moz-placeholder          {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
+	.trades-section .make-and-offer-block .amount input[type="number"]:-moz-placeholder          {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
+	.trades-section .make-and-offer-block .amount input[type="number"]:-ms-input-placeholder     {font-size: 36px; font-weight: 600; position: relative; top: 7px; letter-spacing: 1px; color: #fff; opacity: 1;}
 	
-.trades-section .make-and-offer-block select {
-	height: 48px;
-}
-.trades-section .make-and-offer-block .select:after {
-	top: 41px;
-}
-.trades-section .make-and-offer-block .checkbox-section span {
-	font-size: 32px;
-}
-.trades-section .make-and-offer-block .checkbox-section {
-	width: 320px;
-}
-.trades-section .make-and-offer-block .amount {
-	width: 100%;
-}
-.trades-section .make-and-offer-block .amount input[type="number"] {
-	height: 45px;
-}
-.trades-section .make-and-offer-block .select-choose select {
+	.trades-section .make-and-offer-block select {
+		height: 48px;
+	}
+	.trades-section .make-and-offer-block .select:after {
+		top: 41px;
+	}
+	.trades-section .make-and-offer-block .checkbox-section span {
+		font-size: 32px;
+	}
+	.trades-section .make-and-offer-block .checkbox-section {
+		width: 320px;
+	}
+	.trades-section .make-and-offer-block .amount {
+		width: 100%;
+	}
+	.trades-section .make-and-offer-block .amount input[type="number"] {
+		height: 45px;
+	}
+	.trades-section .make-and-offer-block .select-choose select {
 		height: 50px;
 	}
 	.trades-section .make-and-offer-block .select-choose:after {
@@ -2763,7 +2738,6 @@ label .checkbox-trades {
 		margin: 0 auto;
 		width: 90%;
 		margin-top: 40px;
-
 	}
 	.trades-section .offers .offers-section .buttons .accept-button, .trades-section .offers .offers-section .buttons .decline-button {
 		width: 45%;
@@ -2784,7 +2758,6 @@ label .checkbox-trades {
 	}
 	.trades-section .make-and-offer-block select {
 		width: 100%;
-
 	}
 	.trades-section .make-and-offer-block .select-choose select {
 		width: 100%;
@@ -2842,63 +2815,570 @@ label .checkbox-trades {
 }
 
 
-
-
 /* venue page */
+	/* modal window */
+.right-section .modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	z-index: 99999;
+	display: none;
+}
 
-
-
-
-/* .modalDialog {
- position: fixed;
- font-family: Arial, Helvetica, sans-serif;
- top: 0;
- right: 0;
- bottom: 0;
- left: 0;
- background: rgba(0,0,0,0.8);
- z-index: 99999;
- -webkit-transition: opacity 400ms ease-in;
- -moz-transition: opacity 400ms ease-in;
- transition: opacity 400ms ease-in;
- display: none;
-} */
-/*ОТКРЫТИЕ*/
-/* .modalDialog:target {
- display: block;
- pointer-events: auto;
+.right-section .modalDialog:target {
+	display: block;
+	pointer-events: auto;
 }
  
-.modalDialog > div {
- width: 400px;
- position: relative;
- margin: 15% auto;
- padding: 5px 20px 13px 20px;
- border-radius: 10px;
- background: #fff;
- background: #333333;
-  border: 2px solid #ff3333;
-} */
-/*ЗАКРЫТИЕ ОКНА*/
-/* .close1 {
- background: #606061;
- color: #FFFFFF;
- line-height: 25px;
- position: absolute;
- right: -12px;
- text-align: center;
- top: -10px;
- width: 24px;
- text-decoration: none;
- font-weight: bold;
- -webkit-border-radius: 12px;
- -moz-border-radius: 12px;
- border-radius: 12px;
- -moz-box-shadow: 1px 1px 3px #000;
- -webkit-box-shadow: 1px 1px 3px #000;
- box-shadow: 1px 1px 3px #000;
+.right-section .modalDialog > div {
+	position: relative;
+	width: 620px;
+	padding: 40px 25px;
+	margin: 50px auto;
+	background: #fff;
 }
- 
-.close:hover { background: #ff9933; }   
-#send_info{color:#ffffff;font-size: 16px;} */
+
+.right-section .close {
+	position: absolute;
+	right: 32px;
+	top: 20px;
+}
+
+.right-section .modalDialog .close {
+	color: #b23030;
+	font-size: 46px;
+	border: none;
+}
+
+.right-section .modalDialog .add-artists {
+	display: block;
+	color: #000;
+	font-size: 36px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.right-section .modalDialog .your-artists {
+	width: 270px;
+	height: 330px;
+	background-color: #e9e9e9;
+	padding: 12px 15px 8px 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.right-section .modalDialog .left-col, .right-section .modalDialog .right-col {
+	display: inline-block;
+	width: 270px;
+}
+
+.right-section .modalDialog .right-col {
+	vertical-align: top;
+	float: right;
+}
+
+.right-section .modalDialog .your-artists::-webkit-scrollbar { 
+	width: 0px;
+	height: 3px;
+}
+
+.right-section .modalDialog .your-artists-right {
+	float: right;
+	border: 2px solid #b23030;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.right-section .modalDialog .your-artists .artist-img {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	margin-bottom: 14px;
+}
+
+.right-section .modalDialog .title-artists,.right-section .modalDialog .title-headliners {
+	color: #000;
+	font-size: 36px;
+}
+
+.right-section .modalDialog .title-artists {
+	margin-left: 30px;
+	margin-bottom: 38px;
+}
+
+.right-section .modalDialog .title-headliners {
+	text-align: right;
+	margin-right: 30px;
+	margin-bottom: 38px;
+}
+
+.right-section .modalDialog .save-button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+	padding: 16px 65px;
+	background-color: #b23030;
+	font-size: 32px;
+	color: #fff;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+	/* end modal window */
+
+.right-section .img-overlay .leagues-section {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section {
+	display: inline-block;
+	width: 580px;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance {
+	display: inline-block;
+	width: 270px;
+	float: right;
+	vertical-align: top;
+}
+
+.right-section .img-overlay .leagues-section .title-section {
+	width: 255px;
+	font-size: 21px;
+	padding-bottom: 16px;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 20px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-photo {
+	background: url(img/venue-photo.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 325px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-photo .artist-left-section {
+	width: 90px;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 325px;
+	padding-top: 6px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-photo .artist-left-section .artist-image {
+	display: block;
+	height: 64px;
+	width: 64px;
+	margin: 12px auto;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-photo .artist-left-section .add-artist {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+	height: 64px;
+	width: 64px;
+	background-color: #993333;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 12px;
+	padding-top: 21px;
+	cursor: pointer;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 20px 20px 25px 15px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row .title-of-form {
+	display: inline-block;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input {
+	height: 30px;
+	width: 285px;
+	float: right;
+	background-color: rgba(0, 0, 0, 0.4);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form form {
+	display: inline-block;
+	width: 100%;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 {
+  position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 28px;
+	margin: 0 auto;
+	float: right;
+	vertical-align: top;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue:after,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2:after,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3:after,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4:after {
+	content: url(img/arrow-select.png);
+  font-size: 12px;
+  position: absolute;
+  top: 9px;
+  pointer-events: none;
+	box-sizing: border-box;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue:after {
+	right: 60px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2:after {
+	right: 195px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3:after {
+	right: 180px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4:after {
+	right: 100px;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue select,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2 select,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3 select,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 select {
+  padding-right: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+	appearance: none;
+	height: 31px;
+	width: 285px;
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 21px;
+	outline: none;
+	padding-left: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.book-and-total {
+	width: 325px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.right-section .img-overlay .book-and-total button {
+	padding: 9px 35px;
+	font-size: 16px;
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #993333;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.right-section .img-overlay .book-and-total span {
+	font-size: 16px;
+	margin-left: 32px;
+}
+
+.right-section .img-overlay .book-and-total input {
+	width: 115px;
+	height: 40px;
+	padding-left: 15px;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	float: right;
+}
+
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input::-webkit-input-placeholder,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input::-webkit-input-placeholder {font-size: 16px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input::-moz-placeholder,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input::-moz-placeholder          {font-size: 16px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input:-moz-placeholder,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input:-moz-placeholder          {font-size: 16px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
+.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input:-ms-input-placeholder,
+.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input:-ms-input-placeholder     {font-size: 16px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
+
+.right-section .img-overlay .leagues-section .venue-perfomance {
+	margin-bottom: 30px;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section {
+	background-color: gray;
+	padding: 25px 25px 0 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-bottom: 46px;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .hall {
+	height: 151px;
+	width: 100%;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .date {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .hall-section {
+	display: inline-block;
+	width: 80px;
+	font-size: 16px;
+	float: right;
+	margin-right: 25px;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .cancel-button, .right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .plus-button {
+	display: block;
+	margin-top: 25px;
+	font-size: 16px;
+	color: #fff;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	outline: none;
+	cursor: pointer;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .cancel-button {
+	padding: 6px 26px;
+	border: none;
+	background-color: #993333;
+	color: #fff;
+}
+
+.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .plus-button {
+	padding: 3px 22px;
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+	.right-section .img-overlay .leagues-section {
+		width: 100%;
+	}
+	.right-section .img-overlay .leagues-section .venue-section {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.right-section .img-overlay .leagues-section .venue-perfomance {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .hall:last-child {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 select,
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input {
+		width: 214px;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4:after {
+		right: 10px;
+	}
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.right-section .img-overlay .leagues-section .title-section {
+		font-size: 36px;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 select,
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input {
+		width: 130px;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .title-of-form {
+		font-size: 32px;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input {
+		font-size: 32px;
+		height: 56px;
+		margin-left: 0;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4:after {
+		font-size: 24px;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input::-webkit-input-placeholder,
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input::-webkit-input-placeholder {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input::-moz-placeholder,
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input::-moz-placeholder          {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input:-moz-placeholder,
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input:-moz-placeholder          {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input:-ms-input-placeholder,
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .book-and-total input:-ms-input-placeholder     {font-size: 32px; font-weight: 600; letter-spacing: 1px; color: #fff; opacity: 1;}
+
+	.right-section .img-overlay .book-and-total button, .right-section .img-overlay .book-and-total span,
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .date,
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .cancel-button,
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .plus-button {
+	font-size: 32px;
+}
+	.book-and-total {
+		width: 400px;
+	}
+	.right-section .img-overlay .book-and-total input {
+		height: 58px;
+		font-size: 32px;
+	}
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .hall {
+		clear: both;
+		height: 186px;
+		margin-bottom: 30px;
+	}
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .hall-section {
+		width: auto;
+		font-size: 32px;
+	}
+	.right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .cancel-button, .right-section .img-overlay .leagues-section .venue-perfomance .perfomance-section .plus-button {
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.right-section .img-overlay .leagues-section .venue-section .venue-photo {
+		position: relative;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-photo .artist-left-section .add-artist {
+		position: absolute;
+		right: 25px;
+		top: 18px;
+	}
+	.right-section .modalDialog > div {
+		width: 90%;
+	}
+	.right-section .modalDialog .left-col, .right-section .modalDialog .right-col {
+		width: 45%;
+	}
+	.right-section .modalDialog .your-artists {
+		width: 100%;
+	}
+	.right-section .modalDialog .your-artists {
+		padding: 5px;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.right-section .modalDialog .add-artists, .right-section .modalDialog .title-artists, .right-section .modalDialog .title-headliners {
+		font-size: 18px;
+	}
+	.right-section .modalDialog .save-button {
+		font-size: 18px;
+	}
+	.right-section .modalDialog .left-col, .right-section .modalDialog .right-col {
+		width: 48%;
+	}
+	.right-section .modalDialog .close {
+		font-size: 36px;
+	}
+	.book-and-total {
+		width: 245px;
+	}
+	.right-section .img-overlay .book-and-total button {
+		padding: 4px 15px;
+	}
+	.right-section .img-overlay .book-and-total input {
+		width: 80px;
+		height: 28px;
+	}
+	.right-section .img-overlay .leagues-section .venue-perfomance {
+		width: 90%;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 {
+		margin: auto;
+		float: none;
+		display: block;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3 select, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4 select {
+		margin-left: 0px;
+		margin: 5px 0;
+		width: 100%;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .row .artists-input {
+		float: none;
+		display: block;
+		margin: 5px 0;
+		width: 100%;
+	}
+	.right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue2:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue3:after, .right-section .img-overlay .leagues-section .venue-section .venue-form .select-venue4:after {
+		top: 12px;
+	}
+	.right-section .modalDialog .title-artists {
+		margin-left: 0px;
+	}
+	.right-section .modalDialog .title-headliners {
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.right-section .modalDialog .your-artists {
+		height: 214px;
+	}
+	.right-section .modalDialog .add-artists {
+		margin-bottom: 20px;
+	}
+}
+
+/* leagues page */
+
 

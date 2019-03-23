@@ -68,7 +68,7 @@ for(var i = 0; i <= xsMenuLinks.length; i++) {
 
 //mobile menu button
 var button = 0
-var displayNone = new Array ('display-none ', '')
+var displayNone = new Array ('display-none', '')
 var mobileMenuButton = new Array ('mobile-menu-button', 'mobile-menu-button-position')
 
 $("#mobile-menu-button").click(function() {
