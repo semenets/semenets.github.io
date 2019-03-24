@@ -2723,6 +2723,9 @@ label .checkbox-trades {
 	.trades-section .offers .offers-section:last-child {
 		margin-bottom: -30px;
 	}
+	.trades-section .make-section .make-and-offer-block {
+		margin-top: 30px;
+	}
 }
 
 @media only screen and (min-width: 560px) and (max-width: 767px) {
