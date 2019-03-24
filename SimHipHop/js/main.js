@@ -68,11 +68,11 @@ for(var i = 0; i <= xsMenuLinks.length; i++) {
 
 //mobile menu button
 var button = 0
-var displayNone = new Array ('display-none', '')
+var displayNone = new Array ('active-mobile-menu', '')
 var mobileMenuButton = new Array ('mobile-menu-button', 'mobile-menu-button-position')
 
 $("#mobile-menu-button").click(function() {
 	button = button === 0 ? 1 : 0
-	$('#mobile-menu').attr('class', displayNone[button])
 	$(this).attr('id', mobileMenuButton[button])
+	$("#mobile-menu").toggleClass("active-mobile-menu")
 });

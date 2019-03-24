@@ -30,13 +30,12 @@ for(var i = 0; i <= xsMenuLinks.length; i++) {
 var button = 0;
 var displayNone = new Array ('display-none', '')
 var mobileMenuButton = new Array ('mobile-menu-button', 'mobile-menu-button-position')
-var leftMenu = new Array ('left-menu-display-none', 'left-menu')
+
 
 $("#mobile-menu-button").click(function() {
 	button = button === 0 ? 1 : 0
-	$('#mobile-menu').attr('class', displayNone[button])
 	$(this).attr('id', mobileMenuButton[button])
-	$('#left-menu').attr('class', leftMenu[button]);
+	$("#left-menu").toggleClass("left-menu-active")
 });
 
 
@@ -112,3 +111,32 @@ if($(window).width() < 767) {
 };
 
 //leagues page
+$("#invitations").on("click", function() {
+	$("#league-section2").removeClass("xs-league-display-none")
+	$("#league-section1").addClass("xs-league-display-none")
+	$("#league-section3").addClass("xs-league-display-none")
+
+	$("#leagues").removeClass("xs-border-bottom-leagues")
+	$("#invitations").addClass("xs-border-bottom-leagues")
+	$("#create").removeClass("xs-border-bottom-leagues")
+})
+
+$("#create").on("click", function() {
+	$("#league-section2").addClass("xs-league-display-none")
+	$("#league-section1").addClass("xs-league-display-none")
+	$("#league-section3").removeClass("xs-league-display-none")
+
+	$("#leagues").removeClass("xs-border-bottom-leagues")
+	$("#invitations").removeClass("xs-border-bottom-leagues")
+	$("#create").addClass("xs-border-bottom-leagues")
+})
+
+$("#leagues").on("click", function() {
+	$("#league-section2").addClass("xs-league-display-none")
+	$("#league-section1").removeClass("xs-league-display-none")
+	$("#league-section3").addClass("xs-league-display-none")
+
+	$("#leagues").addClass("xs-border-bottom-leagues")
+	$("#invitations").removeClass("xs-border-bottom-leagues")
+	$("#create").removeClass("xs-border-bottom-leagues")
+});
