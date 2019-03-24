@@ -700,6 +700,9 @@
 		padding-bottom: 15px;
 		width: 95%;
 	}
+	.column .column-indent {
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-width: 560px) {
