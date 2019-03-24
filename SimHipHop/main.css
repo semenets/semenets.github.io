@@ -1179,11 +1179,14 @@
 	color: #000;
 }
 
-.right-section .m_fisher-section .fisher-button-and-logo img {
+.right-section .m_fisher-section .fisher-button-and-logo .photo {
 	height: 165px;
 	width: 165px;
 	float: left;
 	margin-right: 70px;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
 }
 
 .right-section .m_fisher-section .fisher-button-and-logo .m_fisher {
