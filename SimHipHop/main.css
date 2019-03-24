@@ -3810,6 +3810,8 @@ padding-top: 30px;
 .leagues-section .invitations-and-create-section .league-textarea {
 	height: 65px;
 	margin-top: 10px;
+	-ms-overflow-style: none;
+	overflow: auto;
 }
 
 .leagues-section .invitations-and-create-section .league-name::-webkit-input-placeholder,
