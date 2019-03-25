@@ -88,7 +88,7 @@ $(".artist-xs").on("click", function() {
 });
 
 if($(window).width() < 1250 && $(window).width() > 560) {
-	$(".img-overlay-artist").height(rightSectionHeight + 200)
+	$(".img-overlay-artist").height(rightSectionHeight + 260)
 }
 
 
