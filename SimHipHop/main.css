@@ -2061,25 +2061,23 @@
 	width: 35px;
 }
 
-.right-section .img-overlay .artist-section .facebook-round {
+.right-section .img-overlay .artist-section .facebook-round, .right-section .img-overlay .artist-section .twitter-round {
 	display: block;
 	width: 35px;
 	height: 35px;
-	background-color: #0d5298;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+	text-decoration: none;
+}
+
+.right-section .img-overlay .artist-section .facebook-round {
+	background-color: #0d5298;
 	margin-bottom: 20px;
 }
 
 .right-section .img-overlay .artist-section .twitter-round {
-	display: block;
-	width: 35px;
-	height: 35px;
 	background-color: #0ea5dd;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
 	margin-top: 20px;
 }
 
