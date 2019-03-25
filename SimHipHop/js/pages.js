@@ -87,6 +87,10 @@ $(".artist-xs").on("click", function() {
 	$(".activity-xs").removeClass("xs-border-bottom")
 });
 
+if($(window).width() < 1250 && $(window).width() > 560) {
+	$(".img-overlay-artist").height(rightSectionHeight + 200)
+}
+
 
 //trades page
 if($(window).width() < 767) {
