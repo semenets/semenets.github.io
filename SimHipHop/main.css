@@ -3819,18 +3819,19 @@ padding-top: 30px;
 .leagues-section .invitations-and-create-section .league-textarea {
 	height: 65px;
 	margin-top: 10px;
+	padding-top: 10px;
 	-ms-overflow-style: none;
 	overflow: auto;
 }
 
 .leagues-section .invitations-and-create-section .league-name::-webkit-input-placeholder,
-.leagues-section .invitations-and-create-section .league-textarea::-webkit-input-placeholder {letter-spacing: 1px; color: #fff; opacity: 1; padding-top: 10px;}
+.leagues-section .invitations-and-create-section .league-textarea::-webkit-input-placeholder {letter-spacing: 1px; color: #fff; opacity: 1}
 .leagues-section .invitations-and-create-section .league-name::-moz-placeholder,
-.leagues-section .invitations-and-create-section .league-textarea::-moz-placeholder          {letter-spacing: 1px; color: #fff; opacity: 1; padding-top: 10px;}/* Firefox 19+ */
+.leagues-section .invitations-and-create-section .league-textarea::-moz-placeholder          {letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 19+ */
 .leagues-section .invitations-and-create-section .league-name:-moz-placeholder,
-.leagues-section .invitations-and-create-section .league-textarea:-moz-placeholder   				 {letter-spacing: 1px; color: #fff; opacity: 1; padding-top: 10px;}/* Firefox 18- */
+.leagues-section .invitations-and-create-section .league-textarea:-moz-placeholder   				 {letter-spacing: 1px; color: #fff; opacity: 1;}/* Firefox 18- */
 .leagues-section .invitations-and-create-section .league-name:-ms-input-placeholder,
-.leagues-section .invitations-and-create-section .league-textarea:-ms-input-placeholder  		 {letter-spacing: 1px; color: #fff; opacity: 1; padding-top: 10px;}
+.leagues-section .invitations-and-create-section .league-textarea:-ms-input-placeholder  		 {letter-spacing: 1px; color: #fff; opacity: 1;}
 
 
 .leagues-section .invitations-and-create-section .new-league .checkboxes {
@@ -4038,10 +4039,10 @@ padding-top: 30px;
 	.leagues-section .leagues .family-league .circle {
 		margin-right: 0px;
 	}
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-webkit-input-placeholder {position: relative; top: -5px; font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-moz-placeholder          {position: relative; top: -5px; font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 19+ */
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-moz-placeholder          	{position: relative; top: -5px; font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-ms-input-placeholder     	{position: relative; top: -5px; font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}
+	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-webkit-input-placeholder {font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}
+	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-moz-placeholder          {font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 19+ */
+	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-moz-placeholder          	{font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
+	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-ms-input-placeholder     	{font-size: 18px; letter-spacing: 1px; color: #000; opacity: 1;}
 
 	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .title,
 	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .choose-a-user,
@@ -4053,7 +4054,9 @@ padding-top: 30px;
 		font-size: 36px;
 	}
 	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input {
+		font-size: 18px;
 		height: 40px;
+		outline: none;
 	}
 	.right-section .img-overlay .leagues-section .xs-buttons #leagues, .right-section .img-overlay .leagues-section .xs-buttons #invitations, .right-section .img-overlay .leagues-section .xs-buttons #create  {
 		font-size: 22px;
