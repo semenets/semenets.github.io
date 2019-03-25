@@ -124,6 +124,16 @@ if($(window).width() < 767) {
 	})
 };
 
+if($(window).width() < 560) {
+	$(".xs-offers").on("click", function() {
+		$("#left-menu").height(740)
+	})
+
+	$(".make").on("click", function() {
+		$("#left-menu").height(rightSectionHeight)
+	})
+};
+
 //leagues page
 $("#invitations").on("click", function() {
 	$("#league-section2").removeClass("xs-league-display-none")
