@@ -87,8 +87,12 @@ $(".artist-xs").on("click", function() {
 	$(".activity-xs").removeClass("xs-border-bottom")
 });
 
-if($(window).width() < 1250 && $(window).width() > 560) {
+if($(window).width() < 1250 && $(window).width() > 767) {
 	$(".img-overlay-artist").height(rightSectionHeight + 250)
+}
+
+if($(window).width() < 767 && $(window).width() > 560) {
+	$(".img-overlay-artist").height(rightSectionHeight + 400)
 }
 
 
