@@ -77,6 +77,11 @@ $(".activity-xs").on("click", function() {
 	$(".section-last-activity").removeClass("xs-display-none")
 	$(".artist-xs").removeClass("xs-border-bottom")
 	$(".activity-xs").addClass("xs-border-bottom")
+
+	if($(window).width() < 767 && $(window).width() > 560) {
+		$(".img-overlay-artist").height(rightSectionHeight + 400)
+		$("#left-menu").height(mainBackgroundHeight + 400)
+	}
 })
 
 $(".artist-xs").on("click", function() {
@@ -85,14 +90,15 @@ $(".artist-xs").on("click", function() {
 	$(".section-last-activity").addClass("xs-display-none")
 	$(".artist-xs").addClass("xs-border-bottom")
 	$(".activity-xs").removeClass("xs-border-bottom")
+
+	if($(window).width() < 767 && $(window).width() > 560) {
+		$(".img-overlay-artist").height(rightSectionHeight)
+		$("#left-menu").height(mainBackgroundHeight)
+	}
 });
 
 if($(window).width() < 1250 && $(window).width() > 767) {
-	$(".img-overlay-artist").height(rightSectionHeight + 250)
-}
-
-if($(window).width() < 767 && $(window).width() > 560) {
-	$(".img-overlay-artist").height(rightSectionHeight + 400)
+	$(".img-overlay-artist").height(rightSectionHeight + 300)
 }
 
 
