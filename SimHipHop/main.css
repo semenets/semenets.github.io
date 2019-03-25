@@ -2111,6 +2111,7 @@
 	margin-right: 58px;
 	margin-top: 10px;
 	cursor: pointer;
+	outline: none;
 }
 
 .right-section .img-overlay .artist-section .activity-section .last-activity {
