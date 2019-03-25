@@ -1377,6 +1377,9 @@
 	.form-section .field-section .unique-name {
 		font-size: 24px;
 	}
+	.right-section .m_fisher-section .fisher-button-and-logo .photo {
+		margin-right: 5px;
+	}
 }
 
 

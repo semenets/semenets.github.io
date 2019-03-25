@@ -110,7 +110,7 @@ if($(window).width() < 767) {
 		$(".height").css("height", "auto")
 		$(".make").removeClass("border-bottom-trades")
 		$(".xs-offers").addClass("border-bottom-trades")
-		$("#left-menu").height(740)
+		$("#left-menu").height(1085)
 	})
 
 	$(".make").on("click", function() {
