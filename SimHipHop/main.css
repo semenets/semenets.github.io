@@ -732,7 +732,7 @@
 	position: relative;
 	background-color: #333;
 	padding: 30px 0;
-	z-index: 99;
+	z-index: 80;
 }
 
 .footer .footer-section {
@@ -904,16 +904,24 @@
 
 /* mobile menu */
 #mobile-menu {
-	position: absolute;
+	position: fixed;
 	top: 50px;
+	height: 100vh;
 	width: 290px;
 	background-color: rgba(0, 0, 0, 0.8);
 	left: -290px;
+	padding-bottom: 50px;
+	overflow-y: scroll;
+	z-index: 999;
+	-ms-overflow-style: none;
+
 	-webkit-transition-duration: 1s;
 	-o-transition-duration: 1s;
 	-moz-transition-duration: 1s;
 	transition-duration: 1s;
 }
+
+#mobile-menu::-webkit-scrollbar { width: 0; }
 
 .active-mobile-menu {
 	left: 0px !important;
@@ -1048,22 +1056,29 @@
 
 @media only screen and (max-width: 767px) {
 	.left-menu {
-		position: absolute;
-		z-index: 99;
+		position: fixed;
+		z-index: 999;
 		background: rgba(0, 0, 0, 0.8);
 		margin-top: 50px;
 		left: -290px;
-		-webkit-transition-duration: 1s;
-		-o-transition-duration: 1s;
-		-moz-transition-duration: 1s;
-		transition-duration: 1s;
+		height: 100vh;
+		padding-bottom: 50px;
+		overflow-y: scroll;
+		-ms-overflow-style: none;
+		-webkit-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		transition-duration: 0.8s;
 	}
+
+	.left-menu::-webkit-scrollbar {width: 0;}
+
 	.left-menu-active {
 		left: 0px;
-		-webkit-transition-duration: 1s;
-		-o-transition-duration: 1s;
-		-moz-transition-duration: 1s;
-		transition-duration: 1s;
+		-webkit-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		transition-duration: 0.8s;
 	}
 }
 
@@ -1131,16 +1146,14 @@
 .img-overlay {
 	margin: 0 auto;
 	color: #fff;
-	min-height: 770px;
+	min-height: 780px;
 	background-color: rgba(255, 255 ,255, 0.11);
 }
 
 @media only screen and (max-width: 767px) {
 	.img-overlay {
 		width: calc(100% + 288px);
-		
 		padding-top: 50px;
-		
 	}
 	.right-section {
 		background-color: transparent !important;
@@ -1399,7 +1412,6 @@
 	border-spacing: 20px 20px;
 	position: relative;
 	right: 20px;
-	margin-top: 10px;
 }
 
 .right-section .container .row {
@@ -1430,6 +1442,7 @@
 
 .right-section .container .section-in-game-img {
 	width: 280px;
+	vertical-align: top;
 }
 
 .right-section .container .title {
@@ -1509,7 +1522,7 @@
 @media only screen and (max-width: 560px) {
 	.right-section .container .section-in-game-img {
 		height: 100px;
-		width: 170px;
+		width: 150px;
 	}
 	.right-section .container .col1, .right-section .container .col2, .right-section .container .col3 {
 		min-height: 102px;
@@ -1519,18 +1532,25 @@
 
 /* invite-friends page */
 #right-section .img-overlay .sections-invite .invite-friends {
-	width: 510px;
-	font-size: 42px;
+	width: 255px;
+	font-size: 21px;
 	color: #fff;
-	padding-bottom: 12px;
+	padding-bottom: 15px;
 	border-bottom: 4px solid #fff;
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	#right-section .img-overlay .sections-invite .invite-friends {
+		width: 510px;
+		font-size: 42px;
+	}
 }
 
 #right-section .img-overlay .invite-section {
 	width: 900px;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.3);
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 45px 70px 75px 70px;
 }
 
@@ -1702,7 +1722,7 @@
 	color: #fff;
 	font-size: 21px;
 	border-bottom: 2px solid #fff;
-	padding-bottom: 8px;
+	padding-bottom: 15px;
 	margin-bottom: 20px;
 }
 
@@ -2355,8 +2375,8 @@
 	display: block;
 	font-size: 21px;
 	width: 250px;
-	padding-bottom: 5px;
-	margin-bottom: 18px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
 	border-bottom: 2px solid #fff;
 }
 
@@ -2630,7 +2650,7 @@ label .checkbox-trades {
 	float: right;
 	background: none;
 	border: 2px solid #fff;
-	padding: 8px 24px;
+	padding: 7px 24px;
 }
 
 .trades-section .offers .offers-section .artist-profile {
@@ -2988,11 +3008,11 @@ label .checkbox-trades {
 	cursor: pointer;
 }
 	/* end modal window */
-	.right-section .img-overlay .leagues-section .xs-buttons {
-		margin: 0 auto;
-		width: 90%;
-		font-size: 36px;
-	}
+.right-section .img-overlay .leagues-section .xs-buttons {
+	margin: 0 auto;
+	width: 90%;
+	font-size: 36px;
+}
 
 .right-section .img-overlay .leagues-section .venue-section {
 	display: inline-block;
@@ -3479,84 +3499,82 @@ padding-top: 30px;
 }
 
 	/* modal window */
-	.right-section .leagues-section .leagues .modalDialog > .modal {
-		position: relative;
-		width: 620px;
-		margin: 0 auto;
-		background-color: #fff;
-		margin-top: 50px;
-		padding: 25px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal {
+	position: relative;
+	width: 620px;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 50px;
+	padding: 25px;
+}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .close {
-		position: absolute;
-		top: 20px;
-		right: 32px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal .close {
+	position: absolute;
+	top: 20px;
+	right: 32px;
+}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .close .fas-fa-times {
-		font-size: 46px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal .close .fas-fa-times {
+	font-size: 46px;
+}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .title {
-		text-align: center;
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .title {
+	text-align: center;
+	font-size: 36px;
+	color: #000;
+	margin-bottom: 40px;
+}
 
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .choose-a-user {
+	font-size: 36px;
+	color: #000;
+	margin-top: 15px;
+}
 
-		font-size: 36px;
-		color: #000;
-		margin-bottom: 40px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input {
+	width: 490px;
+	padding: 6px 0;
+	height: 64px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background-color: #e9e9e9;
+	color: #000;
+	border: none;
+	font-size: 32px;
+	padding-left: 28px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .choose-a-user {
-		font-size: 36px;
-		color: #000;
-		margin-top: 15px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-webkit-input-placeholder {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-moz-placeholder          {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 19+ */
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-moz-placeholder          {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-ms-input-placeholder     {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input {
-		width: 490px;
-		padding: 6px 0;
-		height: 64px;
-		-moz-border-radius: 12px;
-		-webkit-border-radius: 12px;
-		border-radius: 12px;
-		background-color: #e9e9e9;
-		color: #000;
-		border: none;
-		font-size: 32px;
-		padding-left: 28px;
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-copy, .right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-invite {
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	cursor: pointer;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	font-size: 32px;
+}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-webkit-input-placeholder {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input::-moz-placeholder          {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 19+ */
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-moz-placeholder          {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}/* Firefox 18- */
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .modal-input:-ms-input-placeholder     {font-size: 32px; letter-spacing: 1px; color: #000; opacity: 1;}
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-copy {
+	padding: 12px 30px;
+	border: 2px solid #000;
+}
 
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-copy, .right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-invite {
-		display: block;
-		margin: 0 auto;
-		outline: none;
-		cursor: pointer;
-		-moz-border-radius: 12px;
-		-webkit-border-radius: 12px;
-		border-radius: 12px;
-		font-size: 32px;
-	}
-
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-copy {
-		padding: 12px 30px;
-		border: 2px solid #000;
-	}
-
-	.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-invite {
-		padding: 12px 52px;
-		border: none;
-		color: #fff;
-		background-color: #b23030;
-		margin-top: 25px;
-	}
+.right-section .leagues-section .leagues .modalDialog > .modal .modal-section .button-modal-invite {
+	padding: 12px 52px;
+	border: none;
+	color: #fff;
+	background-color: #b23030;
+	margin-top: 25px;
+}
 
 	/*end modal window */
 .leagues-section {
@@ -3589,7 +3607,7 @@ padding-top: 30px;
 	width: 100%;
 	height: 55px;
 	background-color: #993333;
-	margin-top: 55px;
+	margin-top: 40px;
 }
 
 .leagues-section .leagues .family-league img {
@@ -3760,7 +3778,6 @@ padding-top: 30px;
 
 .leagues-section .league .accept-and-decline .accept, .leagues-section .league .accept-and-decline .decline {
 	width: 110px;
-	padding: 6px 0;
 	font-size: 16px;
 	color: #fff;
 
@@ -3774,12 +3791,14 @@ padding-top: 30px;
 .leagues-section .league .accept-and-decline .accept {
 	border: none;
 	background-color: #993333;
+	padding: 6px 0;
 }
 
 .leagues-section .league .accept-and-decline .decline {
 	float: right;
 	border: 2px solid #fff;
 	background-color: transparent;
+	padding: 4px 0;
 }
 
 .leagues-section .invitations-and-create-section .new-league {
@@ -3835,7 +3854,6 @@ padding-top: 30px;
 .leagues-section .invitations-and-create-section .league-name:-ms-input-placeholder,
 .leagues-section .invitations-and-create-section .league-textarea:-ms-input-placeholder  		 {letter-spacing: 1px; color: #fff; opacity: 1;}
 
-
 .leagues-section .invitations-and-create-section .new-league .checkboxes {
 	width: 235px;
 	margin: 0 auto;
@@ -3885,7 +3903,6 @@ padding-top: 30px;
 	border: none;
 	outline: none;
 	cursor: pointer;
-
 }
 
 @media only screen and (max-width: 1200px) {
