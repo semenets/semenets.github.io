@@ -1127,6 +1127,10 @@
 	padding-left: 15px;
 }
 
+.left-menu .left-menu-ul .active {
+	background-color: #9f3333;
+}
+
 .left-menu .left-menu-ul .fas-fa-angle-right {
 	float: right;
 	margin-right: 15px;
