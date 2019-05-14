@@ -1,6 +1,8 @@
 //main styles
 body {
 	background: url(../img/body-pattern.png);
+	-ms-overflow-style: none;
+    overflow: auto;
 }
 
 //Left section
