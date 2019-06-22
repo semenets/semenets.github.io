@@ -28,7 +28,7 @@
 
 @font-face {
 	font-family: JazzBallRegular;
-	src: url(fonts/Jazz_Ball_Regular.ttf) format("truetype");
+	src: url(fonts/Jazz_Ball_Regular.woff);
 }
 
 .container {
