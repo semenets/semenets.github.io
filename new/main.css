@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: MyriadProRegular;
-	src: url(fonts/MyriadPro-Regular.otf);
+	src: url(fonts/MyriadPro-Regular.woff);
 }
 
 @font-face {
@@ -18,12 +18,12 @@
 
 @font-face {
 	font-family: NeoSansProRegular;
-	src: url(fonts/NeoSansPro-Regular.ttf);
+	src: url(fonts/NeoSansPro-Regular.woff);
 }
 
 @font-face {
 	font-family: NeoSansProBold;
-	src: url(fonts/NeoSansPro-Bold.ttf);
+	src: url(fonts/NeoSansPro-Bold.woff);
 }
 
 @font-face {
