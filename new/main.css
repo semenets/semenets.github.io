@@ -382,6 +382,10 @@
 	border-bottom: 1px solid #848b8f;
 }
 
+.block-of-pagination .left-part a:hover, .block-of-pagination .right-part a:hover, .block-of-pagination .center-part li a:hover {
+	border: none;
+}
+
 /*Radiobuttons*/
 .radio-item {
 	display: inline-block;

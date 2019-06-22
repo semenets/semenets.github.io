@@ -35,6 +35,6 @@ function numberMinus(event) {
 
 //jquery effect when page has been loaded
 $("body").css("display", "none")
-$(document).ready(function(){	
+$(document).ready(function(){
 	$('body').fadeIn(1000);
 });
