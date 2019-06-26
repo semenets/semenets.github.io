@@ -1,18 +1,26 @@
 //determine the maximum height of the columns
 var quantity = $('.product').length
-var arr = []
+var arrProductDescription = []
+var arrGoods = []
 
 for(var i = 1; i <= quantity; i++) {
 	var currentHeight = document.getElementById("product-description" + i).offsetHeight;
-	arr.push(currentHeight)
+	arrProductDescription.push(currentHeight)
+
+	var currentHeightGoods = document.getElementById("goods" + i).offsetHeight;
+	arrGoods.push(currentHeightGoods)
 }
 
-for (var i = 0; i < arr.length; i++) {
-	if(arr[i] > arr[0]) arr[0] = arr[i]
+for (var i = 0; i < arrProductDescription.length; i++) {
+	if(arrProductDescription[i] > arrProductDescription[0]) arrProductDescription[0] = arrProductDescription[i]
+	if(arrGoods[i] > arrGoods[0]) arrGoods[0] = arrGoods[i]
 }
 
-var maxHeight = arr[0]
+var maxHeight = arrProductDescription[0]
+var maxHeightGoods = arrGoods[0]
+
 $(".product-description").css("height", maxHeight + "px")
+$(".goods").css("height", maxHeightGoods + 10 + "px")
 
 
 //change value in input
@@ -38,3 +46,4 @@ $("body").css("display", "none")
 $(document).ready(function(){
 	$('body').fadeIn(1000);
 });
+

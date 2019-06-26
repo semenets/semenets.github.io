@@ -183,6 +183,20 @@
 	padding: 14px 0 14px 0;
 }
 
+@media screen and (max-width: 1200px) {
+	.list-of-products .product {
+		float: left;
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.list-of-products .product {
+		float: left;
+		width: 33.3%;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.list-of-products .product {
 		float: left;
@@ -201,9 +215,8 @@
 	text-align: center;
 }
 
-.list-of-products .product a {
+.list-of-products .goods {
 	display: block;
-	height: 37px;
 	width: 95%;
 	text-align: center;
 	margin: 0 auto;
