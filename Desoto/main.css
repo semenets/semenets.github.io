@@ -682,8 +682,13 @@
 	.differences-products-section .title {
 		font-size: 40px;
 	}
-	.differences-products-section .section .differences-img, .differences-products-section .section .flag {
+/*	.differences-products-section .section .differences-img, .differences-products-section .section .flag {
 		display: none;
+	}*/
+	.differences-products-section .section .differences-img {
+		display: block;
+		margin: 0 auto;
+		float: none;
 	}
 }
 
@@ -975,12 +980,12 @@
 	.checkbox-section {
 		margin-top: 10px;
 	}
-	.interesting-section-width .img-man, .interesting-section-width .interesting-section .red-border {
+	.interesting-section-width .interesting-section .red-border {
 		display: none;
 	}
 	.interesting-section-width .interesting-section .form-section {
 		width: 100%;
-		margin-top: 0;
+		margin-top: 0px;
 	}
 	.interesting-section .form-item {
 		width: 250px;
@@ -991,12 +996,21 @@
 	.interesting-section-width .interesting-section {
 		margin-top: 30px;
 	}
+	.interesting-section-width .img-man {
+		display: block;
+		height: 300px;
+		width: 300px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		margin: 0 auto;
+		position: static;
+	}
 }
 
 @media only screen and (max-width: 991px) {
-	.our-products-right-part {
+/*	.our-products-right-part {
 		display: none;
-	}
+	}*/
 	.our-products-left-part, .interesting-section-width .interesting-section  {
 		width: 760px;
 	}
@@ -1012,6 +1026,16 @@
 	}
 	.interesting-section .form-item {
 		width: 195px;
+	}
+		.our-products-right-part .desoto-img {
+		width: 100%;
+	}
+	.our-products-right-part {
+		position: static;
+		width: 100%;
+	}
+	.our-products-left-part .form,  .interesting-section .form {
+		padding: 53px 53px 0px 53px;
 	}
 }
 
@@ -1050,6 +1074,32 @@
 	}
 	.interesting-section-width .interesting-section .form-section .you-interesting {
 		font-size: 36px;
+	}
+		.our-products-left-part .form, .interesting-section .form {
+		padding: 53px 10px 100px 10px;
+		float: none;
+		right: 0;
+		margin: 0 auto;
+	}
+	.our-products-right-part .desoto-img {
+		width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	}
+	.our-products-right-part .desoto-text {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.our-products-right-part .desoto-img {
+		width: 300px;
+    height: 300px;
+	}
+	.our-products-right-part .desoto-text {
+		height: 300px;
 	}
 }
 
