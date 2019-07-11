@@ -37,6 +37,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+	z-index: 3;
 }
 
 .center-section {
@@ -102,6 +103,22 @@
 	font-family: 'Exo 2', sans-serif;
 }
 
+@media only screen and (min-width: 1700px) {
+	.top-backgound .center-section .play-mother {
+		width: 650px;
+	}
+	.xs-br-clear {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	.top-backgound .center-section .play-mother {
+		width: 850px;
+	}
+}
+
+
 .top-backgound .center-section .simple-steps {
 	width: 350px;
 	margin-top: 45px;
@@ -145,11 +162,26 @@
 }
 
 @media only screen and (max-width: 1200px) {
+	.top-backgound {
+		height: 530px;
+	}
 	.center-section {
 		width: 980px;
 	}
 	.top-backgound .top-img {
-		height: 490px;
+		height: 570px;
+	}
+	.top-backgound .center-section .play-mother {
+		font-size: 30px;
+	}
+	.xs-br-clear {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.top-backgound .top-img {
+		height: 520px;
 	}
 }
 
@@ -158,10 +190,25 @@
 		width: 760px;
 	}
 	.top-backgound .top-img {
-		height: 300px;
+		height: 360px;
 	}
 	.top-backgound .figure1,.top-backgound .figure2 {
 		display: none;
+	}
+	.top-backgound .center-section .play-mother {
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+	.top-backgound .center-section .simple-steps, .top-backgound .center-section .button-register-section {
+		width: 450px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.top-backgound .top-img {
+		height: 300px;
 	}
 }
 
@@ -172,7 +219,7 @@
 		padding-right: 5px;
 	}
 	.top-backgound {
-		height: 700px;
+		height: 600px;
 	}
 	.top-backgound .top-img {
 		height: 300px;
@@ -184,26 +231,63 @@
 }
 
 @media only screen and (max-width: 564px) {
-	.top-backgound .center-section .logo {
+/*	.top-backgound .center-section .logo {
 		padding-top: 280px;
-	}
-	.top-backgound .center-section .play-mother, .top-backgound .center-section .leading-photo-and-name, .top-backgound .center-section .simple-steps {
+	}*/
+	.top-backgound .center-section .play-mother, .top-backgound .center-section .simple-steps {
 		width: 100%;
 	}
 	.top-backgound .center-section .button-register-section .arrow {
 		display: none;
 	}
 	.top-backgound {
-		height: 1000px;
+		height: 1050px;
 	}
+	.top-backgound .center-section .play-mother, .top-backgound .center-section .simple-steps, .top-backgound .center-section .button-register-section {
+		width: 310px;
+	}
+	.top-backgound .center-section .free-practicum {
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.top-backgound .center-section .leading-photo-and-name {
+		margin: 0 auto;
+		width: 310px;
+		margin-top: 40px;
+	}
+	.top-backgound .center-section .logo {
+		display: block;
+				margin: 0 auto;
+		width: 248px;
+
+
+	}
+	.top-backgound .top-img {
+		position: static;
+		width: 100%;
+		height: auto;
+	}
+
+/*		.top-backgound {
+		height: 1180px;
+	}*/
+
+
+/*	.top-backgound .center-section .logo img {
+		padding-top: 140px;
+		padding-bottom: 40px;
+	}*/
 }
 
 @media only screen and (max-width: 420px) {
-	.top-backgound {
+/*	.top-backgound {
 		height: 1150px;
-	}
+	}*/
 	.xs-br-clear {
 	display: none;
+	}
+	.top-backgound {
+		height: 950px;
 	}
 }
 
@@ -232,6 +316,7 @@
 .center-section .say-honestly {
 	position: absolute;
 	z-index: 3;
+	width: 900px;
 }
 
 .center-section .say-honestly-section .say-honestly-subsection {
@@ -325,9 +410,13 @@
 @media only screen and (max-width: 1200px) {
 	.center-section .say-honestly {
 		width: 470px;
+		top: 100px;
 	}
 	.center-section .say-honestly-subsection-last-item {
 		margin-left: 40px;
+	}
+	.center-section .say-honestly-section .main-title {
+		margin: 40px 0 25px 0;
 	}
 }
 
@@ -335,6 +424,7 @@
 	.center-section .say-honestly {
 		width: 380px;
 		left: 190px;
+		top: 0;
 	}
 	.center-section .say-honestly-section {
 		width: 100%;
@@ -378,6 +468,7 @@
 	height: 172px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 .background-good-mother {
@@ -390,6 +481,7 @@
 	height: 200px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -402,8 +494,10 @@
 }
 
 .background-good-mother .col-with-img {
+	display: inline-block;
+	position: relative;
+	right: 100px;
 	width: 730px;
-	float: left;
 }
 
 .background-good-mother .col-with-img .good-mother-img {
@@ -413,8 +507,11 @@
 }
 
 .background-good-mother .good-mother-section-right {
+	position: relative;
+	bottom: 700px;
+	left: 635px;
+	display: inline-block;
 	width: 900px;
-	float: right;
 	margin-right: 10px;
 }
 
@@ -513,6 +610,17 @@
 	.background-good-mother {
 		height: 500px;
 	}
+	.background-good-mother .good-mother-section-right {
+		bottom: 528px;
+		left: 570px;
+	}
+	.background-good-mother .col-with-img {
+		right: -38px;
+	}
+	.background-good-mother .good-mother-section-right {
+		bottom: 528px;
+		left: 540px;
+	}
 }
 
 @media only screen and (max-width: 1450px) {
@@ -523,17 +631,34 @@
 		.background-good-mother {
 		height: 550px;
 	}
-	.background-good-mother .good-mother-section-right {
-		width: 880px;
-	}
+
 	.full-width .figure4 {
 		left: -10px;
+	}
+	.background-good-mother .col-with-img {
+		position: relative;
+		width: 350px;
+		left: -18px;
+		top: 30px;
+	}
+	.background-good-mother .good-mother-section-right {
+		width: 880px;
+		left: 300px;
+		top: -58px;
 	}
 }
 
 @media only screen and (max-width: 1200px) {
 	.background-good-mother .good-mother-section-right {
-		width: 670px;
+		margin: 0 auto;
+		float: none;
+		position: static;
+	}
+	.background-good-mother .good-mother-section-right .columns {
+		right: 0;
+	}
+	.background-good-mother .good-mother-section-right .title {
+		margin-top: 20px;
 	}
 	.full-width .figure4 {
 		left: -220px;
@@ -542,19 +667,31 @@
 		margin-top: 50px;
 	}
 	.background-good-mother {
-		height: 1100px;
+		height: 1000px;
 	}
 	.background-good-mother-bottom {
 		height: 130px;
 	}
+	.background-good-mother .col-with-img {
+		position: static;
+		width: 100%;
+		float: none;
+	}
+
+	.background-good-mother .col-with-img .good-mother-img {
+		position: static;
+		display: block;
+		margin: 0 auto;
+	}
 }
+
 
 @media only screen and (max-width: 991px) {
 	.full-width .figure4 {
 		display: none;
 	}
 	.background-good-mother {
-		height: 1400px;
+		height: 1250px;
 	}
 	.background-good-mother .col-with-img {
 		width: 100%;
@@ -584,7 +721,6 @@
 	}
 	.background-good-mother .good-mother-section-right .title {
 		margin-top: 0;
-		height: 200px;
 	}
 	.background-good-mother .col-with-img, .background-good-mother .col-with-img .good-mother-img {
 		position: static;
@@ -593,7 +729,7 @@
 
 @media only screen and (max-width: 767px) {
 	.background-good-mother {
-		height: 1400px;
+		height: 1300px;
 	}
 	.background-good-mother .col-with-img .good-mother-img {
 		margin-left: 0;
@@ -602,7 +738,7 @@
 
 @media only screen and (max-width: 564px) {
 	.background-good-mother {
-		height: 1650px;
+		height: 1550px;
 	}
 	.background-good-mother .good-mother-section-right .col .col-description {
 		width: 212px;
@@ -733,6 +869,7 @@
 	height: 150px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 .play-children-section {
@@ -745,6 +882,7 @@
 	height: 250px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -868,6 +1006,7 @@
 	position: relative;
 	bottom: 100px;
 	z-index: 3;
+	width: 750px;
 }
 
 .dont-blame-yourself-left-col .description span {
@@ -904,6 +1043,7 @@
 @media only screen and (max-width: 1200px) {
 	.dont-blame-yourself-img {
 		width: 470px;
+		bottom: -60px;
 	}
 	.dont-blame-yourself-left-col {
 		width: 500px;
@@ -943,6 +1083,7 @@
 	height: 100px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 .webinar-section {
@@ -955,21 +1096,23 @@
 	height: 160px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 .webinar-section .kseniya-img {
 	position: relative;
-	bottom: 193px;
+	bottom: 173px;
 	float: left;
 	margin-right: 40px;
+	z-index: 3;
 }
 
 @media only screen and (min-width: 2000px) {
 	.background-webinar-top, .background-webinar-bottom {
-		height: 200px;
+		height: 187px;
 	}
 	.webinar-section .kseniya-img {
-		bottom: 152px;
+		bottom: 144px;
 	}
 }
 
@@ -1040,6 +1183,7 @@
 	position: absolute;
 	left: 0;
 	top: -210px;
+	z-index: 1;
 }
 
 @media only screen and (max-width: 1450px) {
@@ -1057,9 +1201,10 @@
 @media only screen and (max-width: 1200px) {
 	.webinar-section .kseniya-img {
 		width: 400px;
+		bottom: 143px;
 	}
 	.webinar-section {
-		height: 300px;
+		height: 330px;
 	}
 	.webinar-section .invite-you, .webinar-section .title {
 		width: 520px;
@@ -1089,7 +1234,7 @@
 	.webinar-section .kseniya-img {
 		width: 400px;
 		position: absolute;
-		top: 338px;
+		top: 317px;
 		left: 160px;
 	}
 	.webinar-section .invite-you, .webinar-section .invite-you, .webinar-section .title {
@@ -1099,17 +1244,19 @@
 
 @media only screen and (max-width: 767px) {
 	.webinar-section .kseniya-img {
-		width: 200px;
-		top: 500px;
+		display: none;
 	}
 	.webinar-section {
-		height: 700px;
+		height: 500px;
 	}
 }
 
 @media only screen and (max-width: 564px) {
 	.webinar-section .arrow-webinar {
 		display: none;
+	}
+	.webinar-section {
+		height: 600px;
 	}
 }
 
@@ -1141,7 +1288,6 @@
 	width: 1206px;
 	margin: 0 auto;
 }
-
 
 .section-about-webinar-row .col {
 	display: inline-block;
@@ -1235,6 +1381,7 @@
 	height: 150px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 .background-kseniya-section {
@@ -1247,12 +1394,7 @@
 	height: 150px;
 	-webkit-background-size: cover;
 	background-size: cover;
-}
-
-@media only screen and (min-width: 2000px) {
-	.background-kseniya-section-top, .background-kseniya-section-bottom {
-		height: 250px;
-	}
+	background-position: center;
 }
 
 .background-kseniya-section .left-col {
@@ -1262,7 +1404,7 @@
 
 .background-kseniya-section .kseniya-with-books-img {
 	position: relative;
-	bottom: 265px;
+	bottom: 255px;
 }
 
 .background-kseniya-section .left-col .title, .background-kseniya-section .left-col .subtitle {
@@ -1300,28 +1442,62 @@
 	position: absolute;
 	left: 0;
 	top: 70px;
+	z-index: 1;
 }
 
 @media only screen and (max-width: 1450px) {
 	.background-kseniya-section .left-col {
 		width: 500px;
+		margin-top: 50px;
 	}
 	.background-kseniya-section .kseniya-with-books-img {
 		width: 570px;
-		top: 163px;
+		top: 68px;
+		z-index: 3;
 	}
 	.background-kseniya-section {
-		height: 840px;
+		height: 740px;
 	}
 	.background-kseniya-section-bottom {
 		height: 100px;
+	}
+		.background-kseniya-section .left-col .title, .background-kseniya-section .left-col .subtitle {
+		position: absolute;
+		font-size: 32px;
+	}
+	.background-kseniya-section {
+		height: 740px;
+	}
+	.background-kseniya-section .left-col .title {
+		top: 100px;
+	}
+	.background-kseniya-section .left-col .subtitle {
+		top: 140px;
 	}
 }
 
 @media only screen and (max-width: 1200px) {
 	.background-kseniya-section .kseniya-with-books-img {
 		width: 475px;
-		top: 268px;
+		top: 185px;
+	}
+	.background-kseniya-section .left-col .title, .background-kseniya-section .left-col .subtitle {
+		font-size: 32px;
+	}
+	.background-kseniya-section {
+		height: 740px;
+	}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+	.background-kseniya-section .also, .background-kseniya-section .list {
+		font-size: 15px;
+	}
+	.background-kseniya-section {
+		height: 640px;
+	}
+	.background-kseniya-section .kseniya-with-books-img {
+		top: 85px;
 	}
 }
 
@@ -1339,19 +1515,25 @@
 
 @media only screen and (max-width: 767px) {
 	.background-kseniya-section {
-		height: 800px;
+		height: 700px;
 	}
 }
 
 @media only screen and (max-width: 564px) {
 	.background-kseniya-section {
-		height: 1000px;
+		height: 800px;
 	}
 }
 
 @media only screen and (max-width: 460px) {
 	.background-kseniya-section {
-		height: 1100px;
+		height: 1000px;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.background-kseniya-section .left-col .subtitle {
+		position: static;
 	}
 }
 
@@ -1423,6 +1605,7 @@
 	height: 150px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 .background-my-secret-section {
@@ -1435,6 +1618,7 @@
 	height: 190px;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -1809,6 +1993,9 @@
 	.register-section-left-col {
 		width: 520px;
 	}
+	.register-section-right-col {
+		top: 50px;
+	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -1828,6 +2015,9 @@
 	}
 	.register-section-right-col .background-register .register-photo {
 		left: 258px;
+	}
+	.register-section-right-col {
+		top: 0;
 	}
 	.register-section-left-col .title {
 		margin-top: 20px;
