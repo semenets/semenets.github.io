@@ -37,17 +37,26 @@ header {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   outline: none;
+  -webkit-transition: all 0.3s ease-in-out; /* Vendor prefix for WebKit browsers */
+  -moz-transition: all 0.3s ease-in-out; /* Vendor prefix for Firefox */
+  -o-transition: all 0.3s ease-in-out; /* Vendor prefix for Opera */
 }
 
 .getbonus-button:hover {
   background: linear-gradient(45deg, #34d058, #1e7e34);
   box-shadow: 0 6px 15px rgba(40, 167, 69, 0.7);
   transform: scale(1.05);
+  -webkit-transform: scale(1.05); /* Vendor prefix for WebKit browsers */
+  -moz-transform: scale(1.05); /* Vendor prefix for Firefox */
+  -o-transform: scale(1.05); /* Vendor prefix for Opera */
 }
 
 .getbonus-button:active {
   transform: scale(0.95);
   box-shadow: 0 2px 5px rgba(40, 167, 69, 0.5);
+  -webkit-transform: scale(0.95); /* Vendor prefix for WebKit browsers */
+  -moz-transform: scale(0.95); /* Vendor prefix for Firefox */
+  -o-transform: scale(0.95); /* Vendor prefix for Opera */
 }
 
 section {
@@ -102,4 +111,3 @@ footer {
   padding: 20px;
   color: #bbb;
 }
-
