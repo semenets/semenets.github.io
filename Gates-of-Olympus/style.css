@@ -59,6 +59,13 @@ section img {
   margin-top: 20px;
 }
 
+@media  (max-width: 420px) {
+  section img {
+    height: 90%;
+    width: 90%;
+  }
+}
+
 .features, .table-section, .game-strategy, .bonuses {
   margin: 10px;
   border-radius: 10px;
