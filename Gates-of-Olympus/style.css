@@ -17,10 +17,6 @@ header {
   color: #fff;
 }
 
-header img {
-  width: 270px;
-}
-
 @media  (max-width: 420px) {
   header img {
     width: 200px;
@@ -60,8 +56,6 @@ section {
 }
 
 section img {
-  height: 50%;
-  width: 50%;
   margin-top: 20px;
 }
 
