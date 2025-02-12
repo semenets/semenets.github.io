@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Play', sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+header {
+  background: #526084;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+header img {
+  width: 270px;
+}
+
+@media  (max-width: 420px) {
+  header img {
+    width: 200px;
+  }
+}
+
+.getbonus-button {
+  background: linear-gradient(45deg, #28a745, #218838);
+  color: #fff;
+  margin-top: 20px;
+  padding: 15px 35px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(40, 167, 69, 0.5);
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.getbonus-button:hover {
+  background: linear-gradient(45deg, #34d058, #1e7e34);
+  box-shadow: 0 6px 15px rgba(40, 167, 69, 0.7);
+  transform: scale(1.05);
+}
+
+.getbonus-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(40, 167, 69, 0.5);
+}
+
+section {
+  padding: 20px;
+  font-size: 17px;
+}
+
+section img {
+  height: 50%;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.features, .table-section, .game-strategy, .bonuses {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: rgba(40, 167, 69);
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  padding: 2px;
+}
+
+#table-game {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+#table-game td {
+  border: 1px solid #000;
+  padding: 12px;
+  color: #000;
+}
+
+footer {
+  background: #333;
+  padding: 20px;
+  color: #bbb;
+}
+
