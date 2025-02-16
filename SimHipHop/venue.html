@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>venue page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+	<!-- Header -->
+	<button id="mobile-menu-button"><i class="fas fa-bars fas-fa-bars"></i></button>
+	<div class="top-black-menu-background">
+		<div class="top-black-menu">
+			<a href="index.html"><img src="img/logo.png" alt="" class="top-black-menu-logo"></a>
+			<ul class="top-black-menu-items">
+				<li><a href="#" class="item-menu">HOME</a></li>
+				<li><a href="#" class="item-menu">NEWS</a></li>
+				<li><a href="#" class="item-menu">PROFILE</a></li>
+				<li><a href="#" class="item-menu">ABOUT</a></li>
+			</ul>
+			<span class="welcome">Welcome, m_fisher</span>
+		</div>
+	</div>
+	<div class="top-row-header"></div>
+	<!--End header -->
+
+	<!-- Main part -->
+	<div class="main-background">
+		<div class="left-menu" id="left-menu">
+			<div class="m_fisher">
+				<img src="img/m_fisher.png" alt="">
+				<div class="m_fisher-text">m_fisher</div>
+				<div class="cash-and-level">Cash: 12000$</div>
+				<div class="cash-and-level">Level: 14</div>
+			</div>
+
+			<ul class="left-menu-ul">
+				<li><a href="news.html">NEWS FEED <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="label.html">LABEL <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="user_profile.html">USER PROFILE <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="leagues.html">LEAGUES <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="venue.html" class="active">VENUE <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="trades.html">TRADES <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+			</ul>
+			<div class="invite-friends-section">
+				<a href="invite_friends.html" class="invite-friends"><i class="fas fa-envelope fas-fa-envelope"></i>Invite friends</a>
+			</div>
+		</div>
+
+		<div class="right-section" id="right-section">
+			<div class="img-overlay">
+				<div class="leagues-section">
+					<div class="venue-section">
+						<div class="title-section">Venue</div>
+						<div class="venue-photo">
+							<div class="artist-left-section">
+								<img src="img/artist-image.png" alt="" class="artist-image">
+								<img src="img/artist-img.png" alt="" class="artist-image">
+								<img src="img/artist-img.png" alt="" class="artist-image">
+								<a class="add-artist info" href="#openModal">Add</a>
+								<div id="openModal" class="modalDialog">
+									<div class="modal-venue">
+										<a href="#close" title="Close" class="close"><i class="fas fa-times fas-fa-times"></i></a>
+										<div class="add-artists">Add artists</div>
+
+										<div class="left-col">
+											<div class="title-artists">Your artists</div>
+											<div class="your-artists">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+											</div>
+										</div>
+
+										<div class="right-col">
+											<div class="title-headliners">Headliners</div>
+											<div class="your-artists your-artists-right">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+												<img src="img/artist-img.png" alt="" class="artist-img">
+											</div>
+										</div>
+										<button class="save-button">Save</button>
+									</div>
+								 </div>
+							</div>
+						</div>
+
+						<div class="venue-form">
+							<form>
+								<div class="row">
+									<span class="title-of-form">Size of audience</span>
+									<div class="select-venue">
+										<select>
+											<option value="Small Hall (3000)">Small Hall (3000)</option>
+											<option value="Small Hall (3000) 2">Small Hall (3000) 2</option>
+											<option value="Small Hall (3000) 3">Small Hall (3000) 3</option>
+											<option value="Small Hall (3000) 4">Small Hall (3000) 4</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="row">
+									<span class="title-of-form">Advertising expenses</span>
+									<div class="select-venue2">
+										<select>
+											<option value="500">500</option>
+											<option value="600">600</option>
+											<option value="700">700</option>
+											<option value="800">800</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="row">
+									<span class="title-of-form">Artists</span>
+									<input type="number" class="artists-input" placeholder="3">
+								</div>
+
+								<div class="row">
+									<span class="title-of-form">Merchandising</span>
+									<div class="select-venue3">
+										<select>
+											<option value="1000">1000</option>
+											<option value="2000">2000</option>
+											<option value="3000">3000</option>
+											<option value="4000">4000</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="row">
+									<span class="title-of-form">Perfomance date</span>
+									<div class="select-venue4">
+										<select>
+											<option value="23.02 (19.00)">23.02 (19.00)</option>
+											<option value="24.02 (19.00)">24.02 (19.00)</option>
+											<option value="25.02 (19.00)">25.02 (19.00)</option>
+											<option value="26.02 (19.00)">26.02 (19.00)</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="book-and-total">
+									<button class="button">Book</button>
+									<span>Total:</span>
+									<input type="number" placeholder="4500">
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="venue-perfomance">
+						<div class="title-section">Perfomance</div>
+						<div class="perfomance-section">
+							<div class="hall">
+								<div class="date">23.02</div>
+								<div class="hall-section">
+									<div>Small Hall</div>
+									<div>19:00</div>
+									<div>4500 c.u.</div>
+									<button class="cancel-button">Cancel</button>
+								</div>
+							</div>
+
+							<div class="hall">
+								<div class="date">23.02</div>
+								<div class="hall-section">
+									<div>Small Hall</div>
+									<div>21:00</div>
+									<div>4000 c.u.</div>
+									<button class="plus-button">+6000</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<!-- End main part -->
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="footer-section">
+			<div class="footer-col1">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+				<div class="music-industry">WEB-BASED SIMULATION GANE ABOUT THE HIP HOP MUSIC INDUSTRY</div>
+				<div class="all-rights xs-display-none">© 2017 COMPANY NAME. ALL RIGHTS RESERVED.</div>
+			</div>
+
+			<div class="footer-col2-and-col3">
+				<div id="footer-menu1">
+					<ul id="footer-menu-ul"></ul>
+				</div>
+			</div>
+
+			<div class="footer-col2-and-col3">
+				<ul class="footer-menu2">
+					<li><a href="artist.html">ARTIST</a></li>
+					<li><a href="user_profile.html">USER PROFILE</a></li>
+					<li><a href="leagues.html">LEAGUES</a></li>
+					<li><a href="venue.html">VENUES</a></li>
+					<li><a href="trades.html">TRADES</a></li>
+					<li><a href="news.html">NEWS</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col4">
+				<div>COMPANY NAME</div>
+				<div>COMPANY NAME@GMAIL.COM</div>
+				<div>TAGLINE LOREM IPSUM DOLOR <br> SIT AMET, CONSECTETUR</div>
+			</div>
+			<div class="clear"></div>
+			<div class="all-rights xs-footer">© 2017 <span style="text-transform: uppercase;">C</span>OMPANY NAME. <span style="text-transform: uppercase;">A</span>LL RIGHTS RESERVED.</div>
+		</div>
+	</div>
+	<!-- End footer -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/pages.js"></script>
+</body>
+</html>

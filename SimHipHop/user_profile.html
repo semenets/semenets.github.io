@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>user-profile page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+<body>
+
+	<!-- Header -->
+	<button id="mobile-menu-button"><i class="fas fa-bars fas-fa-bars"></i></button>
+	<div class="top-black-menu-background">
+		<div class="top-black-menu">
+			<a href="index.html"><img src="img/logo.png" alt="" class="top-black-menu-logo"></a>
+			<ul class="top-black-menu-items">
+				<li><a href="#" class="item-menu">HOME</a></li>
+				<li><a href="#" class="item-menu">NEWS</a></li>
+				<li><a href="#" class="item-menu">PROFILE</a></li>
+				<li><a href="#" class="item-menu">ABOUT</a></li>
+			</ul>
+			<span class="welcome">Welcome, m_fisher</span>
+		</div>
+	</div>
+	<div class="top-row-header"></div>
+	<!-- End header -->
+
+	<!-- Main part -->
+	<div class="main-background">
+		<div class="left-menu" id="left-menu">
+			<div class="m_fisher">
+				<img src="img/m_fisher.png" alt="">
+				<div class="m_fisher-text">m_fisher</div>
+				<div class="cash-and-level">Cash: 12000$</div>
+				<div class="cash-and-level">Level: 14</div>
+			</div>
+
+			<ul class="left-menu-ul">
+				<li><a href="news.html">NEWS FEED <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="label.html">LABEL <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="user_profile.html" class="active">USER PROFILE <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="leagues.html">LEAGUES <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="venue.html">VENUE <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+				<li><a href="trades.html">TRADES <i class="fas fa-angle-right fas-fa-angle-right"></i></a></li>
+			</ul>
+			<div class="invite-friends-section">
+				<a href="invite_friends.html" class="invite-friends"><i class="fas fa-envelope fas-fa-envelope"></i>Invite friends</a>
+			</div>
+		</div>
+
+		<div class="right-section" id="right-section">
+			<div class="img-overlay-white">
+				<div class="m_fisher-section">
+					<div class="fisher-button-and-logo">
+						<button class="photo"><img src="img/m_fisher-with-pensil.png" alt=""></button>
+						<div class="m_fisher">m_fisher</div>
+						<div class="budget-and-level">Budget: 12000</div>
+						<div class="budget-and-level">Level: 14</div>
+						<button class="log-out">Log out</button>
+					</div>
+				</div>
+
+				<div class="form-section">
+					<div class="profile-info">Profile info</div>
+					<div class="field-section">
+						<form>
+							<div class="part-of-section">
+								<div class="user-name">User name</div>
+								<input type="text" class="user-input" placeholder="m_fisher" minlength="2" maxlength="12" required>
+								<div class="unique-name">Use a unique name between 2 and 12 characters</div>
+							</div>
+
+							<div class="part-of-section">
+								<div class="user-name">E-mail</div>
+								<input type="email" class="user-input" placeholder="m_fisher@gmail.com" required>
+							</div>
+
+							<div class="part-of-section">
+								<div class="user-name">Password</div>
+								<input type="password" class="user-input" placeholder="New password" required>
+								<input type="password" class="user-input user-input-right" placeholder="Your current password" required>
+								<input type="password" class="user-input" placeholder="Confirm new password" required>
+							</div>
+							<button type="submit" class="save-button">SAVE</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<!-- End main part -->
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="footer-section">
+			<div class="footer-col1">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+				<div class="music-industry">WEB-BASED SIMULATION GANE ABOUT THE HIP HOP MUSIC INDUSTRY</div>
+				<div class="all-rights xs-display-none">© 2017 COMPANY NAME. ALL RIGHTS RESERVED.</div>
+			</div>
+
+			<div class="footer-col2-and-col3">
+				<div id="footer-menu1">
+					<ul id="footer-menu-ul"></ul>
+				</div>
+			</div>
+
+			<div class="footer-col2-and-col3">
+				<ul class="footer-menu2">
+					<li><a href="artist.html">ARTIST</a></li>
+					<li><a href="user_profile.html">USER PROFILE</a></li>
+					<li><a href="leagues.html">LEAGUES</a></li>
+					<li><a href="venue.html">VENUES</a></li>
+					<li><a href="trades.html">TRADES</a></li>
+					<li><a href="news.html">NEWS</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col4">
+				<div>COMPANY NAME</div>
+				<div>COMPANY NAME@GMAIL.COM</div>
+				<div>TAGLINE LOREM IPSUM DOLOR <br> SIT AMET, CONSECTETUR</div>
+			</div>
+			<div class="clear"></div>
+			<div class="all-rights xs-footer">© 2017 <span style="text-transform: uppercase;">C</span>OMPANY NAME. <span style="text-transform: uppercase;">A</span>LL RIGHTS RESERVED.</div>
+		</div>
+	</div>
+	<!-- End footer -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/pages.js"></script>
+</body>
+</html>
