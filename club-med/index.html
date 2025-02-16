@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Club Med</title>
+	<link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+
+  <!--Top part-->
+  <div class="Club_Med">
+    <div class="logo">
+      <img src="img/logo.png" alt="">
+    </div>
+    <div class="main_picture_center">
+      <div class="main_picture">
+        <span>SELECT YOUR <br>CLUB MED HAPPY...</span>
+      </div>   
+    </div>
+    <div class="Club_Med_holiday">
+      <span class="Club_Med_holiday_title">Selecting your next all-inclusive Club Med holiday is simple. </span>
+      <span class="Club_Med_holiday_text">
+        <p class="holiday_starts">And your holiday starts the minute you complete your enquiry form, because we’ll take care of everything from contacting you to make the booking, arranging your flights, transfers and accommodation, meals, drinks and entertainment. </p>
+        <p>All you need to do is leave your wallet at home and bring your Club Med Happy. </p>
+        <p>If you’re keen to holiday all you want, simply complete the form below and a Club Med representative will contact you within 48 hours.</p>
+      </span>
+    </div>
+  </div>
+
+  <!--Main part-->
+  <form action="">
+    <div class="looking_for">
+      <span>WHAT KIND OF EXPERIENCE ARE YOU LOOKING FOR?</span>
+    </div>
+    <div class="buttons_season">
+      <button id="button_winter"><img src="img/snow_img.png" alt=""></button>
+      <button id="button_summer" active="true"><img src="img/sun.png" alt=""></button>
+      <input type="radio" name="winter" id="radio_winter" hidden>
+      <input type="radio" name="summer" id="radio_summer" checked="true" hidden>
+    </div>
+    <div class="select">
+      <select class="select_choose" id="select_country">
+        
+      </select>
+    </div>
+    <div class="select">
+      <select class="select_choose" id="select_resort">
+        
+      </select>
+    </div>
+    <div class="you_travel">
+      <span class="when_you_travel">When would you like to travel?</span>
+      <span class="preferred_date">Select your preferred date:</span>
+    </div>
+    <div class="buttons_months">
+      <button id="button_feb"><img src="img/feb_img.png" alt=""></button>
+      <button id="button_mar"><img src="img/mar_img.png" alt=""></button>
+      <button id="button_apr" active="true"><img src="img/apr_img.png" alt=""></button>
+      <input type="radio" name="feb" id="radio_feb" hidden>
+      <input type="radio" name="mar" id="radio_mar" hidden>
+      <input type="radio" name="apr" id="radio_apr" checked="true" hidden>
+    </div>
+    <div class="you_travel">
+      <span class="when_you_travel">WHO WILL BE GOING ON THIS <br>HOLIDAY WITH YOU?</span>
+    </div>
+    <div class="buttons_months">
+      <button id="button_couple" active="true">
+        <img src="img/couple_img.png" alt="" class="img_holiday_couple">
+        <div class="who_travel_with_you">COUPLE</div>
+      </button>
+      <button id="button_family">
+        <img src="img/family_img.png" alt="" class="img_holiday_family">
+        <div class="who_travel_with_you">FAMILY</div>
+      </button>
+      <button id="button_friends">
+        <img src="img/friends_img.png" alt="" class="img_holiday_friends">
+        <div class="who_travel_with_you">FRIENDS</div>
+      </button>
+
+      <input type="radio" name="couple" id="radio_couple" checked="true" hidden>
+      <input type="radio" name="family" id="radio_family" hidden>
+      <input type="radio" name="friends" id="radio_friends" hidden>
+    </div>
+  </form>
+
+  <!--Bottom part-->
+  <div class="Bottom_part">
+    <form action="">
+      <div class="you_travel">
+        <span class="when_you_travels">Now that we have your destination details, please provide us with your personal details:</span>
+      </div>
+      <span class="details">NAME*:</span>
+      <div class="input_details">
+        <input type="text" class="personal_details_input" required>
+      </div>
+
+      <span class="details">SURNAME*:</span>
+      <div class="input_details">
+        <input type="text" class="personal_details_input" required>
+      </div>
+
+      <span class="details">EMAIL*:</span>
+      <div class="input_details">
+        <input type="text" class="personal_details_input" required>
+      </div>
+
+      <span class="details">TELEPHONE*:</span>
+      <div class="input_details">
+        <input type="text" class="personal_details_input" required>
+      </div>
+
+      <span class="details">BEST TIME TO CALL*:</span>
+      <div class="select invent_select">
+        <select class="best_time_to_call" required>
+          <option></option>
+          <option></option>
+        </select>
+      </div>
+
+      <span class="details">YOUR RESIDENTAL CITY*:</span>
+      <div class="input_details">
+        <input type="text" class="personal_details_input" required>
+      </div>
+             
+      <div class="mailing_list">
+        <input type="checkbox">
+        <span>Yes, Please include ME on the mailing list</span>
+      </div>
+
+      <div class="input_button_submit">
+        <input type="submit" class="submit_button" value="SUBMIT">
+        <img src="img/submit_img.png" alt="">
+      </div>
+    </form>
+    <div class="chatting">
+      <span>We look forward to chatting to you soon.</span>
+    </div>
+    <div class="disclaimer">
+      <span>DISCLAIMER: By completing and submitting the above information you opt in to receive information, promotional offers and deals from Club Med South Africa.</span>
+    </div>
+  </div>
+ 
+  <script type="text/javascript" src="js/resorts.js"></script>
+  <script src="js/head.js"></script>
+</body>
+</html>
+

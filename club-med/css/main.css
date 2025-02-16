@@ -1,0 +1,580 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*:focus {outline:0;}
+
+button[active="true"] {
+	background-color: #f38d43 !important;
+}
+
+/**Top part**/
+.Club_Med {
+	background-color: #005589;
+	padding-bottom: 50px;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+	max-width: 350px;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+	.logo img {
+		width: 90%;
+	}
+}
+
+.main_picture_center {
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main_picture {
+	position: relative;
+	background-image: url(../img/main_picture.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 387px;
+	margin-bottom: 50px;
+}
+
+.main_picture span {
+	position: absolute;
+	left: 32px;
+	top: 30px;
+	color: #fff;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+	.main_picture span {
+		font-size: 35px;
+	}
+}
+
+.Club_Med_holiday {
+	max-width: 575px;
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+	.Club_Med_holiday {
+		width: 82%;
+	}
+}
+
+.Club_Med_holiday_title {
+	font-size: 32px;
+	color: #005589;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.Club_Med_holiday_text p {
+	font-size: 21px;
+	color: #005589;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+.Club_Med_holiday_text .holiday_starts {
+	padding-top: 20px;
+}
+
+
+/**Main part**/
+.looking_for {
+	max-width: 640px;
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+.looking_for span {
+	display: block;
+	font-size: 32px;
+	color: #005589;
+	text-transform: uppercase;
+	padding-left: 36px;
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 580px) {
+	.looking_for span {
+		padding-left: 25px;
+	}
+}
+
+.buttons_season {
+	height: 157px;
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.buttons_season button {
+	display: block;
+	float: left;
+	height: 157px;
+	width: 50%;
+	background-color: #005589;
+	border: none;
+	cursor: pointer;
+}
+
+.select {
+	display: block;
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 35px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+.select_choose {
+	color: white;
+	font-size: 18px;
+	height: 70px;
+	max-width: 570px;
+	width: 100%;
+	background-color: #f38d43;
+	background-image: url(../img/arrow_icon.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	z-index: 1;
+	-webkit-appearance: none;
+	padding-left: 20px;
+	border-radius: 0;
+	border: 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.select_choose {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.select {
+		font-size: 18px;
+	}
+
+	.select_choose {
+		background-size: 40px;
+	}
+}
+
+.you_travel {
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 35px;
+}
+
+.when_you_travel {
+	display: block;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #005589;
+	padding-left: 36px;
+	font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+	.when_you_travel {
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.when_you_travel {
+		padding-left: 25px;
+	}
+}
+
+.preferred_date {
+	display: block;
+	font-size: 28px;
+	font-weight: bold;
+	color: #005589;
+	padding-left: 36px;
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 580px) {
+	.preferred_date {
+		padding-left: 25px;
+	}
+}
+
+.buttons_months {
+	height: 187px;
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.buttons_months button {
+	display: block;
+	float: left;
+	height: 187px;
+	max-width: 33%;
+	width: 100%;
+	background-color: #005589;
+	border: none;
+	margin-left: 1px;
+	margin-right: 1px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 620px) {
+	.buttons_months button {
+		max-width: 32.9%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.buttons_months button {
+		max-width: 32.8%;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.buttons_months button {
+		max-width: 32.7%;
+	}
+}
+
+@media only screen and (max-width: 335px) {
+	.buttons_months button {
+		max-width: 32.6%;
+	}
+}
+
+.who_travel_with_you {
+	color: #fff;
+	font-size: 21px;
+	padding-top: 12px;
+	font-family: 'Oswald', sans-serif;
+}
+
+button:hover {
+	background-color: #034f7d;
+}
+
+@media only screen and (max-width: 768px) {
+	.img_holiday_couple {
+		max-width: 50%;
+	}
+
+	.img_holiday_family {
+		max-width: 100%;
+	}
+
+	.img_holiday_friends {
+		max-width: 100%;
+	}
+}
+
+
+/**Bottom part**/
+.Bottom_part {
+	background-color: #005589;
+	padding-bottom: 50px;
+}
+
+.indent {
+	margin-top: 45px;
+}
+
+.personal_details {
+	display: block;
+	max-width: 570px;
+	margin: 0 auto;
+	padding-top: 35px;
+	width: 100%;
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+	.personal_details {
+		padding-left: 36px;
+	}
+}
+
+.input_details {
+	height: 70px;
+	width: 100%;
+	max-width: 570px;
+	background-color: red;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.personal_details_input {
+	box-sizing: border-box;
+	height: 70px;
+	width: 100%;
+	max-width: 570px;
+	margin: 0 auto;
+	border: none;
+	font-size: 32px;
+	font-family: 'Lato', sans-serif;
+	color: #005589;
+	padding-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+	.personal_details_input {
+		font-size: 24px;
+	}
+
+	.input_details {
+		width: 89%;
+	}
+}
+
+.details {
+	display: block;
+	max-width: 570px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+	.details {
+		width: 89%;
+	}
+}
+
+.when_you_travels {
+	display: block;
+	font-size: 27px;
+	font-weight: bold;
+	color: #fff;
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-top: 35px;
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+	.when_you_travels {
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.when_you_travels {
+		padding-left: 25px;
+	}
+}
+
+.best_time_to_call {
+	height: 70px;
+	max-width: 570px;
+	width: 100%;
+	background-image: url(../img/input_icon.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	z-index: 1;
+	-webkit-appearance: none;
+	padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.best_time_to_call {
+		width: 89%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.best_time_to_call {
+		background-size: 40px;
+	}
+}
+
+.invent_select {
+	margin-bottom: 20px;
+}
+
+.mailing_list {
+	width: 100%;
+	max-width: 570px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.mailing_list input {
+	float: left;
+	width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+	padding-top: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.mailing_list {
+		width: 90%;
+	}
+}
+
+.mailing_list span {
+	color: #fff;
+	font-size: 28px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.submit_button {
+	height: 70px;
+	width: 100%;
+	max-width: 570px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-right: 70px;
+	color: #fff;
+	background-color: #f38d43;
+	border: none;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	cursor: pointer;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.submit_button:hover {
+	background-color: #e5833b;
+}
+
+
+.input_button_submit img {
+	height: 40px;
+	width: 20px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+	.submit_button {
+		width: 100%;
+		padding-right: 0px;
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.input_button_submit img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 645px) {
+	.submit_button {
+		width: 97%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.submit_button {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	.submit_button {
+		width: 92%;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.submit_button {
+		width: 90%;
+	}
+}
+
+.input_button_submit {
+	position: relative;
+	height: 70px;
+	max-width: 570px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+.input_button_submit img {
+	position: absolute;
+	right: 170px;
+	top: 30px;
+}
+
+.chatting {
+	margin: 0 auto;
+	color: #fff;
+	font-size: 28px;
+	max-width: 570px;
+	width: 100%;
+	margin-top: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+	.chatting {
+		width: 90%;
+	}
+}
+
+.disclaimer {
+	margin: 0 auto;
+	color: #fff;
+	font-size: 16px;
+	max-width: 570px;
+	width: 100%;
+	margin-top: 28px;
+	margin-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+	.disclaimer {
+		width: 90%;
+	}
+}
+
