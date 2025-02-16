@@ -1,0 +1,208 @@
+.column-indent
+	margin-top: 125px
+	@media only screen and (max-width: 767px)
+		margin-top: 65px
+	.title-column
+		font-weight: bold
+		font-size: 26px
+		margin: 25px 0
+	.descripton-text, .descripton-text + p
+		font-size: 18px
+		color: $color-text-description
+	.descripton-text
+		margin-bottom: 40px
+.iPhone6-white
+	width: 100%
+.container-fluid-indent
+	margin-top: 200px
+	@media only screen and (max-width: 767px)
+		margin-top: 100px
+.right-column-protected
+	margin-top: 30px
+	@media only screen and (max-width: 1200px)
+		margin-top: 0
+	.title-protected
+		font-size: 42px
+		@media only screen and (max-width: 767px)
+			margin-top: 20px
+			line-height: 50px
+	.protected-description
+		font-size: 20px
+		color: $color-text-description
+		width: 70%
+		margin-top: 75px
+		margin-bottom: 40px
+		@media only screen and (max-width: 767px)
+			margin-top: 15px
+	.protected-description + div
+		font-size: 20px
+		color: $color-text-description
+		width: 70%
+		padding-bottom: 75px
+	.button-hask
+		position: relative
+		border-radius: 25px
+		width: 200px
+		height: 42px
+		display: inline-block
+		background: linear-gradient(to right, #2a7ae7 50%, #267df4 50%)
+		background-size: 200% 100%
+		background-position: right bottom
+		transition: all .5s ease-out
+		color: $white-color
+		border: none
+		margin-bottom: 25px
+		margin-right: 20px
+		.title-button
+			position: relative
+			right: 15px
+		&:hover
+			background-position: left bottom !important
+		.fa-arrow-right-icon
+			color: $white-color
+			font-size: 16px
+			position: relative
+			left: 25px
+			top: 2px
+	.button-lear-more
+		position: relative
+		border-radius: 25px
+		width: 140px
+		height: 40px
+		display: inline-block
+		background: linear-gradient(to right, #e2e5e7 50%, transparent 50%)
+		background-size: 200% 100%
+		background-position: right bottom
+		transition: all .5s ease-out
+		color: #26272d
+		border: 1px solid #e9e9ea
+		font-size: 16px
+		.title-button
+			display: block
+			text-align: center
+		&:hover
+			background-position: left bottom !important
+.section-with-phones
+	background-color: #f5f5f8
+	margin-top: 50px
+	padding-bottom: 110px
+	.title-of-section-with-phones
+		font-size: 42px
+		font-weight: 500;
+		text-align: center
+		padding-top: 100px
+		padding-bottom: 48px
+	.blue-bottom
+		height: 5px
+		width: 50px
+		background-color: #267df4
+		margin: 0 auto
+	.small-gray-text
+		text-align: center
+		font-size: 12px
+		color: $color-text-description
+		margin-top: 52px
+		margin-bottom: 52px
+		letter-spacing: 2px
+	.bottom-title-of-section-with-phones
+		font-size: 42px
+		font-weight: 500;
+		text-align: center
+		padding-bottom: 48px
+	.phones
+		width: 100%
+.search
+	position: relative
+	width: 500px
+	margin: 0 auto
+	@media only screen and (max-width: 767px)
+		width: 315px
+	input[type="email"]
+		display: block
+		height: 50px
+		border: none
+		outline: none
+		border-radius: 40px
+		width: 500px
+		border: 1px solid #cbcbce
+		padding-left: 25px
+		background-color: transparent
+		font-size: 16px
+		font-weight: 500
+		@media only screen and (max-width: 767px)
+			width: 315px
+			padding-left: 15px
+	input[type="submit"]
+		position: absolute
+		right: 3px
+		top: 3px
+		padding: 12px 40px 12px 40px
+		background-color: #6fc754
+		border: none
+		border-radius: 40px
+		color: $white-color
+		outline: none
+		@media only screen and (max-width: 767px)
+			padding: 12px 15px 12px 15px
+	.fa-arrow-right-icon
+		color: $white-color
+		position: absolute
+		right: 20px
+		top: 18px
+		cursor: pointer
+
+/*Section with slider*/
+.slider
+	.arrow-right
+		position: absolute
+		right: 0
+		top: 0
+	.title-slide
+		font-size: 32px
+		text-align: center
+		margin-top: 45px
+		margin-bottom: 50px
+	.description-slide
+		font-size: 20px
+		text-align: center
+		width: 50%
+		margin: 0 auto
+		color: $color-text-description
+	.name
+		font-size: 12px
+		text-align: center
+		margin-top: 70px
+		margin-bottom: 90px
+	.stars
+		text-align: center
+		.fa-star-icon
+			margin-top: 30px
+			color: $color-stars-carousel
+			font-size: 21px
+			letter-spacing: 4px
+
+.section-photos
+	margin-top: 125px
+	.users-photos
+		display: block
+		margin: 0 auto
+		border-radius: 50%
+		margin-bottom: 20px
+		transform: scale(0.6)
+		@media only screen and (max-width: 767px)
+			width: 100%
+	[id^="user"]
+		img
+			opacity: 0.3
+			transition: all 0.3s
+		.selected
+			opacity: 1
+			transform: scale(0.9)
+			transition: all 0.3s
+			box-shadow: 25px 25px 30px 0px rgba(217,218,219,1)
+
+.slick-prev:after
+	background-image: url(../img/left-arrow.png)
+	height: 20px
+	color: red
+	font-size: 30px

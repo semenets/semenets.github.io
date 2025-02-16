@@ -1,0 +1,62 @@
+.footer
+	border-top: 1px solid #f4f4f4
+	padding-top: 105px
+	padding-bottom: 80px
+	.newprovidence
+		display: block
+		font-size: 16px
+		color: $black-color
+		margin-bottom: 35px
+		span
+			font-weight: 700
+	.newprovidence + div
+		color: $color-text-description
+		font-size: 14px
+		line-height: 25px
+		width: 60%
+		margin-bottom: 33px
+	.fa-twitter-icon, .fa-facebook-f-icon, .fa-linkedin-in
+		color: $color-footer-icons
+		font-size: 20px
+		margin-bottom: 20px
+		&:hover
+			color: $color-footer-icons-hover
+	.fa-facebook-f-icon
+		margin-left: 10px
+		margin-right: 10px
+	ul
+		list-style: none
+		padding-left: 0
+		.main-title
+			font-weight: 700
+			font-size: 12px
+			margin-bottom: 10px
+		&:last-child
+			margin-bottom: 20px
+		.title-link
+			a 
+				font-size: 16px
+				line-height: 1.3
+				text-decoration: none
+				color: $color-text-description
+				transition: all .2s ease-out
+				border-bottom: solid transparent 5px
+				margin-top: 6px
+				margin-bottom: 6px
+			.slider 
+				position: absolute
+				display: block
+				left: 0
+				top: 90%
+				margin: 0 auto
+				height: 2px
+				background-color: $color-text-description
+				width: 0%
+				transition: width 0.5s ease
+			.nombore
+				position: relative
+				display: inline-block
+				transition: all 0.2s ease-out
+				&:hover .slider
+					width: 100%
+
