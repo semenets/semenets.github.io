@@ -1,0 +1,749 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Меню */
+header {
+  background-color: #0A0C17;
+  padding: 3px 50px;
+  display: flex;
+  position: fixed;
+  width: 93%;
+  z-index: 20;
+}
+
+.logo img {
+  width: 90%;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-grow: 1;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-items ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  align-items: center;
+  display: flex;
+}
+
+nav a {
+  color: #b3b5ba;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #57E1FF;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.login {
+  background: #143346;
+  border: 2px solid #57E1FF;
+  color: #57E1FF;
+  height: 42px;
+  width: 86px;
+}
+
+.register {
+  background: #57E1FF;
+  border: none;
+  color: #000;
+  height: 42px;
+  width: 146px;
+}
+
+#menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  z-index: 30;
+}
+
+/* Основний контейнер */
+.container {
+  background-color: #0A0C17;
+  display: flex;
+  gap: 40px;
+  padding: 130px 0 100px 50px;
+  position: relative;
+  z-index: 5;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.input-container {
+  display: flex;
+  height: 60px;
+  margin-top: 20px;
+  width: 32vw;
+}
+
+.input-container input {
+  background-color: #201a4f;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: white;
+  flex: 1;
+  outline: none;
+  padding-left: 20px;
+}
+
+.input-container button {
+  background-color: #57E1FF;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  width: 110px;
+  border-radius: 5px;
+}
+
+.note {
+  color: #4f515d;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.right-column img {
+  width: 80%;
+}
+
+/* Slanted Box */
+.slanted-box {
+  align-items: center;
+  background: #0A0C17;
+  float: right;
+  height: 50px;
+  position: relative;
+  top: -1px;
+  width: 50%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+}
+
+/* Секція з числами */
+.section-numbers {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stats {
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 50px 50px;
+}
+
+.stats .stat {
+  flex: 1;
+}
+
+.stat p {
+  margin: 5px 0;
+}
+
+.stat .label {
+  color: gray;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.stat .value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stats .stat:nth-child(1) .label {
+  color: #000;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.stats .stat:nth-child(1) .value {
+  color: #b3b5ba;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.stats .stat:nth-child(2) .label,
+.stats .stat:nth-child(3) .label,
+.stats .stat:nth-child(4) .label {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.stats .stat:nth-child(2) .value,
+.stats .stat:nth-child(3) .value,
+.stats .stat:nth-child(4) .value {
+  color: #6b52f6;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+/* Прошедшие сделки */
+.past-transactions {
+  background-color: #0A0C17;
+  margin: auto;
+  padding: 80px 0 80px 50px;
+}
+
+.past-transactions img {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.past-transactions .title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.past-transactions .status {
+  color: #33ff99;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.past-transactions .cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 60px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  scrollbar-color: gray black;
+  scrollbar-width: thin;
+}
+
+.past-transactions .cards::-webkit-scrollbar {
+  background: black;
+  height: 8px;
+}
+
+.past-transactions .cards::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 4px;
+}
+
+.past-transactions .card {
+  background: #6b52f6;
+  border-radius: 3px;
+  flex: 0 0 auto;
+  height: 200px;
+  padding: 15px;
+  position: relative;
+  width: 280px;
+  clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%);
+}
+
+.past-transactions .pair {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.past-transactions .type {
+  color: #a698f9;
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+
+.past-transactions .profit-word {
+  color: #d2cbfb;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.past-transactions .profit {
+  color: #71f69e;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.past-transactions .price,
+.past-transactions .date {
+  display: inline;
+  font-size: 14px;
+}
+
+.past-transactions .price {
+  color: #d2cbfb;
+}
+
+.past-transactions .date {
+  color: #a698f9;
+  float: right;
+  font-size: 14px;
+}
+
+/* О компании */
+.section-company {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-company .text,
+.section-company .form-container {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.section-company .text h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-company .text p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-company .form-container {
+  background: #6A54FF;
+  border-radius: 5px;
+  color: #fff;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-company .form-container h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.section-company .input-wrapper {
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 500px;
+}
+
+.section-company .input-field {
+  background: #4a3bb3;
+  border: none;
+  flex: 1;
+  height: 50px;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.section-company .input-field::placeholder {
+  color: #a698f9;
+}
+
+.section-company .btn {
+  background: #00e5ff;
+  border: 3px solid #4a3bb3;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 20px;
+  position: relative;
+  right: 3px;
+}
+
+/* Акордеон */
+.accordion-section {
+  padding: 30px;
+}
+
+.accordion-section .questions {
+  font-size: 44px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  width: 850px;
+}
+
+.accordion {
+  margin: 0 auto;
+  max-width: 850px;
+  width: 100%;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  align-items: center;
+  background-color: #EAEFF0;
+  border: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  padding: 15px;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+  background-color: #e9e9e9;
+}
+
+.accordion-header.active {
+  background-color: #6A54FF;
+  border-bottom: none;
+  color: white;
+}
+
+.accordion-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+  border-top: none;
+  display: none;
+  padding: 15px;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.accordion-content.active {
+  background-color: #6A54FF;
+  color: white;
+  display: block;
+}
+
+.arrow {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0; /* Запобігає стисканню */
+  height: 24px;
+  justify-content: center;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  width: 24px;
+}
+
+.accordion-header:not(.active) .arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.accordion-header.active .arrow {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.arrow svg {
+  height: 100%;
+  width: 100%;
+}
+
+.accordion-header:not(.active) .arrow path {
+  fill: #666;
+}
+
+.accordion-header.active .arrow path {
+  fill: white;
+}
+
+/* Медіа-запити */
+@media (max-width: 1160px) {
+  .menu-items ul {
+      font-size: 12px;
+      gap: 12px;
+  }
+
+  .right-column img {
+      margin-top: 50px;
+      width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+      padding: 3px 20px;
+      width: 100%;
+  }
+
+  #menu-btn {
+      display: block;
+  }
+
+  nav {
+      align-items: center;
+      background: #6A54FF;
+      flex-direction: column;
+      height: 100vh;
+      left: 0;
+      opacity: 0;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: fixed;
+      top: 0;
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      transform: translateY(-100%);
+      -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
+      -moz-transition: -moz-transform 0.3s ease, opacity 0.3s ease;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      width: 100%;
+  }
+
+  nav.show {
+      opacity: 1;
+      pointer-events: auto;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+  }
+
+  .menu-items {
+      overflow-y: auto;
+      padding-top: 10vh;
+      width: 100%;
+  }
+
+  .menu-items ul {
+      flex-direction: column;
+      gap: 10px;
+      width: 280px;
+  }
+
+  .menu-items li {
+      margin: 10px 0;
+  }
+
+  nav a {
+      color: #d2cbfb;
+      font-size: 24px;
+  }
+
+  .buttons {
+      justify-content: center;
+      margin-bottom: 20px;
+      width: 100%;
+  }
+
+  .buttons button {
+      min-width: 120px;
+  }
+
+  .container {
+      flex-direction: column-reverse;
+      gap: 20px;
+      padding: 50px 20px;
+  }
+
+  .left-column,
+  .right-column {
+      flex: none;
+      width: 100%;
+  }
+
+  .title {
+      font-size: 35px;
+      line-height: 44px;
+  }
+
+  .input-container {
+      margin: 0 auto;
+      width: 290px;
+  }
+
+  .note {
+      text-align: center;
+  }
+
+  .buttons .login {
+      background-color: #666ff7;
+  }
+
+  .stats {
+      flex-wrap: wrap;
+      padding: 10px 0 10px 30px;
+  }
+
+  .stats .stat {
+      box-sizing: border-box;
+      flex: none;
+  }
+
+  .stats .stat:nth-child(1) {
+      padding: 30px 0;
+      width: 100%;
+  }
+
+  .stats .stat:nth-child(2),
+  .stats .stat:nth-child(3) {
+      width: 50%;
+  }
+
+  .stats .stat:nth-child(4) {
+      padding: 30px 0;
+      width: 100%;
+  }
+
+  .stats .stat:nth-child(1) .label {
+      font-size: 28px;
+  }
+
+  .stats .stat:nth-child(2) .value,
+  .stats .stat:nth-child(3) .value,
+  .stats .stat:nth-child(4) .value {
+      font-size: 35px;
+  }
+
+  .stats .stat:nth-child(2) {
+      padding-right: 20px;
+  }
+
+  .past-transactions {
+      padding: 50px 0 50px 30px;
+  }
+
+  .past-transactions .title {
+      font-size: 28px;
+  }
+
+  .section-company {
+      display: block;
+      margin-top: 80px;
+  }
+
+  .section-company .section-company {
+      align-items: center;
+      display: block;
+      flex-direction: column;
+      margin-top: 100px;
+  }
+
+  .section-company .text,
+  .section-company .form-container {
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: left;
+  }
+
+  .section-company .form-container {
+      margin: 30px;
+  }
+
+  .section-company .input-wrapper {
+      display: block;
+      width: 100%;
+  }
+
+  .section-company .btn {
+      border: none;
+      height: 60px;
+      position: inherit;
+      width: 100%;
+  }
+
+  .section-company .input-field {
+      margin-bottom: 10px;
+      width: 100%;
+  }
+
+  .accordion-section .questions {
+      font-size: 28px;
+      width: 100%;
+  }
+}
+
+@media (max-width: 670px) {
+  .right-column img {
+      margin-top: 50px;
+      width: 95%;
+  }
+
+  .left-column .title {
+      font-weight: 400;
+  }
+
+  .slanted-box {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+      height: 30px;
+  }
+
+  .input-container {
+      height: 50px;
+  }
+}
+
