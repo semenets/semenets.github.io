@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Назад до школи — Гра</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="game">
+  <h1 id="category"></h1>
+
+  <div id="timer">15</div>
+
+  <div id="question"></div>
+
+  <div id="answers"></div>
+
+  <button id="hintBtn">
+    50/50 
+  </button>
+  (<span id="hintsCount">3</span>)
+</div>
+
+<div id="gameOver" class="hidden">
+  <h2 id="gameOverText"></h2>
+  <p id="prize"></p>
+
+  <a href="index.html" class="btn">На головну</a>
+</div>
+
+<script src="js/questions.js"></script>
+<script src="js/game.js"></script>
+<script src="js/antiCheat.js"></script>
+</body>
+</html>
